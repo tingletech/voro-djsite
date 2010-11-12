@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{%block title%}{%endblock title%}</title>
+
+
+    {% block blueprintcss %}
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="/css/blueprint-css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/css/blueprint-css/blueprint/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint-css/blueprint/ie.css" type="text/css" media="screen, projection">
+<![endif]-->
+    <!-- Import fancy-type plugin for the sample page. -->
+    <link rel="stylesheet" href="/css/blueprint-css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+     <style type="text/css">
+.area {background:none repeat scroll 0 0 #eeeeee; padding:0.8em; margin-bottom:1em;}
+.ci {border:2px solid #DDDDDD; margin-bottom:1em; padding:0.8em; background:none repeat scroll 0 0 #eeeeee;}
+.img { text-decoration:none; } 
+img {  border-style: none; }
+     </style>
+
+{%endblock blueprintcss%}
+ 
+<link rel="stylesheet" href="/css/calisphere-entry.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/calisphere.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+{%block extrahead %}{% endblock extrahead %}
+  </head>
+  <body {%block bodyattrs%}{%endblock bodyattrs%}>
+
+      {%block bodycontent%}<h1>Welcome to the dynamic themed collection app.</h1>{%endblock bodycontent%}
+
+{%block footer%}
+
+{%comment%}
+{%if request.user %}
+<h2>You are logged in as {{ request.user }}</h2>
+{% endif %}
+{%endcomment%}
+{%endblock footer%}
+
+</body>
+</html>
+
+
+
+

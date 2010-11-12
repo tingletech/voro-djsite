@@ -1,0 +1,12 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title }} | {% trans 'OAC site admin' %}{% endblock %}
+
+{% block branding %}
+<a href="http://oac.cdlib.org/" <img src="/images/logos/oac_logo.gif" width="176" height="50" border="0" alt="Online Archive of California" title="Online Archive of California" /></a>
+
+<h1 id="site-name">{% trans 'OAC administration' %}</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

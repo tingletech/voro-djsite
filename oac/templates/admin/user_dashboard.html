@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>OAC Contributor Dashboard</title>
+
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="/site_media/css/blueprint-css/blueprint/screen.css" type="text/css" media="screen, projection, print">
+
+    <!--[if lt IE 8]><link rel="stylesheet" href="/site_media/css/blueprint/ie.css" type="text/css" media="screen, projection, print">
+<![endif]-->
+
+    <!-- Import fancy-type plugin for the sample page. -->
+    <link rel="stylesheet" href="/site_media/css/blueprint-css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection, print">
+     <style type="text/css">
+.area {background:none repeat scroll 0 0 #E6EBEC; padding:0.8em; margin-bottom:1em;}
+.ci {border:2px solid #DDDDDD; margin-bottom:1em; padding:0.8em; background:none repeat scroll 0 0 #E6EBEC;}
+.img { text-decoration:none; } 
+img {  border-style: none; }
+h2 { color:#C2492C; }
+h1 { margin-top:0.5em; }
+     </style>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>OAC Contributor Dashboard</h1>
+      <div class="area span-24">
+      Welcome {{user.first_name}} {{user.last_name}}, you are logged in as <b>{{user.username}}</b> {{user.email}} {{user.get_profile.phone}}
+                {% url contrib_admin:logout as logout_url %}
+                {% if logout_url %}
+                    <a href="{{ logout_url }}">
+                {% else %}
+                    <a href="{{ root_path }}logout/">
+                {% endif %}Log out</a>
+        </div>
+      <h2>My Account</h2>
+      <div class="area span-24">
+<a  href="{{user_change_url}}">edit voro account information</a> 
+<a class="img"  href="{{user_change_url}}"><img src="/site_media/css/blueprint-css/icons/user_edit.png"/></a>
+{% if not user.userprofile.archon_user %}
+| <a  href="/admin/request_hosted_acct/archon">request Archon account</a><a href="javascript:window.open('http://www.cdlib.org/services/dsc/tools/at-archon.html','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()"><img src="/site_media/css/blueprint-css/icons/help.png" alt="learn more" title="learn more"/></a>
+{%endif%}
+{% if not user.userprofile.AT_application_user %}
+| <a  href="/admin/request_hosted_acct/AT">request Archivist's Toolkit account</a><a href="javascript:window.open('http://www.cdlib.org/services/dsc/tools/at-archon.html','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()"/><img src="/site_media/css/blueprint-css/icons/help.png" alt="learn more" title="learn more"/></a>
+{%endif%}
+</div>
+
+<!-- Institution -->
+
+{% for inst in user.institutions %}
+<h2>Institution Information</h2>
+<div class="span-24 ci">
+    <h3>{{inst.name}}</h3>
+    <div class="span-18">{{inst.address1}}
+        {{ inst.address2}}<br/>
+        {{inst.city}}, California {{inst.zip4}}<br/>
+        Phone: {{inst.phone}}<br/>
+        Email: {{inst.email}}<br/>
+        <a href="javascript:window.open('{{inst.url}}','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()">{{inst.url}}</a>
+
+</div>
+<div class="span-6 last">
+
+<div><a  href="{% url contrib_admin:oac_institution_change inst.id %}">edit institution contact information</a> <a  href="{% url contrib_admin:oac_institution_change inst.id %}" class="img"><img src="/site_media/css/blueprint-css/icons/table_edit.png"/></a><a href="javascript:window.open('http://www.cdlib.org/services/dsc/contribute/docs/contributor_addressupdate_guide.pdf','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()"><img src="/site_media/css/blueprint-css/icons/help.png" alt="learn more" title="learn more"/></a></div>
+<div><a href="javascript:window.open('http://www.oac.cdlib.org/institutions/{{inst.name_doublelist|urlencode}}','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()">visit institution page on oac site</a> <a href="javascript:window.open('http://www.oac.cdlib.org/institutions/{{inst.name_doublelist|urlencode}}','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()" class="img"><img src="/site_media/css/blueprint-css/icons/page_go.png"/></a></div>
+</div>
+</div>
+
+<div class="span-11 colborder"><h3>Submit Collection Guides<a href="javascript:window.open('http://www.cdlib.org/services/dsc/contribute/submit.html','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()"><img src="/site_media/css/blueprint-css/icons/help.png" alt="learn more" title="learn more"/></a></h3>
+    <div class="area">
+    
+    <h4>webDAV URLs</h4>
+    <dl>
+    <dt>EAD production directory</dt>
+    <dd><input readonly name="" size="50" value="https://voro.cdlib.org/oac-dav/{{inst.cdlpath}}" onfocus="select(self);" onclick="select(self);"/></dd>
+    <dd><a  href="https://voro.cdlib.org/cgi/process.cgi?subdir={{inst.cdlpath}}/">process</a></dd>
+    <dt>EAD testing directory</dt><dd><input readonly name="" size="50" value="https://voro.cdlib.org/test-oac/{{inst.cdlpath}}" onfocus="select(self);" onclick="select(self);"/></dd>
+    <dd><a href="https://voro.cdlib.org/cgi/blackhole.cgi?subdir={{inst.cdlpath}}/">preview</a>
+    
+{%comment%}
+    <dt>MARC submission directory</dt><dd><input readonly name="" size="50" value="https://voro.cdlib.org/marc-dav/{{inst.cdlpath}}" onfocus="select(self);" onclick="select(self);"/></dd>
+    <dd>email <a href="mailto:oacops@cdlib.org">oacops@cdlib.org</a> to set up service</dd>
+    <dt>Alternate PDF submission directory</dt><dd><input readonly name="" size="50" value="https://voro.cdlib.org/pdf-dav/{{inst.cdlpath}}"/></dd>
+    <dd>email <a href="mailto:oacops@cdlib.org">oacops@cdlib.org</a> to set up service</dd>
+    </dl>
+{%endcomment%}
+    </div>
+
+    <h3>Monitor Stats<a href="javascript:window.open('http://www.cdlib.org/services/dsc/contribute/use.html','','width=1000,height=900,resizeable,scrollbars').focus()"><img src="/site_media/css/blueprint-css/icons/help.png" alt="learn more" title="learn more"/></a></h3>
+    <div class="area"><h4><a  href="http://stats.cdlib.org:8081/{{inst.stat_path|urlencode}}/">Use and extent statistics</a></h4></div>
+
+</div>
+
+<div class="span-12 last">
+    <h3>Share Content</h3>
+
+
+<h4>Record Sharing</h4>
+<div class="area span-12">
+<form style="margin-bottom: 1.5em;" action="." method="POST">
+    {% csrf_token %}
+    {% for field in inst.form_harvesting %}
+    <p>{{ field }}{{ field.help_text }}</p>
+    {% endfor %}
+    <input type="hidden" name="pk" id="pk" value="{{ inst.id }}"/>
+    <input type="submit" value="Update" />
+    {%comment%}
+<div><input type="checkbox">share DC records for EAD collection descriptions via OAI for worldcat local <a href="">[?]</a></div>
+<div><input type="checkbox">share DC records for digital object descriptions via OAI for worldcat local <a href="">[?]</a></div>
+<div><input type="checkbox">allow EAD collection descriptions to be included in topical OAI sets <a href="">[?]</a></div>
+
+<div><input type="checkbox">allow digital object collection descriptions to be included in topical OAI sets <a href="">[?]</a></div>
+<div><input type="checkbox">allow EAD collections descriptions to be included in Archives' Grid <a href="">[?]</a></div>
+    {%endcomment%}
+</form>
+</div>
+
+<div class="area span-12"><h4>Search Box</h4>
+    <div class="description">Add a search box to your institution’s website that is limited to your content in the OAC.  Cut and paste the following code into the html where you want the box.</div>
+    <form>
+    <textarea style="height:180px;" readonly="readonly" onfocus="select(self);" onclick="select(self);">
+<form action="http://www.oac.cdlib.org/search">
+<input maxlength="80" size="30" name="query" type="text">
+<input type="submit" value="go" style="background: #B24415; color: #fff; padding:2px;">
+<input value="{{ inst.name_doublelist }}" name="institution" type="hidden">
+</form>
+</textarea>
+            </form>
+            <p>Preview how your search box will look and function.</p>
+            <div style="border:1px solid; padding:5px; width:251px;">
+            <form action="http://www.oac.cdlib.org/search">
+                <input maxlength="80" size="30" name="query" type="text">
+                <input type="submit" value="go" style="background: #B24415; color: #fff; padding:2px;">
+                <input value="{{ inst.name_doublelist }}" name="institution" type="hidden">
+            </form>
+        </div>
+</div>
+{% comment %}
+<div class="area">
+<h4>MARC options</h4>
+<p>No MARC options established for this institution at this time</p>
+<div><a href="">set MARC location table override</a>
+</div>
+</div>
+{% endcomment %}
+
+</div>
+
+<hr/>
+<!-- Institution -->
+{% endfor %}
+
+
+</div>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "http://oac-dev.cdlib.org:2510/piwik/" : "http://oac-dev.cdlib.org:2510/piwik/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+        var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+        piwikTracker.trackPageView();
+        piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+</script><noscript><p><img src="http://oac-dev.cdlib.org:2510/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tag -->
+</body>
+</html>

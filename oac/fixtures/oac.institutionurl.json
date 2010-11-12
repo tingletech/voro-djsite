@@ -1,0 +1,1102 @@
+[
+  {
+    "pk": 1, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://library.ucmerced.edu", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 40, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ucmerced.edu/lib/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 40, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ci.richmond.ca.us/~library/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 41, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.scrippscollege.edu/dept/gallery", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 24, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.anaheim.net/library/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 19, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ci.berkeley.ca.us/bpl/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 143, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.lmu.edu/pages/4020.asp", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 124, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.fresno.edu/affiliation/cmbs/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 162, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.riversideca.gov/library/localhistory", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 177, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://sanbruno.ca.gov/city_services/library/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 90, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.lib.calpoly.edu/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 20, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ci.sanmateo.ca.us/dept/library/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 15, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ci.south-pasadena.ca.us/departments/library/library.htm", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 57, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.intel.com/intel/intelis/museum/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 167, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.csudh.edu/archives/csudh/index.html", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 158, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.csudh.edu/archives/csu/index.html", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 159, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.lib.csufresno.edu", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 65, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.lib.csufresno.edu/subjectResources/specialcollections/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 66, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://voxlibris.claremont.edu/sc/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 91, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.holocaust-sf.org/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 88, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.sfsu.edu/special/larc.html", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 132, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.ucla.edu/libraries/arts/speccoll/speccoll.htm", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 150, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.ucla.edu/libraries/music/mlsc/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 151, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://library.uop.edu/departments.html#holtatherton", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 131, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.usc.edu/isd/libraries/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 80, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.usc.edu/dept/socialwork/about/community/cwsa/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 82, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.usc.edu/isd/archives/arc/libraries/feuchtwanger/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 84, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.usc.edu/isd/archives/arc/libraries/regional/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 83, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.usc.edu/isd/archives/arc/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 81, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.usc.edu/isd/archives/arc/libraries/uscarchives/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 85, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.judahmagnesmuseum.org/collections/", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 117, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.magnes.org/collections/wjhc.html", 
+      "created_at": "2008-10-08 11:45:51", 
+      "flag": null, 
+      "institution": 117, 
+      "updated_at": "2008-10-08 11:45:51"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.co.yuba.ca.us/content/departments/library/", 
+      "created_at": "2008-10-08 11:45:53", 
+      "flag": null, 
+      "institution": 38, 
+      "updated_at": "2008-10-08 11:45:53"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.ucsb.edu/speccoll/collections/pa/", 
+      "created_at": "2008-11-01 01:00:05", 
+      "flag": null, 
+      "institution": 230, 
+      "updated_at": "2008-11-01 01:00:05"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ucsd.edu/portal/site/Libraries/menuitem.7974bc238fac0eb7147f6defd34b01ca/?vgnextoid=580b7a2d0ed76110VgnVCM10000064b410acRCRD", 
+      "created_at": "2008-11-13 00:30:03", 
+      "flag": null, 
+      "institution": 223, 
+      "updated_at": "2008-11-13 00:30:03"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ucsd.edu/portal/site/Libraries/menuitem.7974bc238fac0eb7147f6defd34b01ca/?vgnextoid=ce59c70d381c3110VgnVCM10000045b410acRCRD", 
+      "created_at": "2008-11-13 00:31:59", 
+      "flag": null, 
+      "institution": 225, 
+      "updated_at": "2008-11-13 00:31:59"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ucsd.edu/portal/site/Libraries/menuitem.7974bc238fac0eb7147f6defd34b01ca/?vgnextoid=9949c70d381c3110VgnVCM10000045b410acRCRD", 
+      "created_at": "2008-11-13 00:37:50", 
+      "flag": null, 
+      "institution": 226, 
+      "updated_at": "2008-11-13 00:37:50"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ucsd.edu/portal/site/Libraries/menuitem.7974bc238fac0eb7147f6defd34b01ca/?vgnextoid=be49c70d381c3110VgnVCM10000045b410acRCRD", 
+      "created_at": "2008-11-13 00:59:16", 
+      "flag": null, 
+      "institution": 227, 
+      "updated_at": "2008-11-13 00:59:16"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.ucla.edu/libraries/special/scweb/archives.htm", 
+      "created_at": "2008-12-02 00:38:58", 
+      "flag": null, 
+      "institution": 153, 
+      "updated_at": "2008-12-02 00:38:58"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.artcenter.edu", 
+      "created_at": "2008-12-05 00:04:29", 
+      "flag": null, 
+      "institution": 134, 
+      "updated_at": "2008-12-05 00:04:29"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.placentialibrary.net", 
+      "created_at": "2008-12-05 00:07:17", 
+      "flag": null, 
+      "institution": 53, 
+      "updated_at": "2008-12-05 00:07:17"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.magnes.org/wjhc.htm", 
+      "created_at": "2008-12-05 23:45:25", 
+      "flag": null, 
+      "institution": 117, 
+      "updated_at": "2008-12-05 23:45:25"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.ucla.edu/libraries/special/scweb/", 
+      "created_at": "2008-12-12 20:42:34", 
+      "flag": null, 
+      "institution": 154, 
+      "updated_at": "2008-12-12 20:42:34"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www2.library.ucla.edu/libraries/researchlibrary/index.cfm", 
+      "created_at": "2008-12-12 20:45:43", 
+      "flag": null, 
+      "institution": 219, 
+      "updated_at": "2008-12-12 20:45:43"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ss.ca.gov/archives/archives.htm", 
+      "created_at": "2008-12-12 22:52:49", 
+      "flag": null, 
+      "institution": 178, 
+      "updated_at": "2008-12-12 22:52:49"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.whittierlibrary.org", 
+      "created_at": "2008-12-19 02:41:25", 
+      "flag": null, 
+      "institution": 97, 
+      "updated_at": "2008-12-19 02:41:25"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://infodome.sdsu.edu/", 
+      "created_at": "2009-02-06 19:21:20", 
+      "flag": null, 
+      "institution": 44, 
+      "updated_at": "2009-02-06 19:21:20"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.huntington.org/LibraryDiv/LibraryHome.html", 
+      "created_at": "2009-03-04 01:09:19", 
+      "flag": null, 
+      "institution": 76, 
+      "updated_at": "2009-03-04 01:09:19"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.huntington.org/LibraryDiv/Manuscripts.html", 
+      "created_at": "2009-03-04 01:10:44", 
+      "flag": null, 
+      "institution": 78, 
+      "updated_at": "2009-03-04 01:10:44"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.huntington.org/LibraryDiv/PhotoColl.htm", 
+      "created_at": "2009-03-04 01:11:19", 
+      "flag": null, 
+      "institution": 79, 
+      "updated_at": "2009-03-04 01:11:19"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.huntington.org/LibraryDiv/Ephemera/", 
+      "created_at": "2009-03-04 01:13:45", 
+      "flag": null, 
+      "institution": 77, 
+      "updated_at": "2009-03-04 01:13:45"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://scilib.ucsd.edu/sio/archives/", 
+      "created_at": "2009-03-30 19:14:45", 
+      "flag": null, 
+      "institution": 13, 
+      "updated_at": "2009-03-30 19:14:45"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://scilib.ucsd.edu/sio/", 
+      "created_at": "2009-03-30 19:15:08", 
+      "flag": null, 
+      "institution": 14, 
+      "updated_at": "2009-03-30 19:15:08"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://orpheus.ucsd.edu/speccoll/", 
+      "created_at": "2009-03-30 19:15:42", 
+      "flag": null, 
+      "institution": 12, 
+      "updated_at": "2009-03-30 19:15:42"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://orpheus.ucsd.edu/speccoll/", 
+      "created_at": "2009-03-30 19:16:32", 
+      "flag": null, 
+      "institution": 11, 
+      "updated_at": "2009-03-30 19:16:32"
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.ucsf.edu/sc/", 
+      "created_at": "2009-04-14 00:33:58", 
+      "flag": null, 
+      "institution": 185, 
+      "updated_at": "2009-04-14 00:33:58"
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.ucsf.edu/sc/", 
+      "created_at": "2009-04-14 00:34:56", 
+      "flag": null, 
+      "institution": 184, 
+      "updated_at": "2009-04-14 00:34:56"
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.sandiegohistory.org", 
+      "created_at": "2009-06-09 18:39:00", 
+      "flag": null, 
+      "institution": 69, 
+      "updated_at": "2009-06-09 18:39:00"
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.computerhistory.org", 
+      "created_at": "2009-06-24 23:23:25", 
+      "flag": null, 
+      "institution": 58, 
+      "updated_at": "2009-06-24 23:23:25"
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.nps.gov/safr/local/safrhdd.html", 
+      "created_at": "2009-06-27 02:10:30", 
+      "flag": null, 
+      "institution": 70, 
+      "updated_at": "2009-06-27 02:10:30"
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.ucsb.edu/speccoll/speccoll.html", 
+      "created_at": "2009-06-29 16:07:03", 
+      "flag": null, 
+      "institution": 110, 
+      "updated_at": "2009-06-29 16:07:03"
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.ucla.edu/libraries/biomed/his/", 
+      "created_at": "2009-07-29 18:08:12", 
+      "flag": null, 
+      "institution": 155, 
+      "updated_at": "2009-07-29 18:08:12"
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://cmvl.org/", 
+      "created_at": "2009-08-05 21:29:35", 
+      "flag": null, 
+      "institution": 3, 
+      "updated_at": "2009-08-05 21:29:35"
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.getty.edu/research/library/", 
+      "created_at": "2009-08-08 01:11:47", 
+      "flag": null, 
+      "institution": 186, 
+      "updated_at": "2009-08-08 01:11:47"
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.csufresno.edu/library/subjectresources/specialcollections/", 
+      "created_at": "2009-08-11 21:01:36", 
+      "flag": null, 
+      "institution": 66, 
+      "updated_at": "2009-08-11 21:01:36"
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://archives.csudh.edu/speccoll/", 
+      "created_at": "2009-08-11 21:07:41", 
+      "flag": null, 
+      "institution": 158, 
+      "updated_at": "2009-08-11 21:07:41"
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://archives.csudh.edu/csudh/", 
+      "created_at": "2009-08-11 21:10:05", 
+      "flag": null, 
+      "institution": 159, 
+      "updated_at": "2009-08-11 21:10:05"
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://infodome.sdsu.edu/about/depts/spcollections/archives.shtml", 
+      "created_at": "2009-08-11 21:20:15", 
+      "flag": null, 
+      "institution": 46, 
+      "updated_at": "2009-08-11 21:20:15"
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://infodome.sdsu.edu/about/depts/spcollections/", 
+      "created_at": "2009-08-11 21:21:10", 
+      "flag": null, 
+      "institution": 45, 
+      "updated_at": "2009-08-11 21:21:10"
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.usc.edu/libraries/archives/arc/libraries/regional/", 
+      "created_at": "2009-08-11 21:25:29", 
+      "flag": null, 
+      "institution": 83, 
+      "updated_at": "2009-08-11 21:25:29"
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www-sul.stanford.edu/depts/spc/", 
+      "created_at": "2009-08-11 21:46:40", 
+      "flag": null, 
+      "institution": 128, 
+      "updated_at": "2009-08-11 21:46:40"
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www-sul.stanford.edu/depts/spc/", 
+      "created_at": "2009-08-11 21:56:55", 
+      "flag": null, 
+      "institution": 127, 
+      "updated_at": "2009-08-11 21:56:55"
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www-sul.stanford.edu/depts/spc/", 
+      "created_at": "2009-08-11 22:01:06", 
+      "flag": null, 
+      "institution": 126, 
+      "updated_at": "2009-08-11 22:01:06"
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www-sul.stanford.edu/depts/spc/mss/index.html", 
+      "created_at": "2009-08-11 22:15:17", 
+      "flag": null, 
+      "institution": 128, 
+      "updated_at": "2009-08-11 22:15:17"
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.usc.edu/libraries/archives/arc/", 
+      "created_at": "2009-08-12 01:31:29", 
+      "flag": null, 
+      "institution": 81, 
+      "updated_at": "2009-08-12 01:31:29"
+    }
+  }, 
+  {
+    "pk": 76, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "", 
+      "created_at": "2009-08-13 22:02:50", 
+      "flag": null, 
+      "institution": 253, 
+      "updated_at": "2009-08-13 22:02:50"
+    }
+  }, 
+  {
+    "pk": 77, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.lmu.edu/Page4020.aspx", 
+      "created_at": "2009-08-13 23:29:16", 
+      "flag": null, 
+      "institution": 124, 
+      "updated_at": "2009-08-13 23:29:16"
+    }
+  }, 
+  {
+    "pk": 78, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.lib.uci.edu/libraries/collections/special/crittheoryarchive.html", 
+      "created_at": "2009-08-24 16:06:05", 
+      "flag": null, 
+      "institution": 102, 
+      "updated_at": "2009-08-24 16:06:05"
+    }
+  }, 
+  {
+    "pk": 79, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.lib.uci.edu/libraries/collections/special/universityarchives.html", 
+      "created_at": "2009-08-24 16:09:52", 
+      "flag": null, 
+      "institution": 105, 
+      "updated_at": "2009-08-24 16:09:52"
+    }
+  }, 
+  {
+    "pk": 80, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.lib.uci.edu/libraries/langson.html", 
+      "created_at": "2009-08-24 16:19:36", 
+      "flag": null, 
+      "institution": 210, 
+      "updated_at": "2009-08-24 16:19:36"
+    }
+  }, 
+  {
+    "pk": 81, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.placentialibrary.net/", 
+      "created_at": "2009-08-24 16:26:55", 
+      "flag": null, 
+      "institution": 53, 
+      "updated_at": "2009-08-24 16:26:55"
+    }
+  }, 
+  {
+    "pk": 82, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://library.gtu.edu/archives/", 
+      "created_at": "2009-08-31 18:19:05", 
+      "flag": null, 
+      "institution": 47, 
+      "updated_at": "2009-08-31 18:19:05"
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.lib.uci.edu/libraries/science.html", 
+      "created_at": "2009-09-02 01:27:32", 
+      "flag": null, 
+      "institution": 211, 
+      "updated_at": "2009-09-02 01:27:32"
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.library.ucsf.edu/info/about/ckm/", 
+      "created_at": "2009-09-02 01:28:55", 
+      "flag": null, 
+      "institution": 229, 
+      "updated_at": "2009-09-02 01:28:55"
+    }
+  }, 
+  {
+    "pk": 85, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www-sul.stanford.edu/depts/spc/", 
+      "created_at": "2009-09-21 20:30:16", 
+      "flag": null, 
+      "institution": 130, 
+      "updated_at": "2009-09-21 20:30:16"
+    }
+  }, 
+  {
+    "pk": 86, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www-sul.stanford.edu/depts/music/", 
+      "created_at": "2009-09-21 20:34:10", 
+      "flag": null, 
+      "institution": 128, 
+      "updated_at": "2009-09-21 20:34:10"
+    }
+  }, 
+  {
+    "pk": 87, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://archives.sccgov.org", 
+      "created_at": "2009-09-29 19:53:06", 
+      "flag": null, 
+      "institution": 180, 
+      "updated_at": "2009-09-29 19:53:06"
+    }
+  }, 
+  {
+    "pk": 88, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.lib.uci.edu/libraries/collections/sea/sasian.html", 
+      "created_at": "2009-10-17 01:18:27", 
+      "flag": null, 
+      "institution": 104, 
+      "updated_at": "2009-10-17 01:18:27"
+    }
+  }, 
+  {
+    "pk": 89, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://library.csustan.edu", 
+      "created_at": "2009-10-23 17:28:45", 
+      "flag": null, 
+      "institution": 18, 
+      "updated_at": "2009-10-23 17:28:45"
+    }
+  }, 
+  {
+    "pk": 90, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.glendalepubliclibrary.org", 
+      "created_at": "2009-11-04 19:58:13", 
+      "flag": null, 
+      "institution": 39, 
+      "updated_at": "2009-11-04 19:58:13"
+    }
+  }, 
+  {
+    "pk": 91, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.oac.cdlib.org", 
+      "created_at": "2009-11-06 19:25:32", 
+      "flag": null, 
+      "institution": 2, 
+      "updated_at": "2009-11-06 19:25:32"
+    }
+  }, 
+  {
+    "pk": 92, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.sbpl.org", 
+      "created_at": "2009-11-09 16:42:32", 
+      "flag": null, 
+      "institution": 135, 
+      "updated_at": "2009-11-09 16:42:32"
+    }
+  }, 
+  {
+    "pk": 93, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.FocusOnTheMasters.com", 
+      "created_at": "2009-11-30 16:38:31", 
+      "flag": null, 
+      "institution": 171, 
+      "updated_at": "2009-11-30 16:38:31"
+    }
+  }, 
+  {
+    "pk": 94, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.oaklandlibrary.org", 
+      "created_at": "2009-12-02 16:39:18", 
+      "flag": null, 
+      "institution": 118, 
+      "updated_at": "2009-12-02 16:39:18"
+    }
+  }, 
+  {
+    "pk": 95, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.usc.edu/libraries", 
+      "created_at": "2010-01-22 20:16:53", 
+      "flag": null, 
+      "institution": 80, 
+      "updated_at": "2010-01-22 20:16:53"
+    }
+  }, 
+  {
+    "pk": 96, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://sfpl.lib.ca.us/", 
+      "created_at": "2010-07-16 01:01:21", 
+      "flag": null, 
+      "institution": 115, 
+      "updated_at": "2010-07-16 01:01:21"
+    }
+  }, 
+  {
+    "pk": 97, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://sfpl.org/", 
+      "created_at": "2010-09-03 01:33:24", 
+      "flag": null, 
+      "institution": 115, 
+      "updated_at": "2010-09-03 01:33:24"
+    }
+  }, 
+  {
+    "pk": 98, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://library.sonoma.edu/regional/about.html", 
+      "created_at": "2010-09-09 20:13:37", 
+      "flag": null, 
+      "institution": 56, 
+      "updated_at": "2010-09-09 20:13:37"
+    }
+  }, 
+  {
+    "pk": 99, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.hoover.org/hila/", 
+      "created_at": "2010-09-20 20:51:33", 
+      "flag": null, 
+      "institution": 86, 
+      "updated_at": "2010-09-20 20:51:33"
+    }
+  }, 
+  {
+    "pk": 100, 
+    "model": "oac.institutionurl", 
+    "fields": {
+      "url": "http://www.ci.covina.ca.us/library/", 
+      "created_at": "2010-10-18 16:50:20", 
+      "flag": null, 
+      "institution": 106, 
+      "updated_at": "2010-10-18 16:50:20"
+    }
+  }
+]

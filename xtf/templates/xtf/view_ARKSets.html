@@ -1,0 +1,14 @@
+{% extends "xtf/base.html" %}
+
+{% block bodycontent %}
+<div id="ARKSet">
+    <h1>Sets for {{ request.user.get_full_name }}</h1>
+        {% for set in sets %}
+            <div class="area span-24">
+                <h3>{{ set.title }}</h3>
+                <a href='{% url arkset_view set.id %}'>View set</a>
+                <a href='{% url arkset_edit set.id %}'>Edit set</a>
+                <a href='{% url arkset_map set.id %}'>Map set</a>
+            </div>
+        {% endfor %}
+{% endblock bodycontent %}

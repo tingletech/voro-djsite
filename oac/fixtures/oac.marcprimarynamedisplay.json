@@ -1,0 +1,1850 @@
+[
+  {
+    "pk": 145, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "California Academy of Sciences", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Botany Department", 
+      "primary_loc": "Bot"
+    }
+  }, 
+  {
+    "pk": 146, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "California Academy of Sciences", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Department of Entomology", 
+      "primary_loc": "Ent"
+    }
+  }, 
+  {
+    "pk": 147, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "California Academy of Sciences", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Department of Invertebrate Zoology and Geology ", 
+      "primary_loc": "IZ&G"
+    }
+  }, 
+  {
+    "pk": 148, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "California Academy of Sciences", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Department of Ichthyology ", 
+      "primary_loc": "Icthy"
+    }
+  }, 
+  {
+    "pk": 149, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "California Academy of Sciences", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Special Collections", 
+      "primary_loc": "S.C."
+    }
+  }, 
+  {
+    "pk": 150, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "California Historical Society", 
+      "primary_loc_display": "", 
+      "flag": "", 
+      "melvyl_name": "California Historical Society", 
+      "primary_loc": "CHS"
+    }
+  }, 
+  {
+    "pk": 155, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "California State Library", 
+      "primary_loc_display": "", 
+      "flag": "", 
+      "melvyl_name": "California State Library", 
+      "primary_loc": "CSL"
+    }
+  }, 
+  {
+    "pk": 156, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "California State Library", 
+      "primary_loc_display": "", 
+      "flag": "", 
+      "melvyl_name": "California State Library", 
+      "primary_loc": "State Lib"
+    }
+  }, 
+  {
+    "pk": 157, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "California State Library", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "California State Library", 
+      "primary_loc": "Sutro"
+    }
+  }, 
+  {
+    "pk": 151, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Center for Research Libraries", 
+      "primary_loc_display": "", 
+      "flag": "r", 
+      "melvyl_name": "Center for Research Libraries", 
+      "primary_loc": "CRL"
+    }
+  }, 
+  {
+    "pk": 152, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Center for Research Libraries", 
+      "primary_loc_display": "", 
+      "flag": "r", 
+      "melvyl_name": "Center for Research Libraries", 
+      "primary_loc": "Africana"
+    }
+  }, 
+  {
+    "pk": 153, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Center for Research Libraries", 
+      "primary_loc_display": "", 
+      "flag": "r", 
+      "melvyl_name": "Center for Research Libraries", 
+      "primary_loc": "GenCollec"
+    }
+  }, 
+  {
+    "pk": 154, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Center for Research Libraries", 
+      "primary_loc_display": "", 
+      "flag": "r", 
+      "melvyl_name": "Center for Research Libraries", 
+      "primary_loc": "SE Asian"
+    }
+  }, 
+  {
+    "pk": 169, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Center for Research Libraries", 
+      "primary_loc_display": "", 
+      "flag": "r", 
+      "melvyl_name": "Center for Research Libraries", 
+      "primary_loc": "S. Asian"
+    }
+  }, 
+  {
+    "pk": 158, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Graduate Theological Union", 
+      "primary_loc_display": "", 
+      "flag": "", 
+      "melvyl_name": "Graduate Theological Union Lib", 
+      "primary_loc": "GTU Lib"
+    }
+  }, 
+  {
+    "pk": 159, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Graduate Theological Union", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Patriarch Athenagoras Orthodox Institute Lib", 
+      "primary_loc": "PAOI Lib"
+    }
+  }, 
+  {
+    "pk": 160, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Graduate Theological Union", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Pacific Lutheran Theological Seminary", 
+      "primary_loc": "PLTS"
+    }
+  }, 
+  {
+    "pk": 161, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Graduate Theological Union", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Pacific School of Religion", 
+      "primary_loc": "PSR"
+    }
+  }, 
+  {
+    "pk": 162, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Graduate Theological Union", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "SF Theological Seminary Lib", 
+      "primary_loc": "SFTS Lib"
+    }
+  }, 
+  {
+    "pk": 163, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Graduate Theological Union", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Swedenborgian House of Studies", 
+      "primary_loc": "SHS"
+    }
+  }, 
+  {
+    "pk": 164, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Graduate Theological Union", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Graduate Theological Union Lib", 
+      "primary_loc": "GTUsupp"
+    }
+  }, 
+  {
+    "pk": 165, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Lawrence Berkeley National Laboratory", 
+      "primary_loc_display": "", 
+      "flag": "r", 
+      "melvyl_name": "Lawrence Berkeley National Lab Lib", 
+      "primary_loc": "LBNL"
+    }
+  }, 
+  {
+    "pk": 168, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "No. Regional Library Facility", 
+      "primary_loc_display": "NRLF", 
+      "flag": "r", 
+      "melvyl_name": "NRLF", 
+      "primary_loc": "NRLF"
+    }
+  }, 
+  {
+    "pk": 166, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Northern Regional Library Facility (NRLF)", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Northern Regional Library Facility (NRLF)", 
+      "primary_loc": "NRLF"
+    }
+  }, 
+  {
+    "pk": 167, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "Southern Regional Library Facility (SRLF)", 
+      "primary_loc_display": "", 
+      "flag": "r", 
+      "melvyl_name": "Southern Regional Library Facility (SRLF)", 
+      "primary_loc": "SRLF"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Foster (George and Mary) Anthropology Library", 
+      "flag": "r", 
+      "melvyl_name": "Anthropology Lib", 
+      "primary_loc": "Anthropol"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Archival Negative (inquire at Circulation Desk)", 
+      "primary_loc": "Archv Neg"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Archival Slide (inquire at Circulation Desk)", 
+      "primary_loc": "ArchSlide"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Art History/Classics Library", 
+      "flag": "r", 
+      "melvyl_name": "Art History/Classics Lib", 
+      "primary_loc": "Art Hist"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Ethnic Studies Library", 
+      "flag": "", 
+      "melvyl_name": "Asian American Studies Collection", 
+      "primary_loc": "AsianAmer"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Bancroft Library", 
+      "flag": "", 
+      "melvyl_name": "Bancroft Library", 
+      "primary_loc": "Bancroft"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Bioscience and Natural Resources Library", 
+      "flag": "g", 
+      "melvyl_name": "Bioscience & Natural Resources Lib", 
+      "primary_loc": "Biosci"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Long (Thomas J.) Business and Economics Library", 
+      "flag": "r", 
+      "melvyl_name": "Business & Economics", 
+      "primary_loc": "Bus&Econ"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Center for Chinese Studies Library", 
+      "flag": "r", 
+      "melvyl_name": "Center for Chinese Studies Lib", 
+      "primary_loc": "CenChiStu"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Environmental Design Archives", 
+      "flag": "r", 
+      "melvyl_name": "Environmental Design Lib", 
+      "primary_loc": "CED ARCH"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Chemistry and Chemical Engineering Library", 
+      "flag": "r", 
+      "melvyl_name": "Chemistry Lib", 
+      "primary_loc": "Chemistry"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Chicano Studies Library", 
+      "flag": "g", 
+      "melvyl_name": "Chicano Studies Lib", 
+      "primary_loc": "Chicano"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Current Periodicals", 
+      "primary_loc": "Curr Peri"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Doe Lib Reference", 
+      "primary_loc": "Doe Refe"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Earth Sciences and Map Library", 
+      "flag": "r", 
+      "melvyl_name": "Earth Sciences & Map Lib", 
+      "primary_loc": "Earth Sci"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Starr (C.V.) East Asian Library", 
+      "flag": "r", 
+      "melvyl_name": "East Asian Lib", 
+      "primary_loc": "East Asia"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Education-Psychology Library", 
+      "flag": "r", 
+      "melvyl_name": "Education-Psychology Lib", 
+      "primary_loc": "Ed/Psych"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Kresge Engineering Library", 
+      "flag": "r", 
+      "melvyl_name": "Engineering Lib", 
+      "primary_loc": "Engin"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Environmental Design Library", 
+      "flag": "r", 
+      "melvyl_name": "Environmental Design Lib", 
+      "primary_loc": "EnvDesign"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Earthquake Engineering Research Center Library", 
+      "flag": "r", 
+      "melvyl_name": "Earthquake Engineering Resource Center", 
+      "primary_loc": "EERC"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Ethnic Studies Library", 
+      "flag": " ", 
+      "melvyl_name": "Ethnic Studies Lib", 
+      "primary_loc": "Ethnic"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Forest Products Library", 
+      "flag": "r", 
+      "melvyl_name": "Forest Products Lib", 
+      "primary_loc": "ForestPrd"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Graduate Services", 
+      "primary_loc": "Grad Svcs"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Government Information", 
+      "primary_loc": "GovSocSci"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Government Reference", 
+      "primary_loc": "Govt Refe"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Fong (Pamela and Kenneth) Optometry and Health Sciences Library", 
+      "flag": "r", 
+      "melvyl_name": "Optometry & Health Sciences Lib", 
+      "primary_loc": "HealthSci"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Institute of Governmental Studies Library", 
+      "flag": "g", 
+      "melvyl_name": "Institute of Governmental Studies", 
+      "primary_loc": "IGS"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Institute for Research on Labor and Employment Library", 
+      "flag": "", 
+      "melvyl_name": "Institute for Research on Labor and Employment Lib", 
+      "primary_loc": "IRLE Libr"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Journalism Collection", 
+      "primary_loc": "Journal"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Law Library", 
+      "flag": "", 
+      "melvyl_name": "Law Lib at Boalt Hall", 
+      "primary_loc": "Law Lib"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Doe Lib", 
+      "primary_loc": "Main"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Master Negative", 
+      "flag": "r", 
+      "melvyl_name": "Master Negative (inquire at Circulation Desk)", 
+      "primary_loc": "MasterNeg"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Mathematics Statistics Library", 
+      "flag": "r", 
+      "melvyl_name": "Mathematics Statistics Lib ", 
+      "primary_loc": "Math"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Media Resources Center", 
+      "flag": "r", 
+      "melvyl_name": "Media Resources Center", 
+      "primary_loc": "Media Ctr"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Moffitt Lib Reference", 
+      "primary_loc": "Moff Refe"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Moffitt Lib", 
+      "primary_loc": "Moffitt"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Morrison Library", 
+      "flag": "r", 
+      "melvyl_name": "Morrison Lib", 
+      "primary_loc": "Morrison"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Music Library", 
+      "flag": "", 
+      "melvyl_name": "Music Lib", 
+      "primary_loc": "Music"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Ethnic Studies Library", 
+      "flag": "g", 
+      "melvyl_name": "Native American Studies Collections", 
+      "primary_loc": "NativAmer"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Periodicals/Newspapers/Microform", 
+      "flag": "r", 
+      "melvyl_name": "Periodicals/Newspapers/Microform", 
+      "primary_loc": "NewsMicro"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Northern Regional Library Facility (NRLF)", 
+      "flag": "g", 
+      "melvyl_name": "Northern Regional Lib Facility", 
+      "primary_loc": "NRLF"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Fong (Pamela and Kenneth) Optometry and Health Sciences Library", 
+      "flag": "r", 
+      "melvyl_name": "Optometry & Health Sciences Lib", 
+      "primary_loc": "Optom"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Periodicals/Newspapers/Microform", 
+      "primary_loc": "Peri Room"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Berkeley Art Museum/Pacific Film Archive", 
+      "flag": "", 
+      "melvyl_name": "Pacific Film Archives", 
+      "primary_loc": "PFA"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Philosophy Collection", 
+      "primary_loc": "Philos"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Physics-Astronomy Library", 
+      "flag": "r", 
+      "melvyl_name": "Physics Lib", 
+      "primary_loc": "Physics"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Margen (Sheldon) Public Health Library", 
+      "flag": "r", 
+      "melvyl_name": "Public Health Lib", 
+      "primary_loc": "PubHealth"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "UC Data Archive", 
+      "flag": "r", 
+      "melvyl_name": "UC Data Archive & Technical Assistance", 
+      "primary_loc": "StateData"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Social Welfare Library", 
+      "flag": "r", 
+      "melvyl_name": "Social Welfare Lib", 
+      "primary_loc": "S.Welfare"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "South/Southeast Asia Library", 
+      "flag": "g", 
+      "melvyl_name": "South/Southeast Asia Lib", 
+      "primary_loc": "S-S/EAsia"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Software (inquire at Circulation Desk)", 
+      "flag": "r", 
+      "melvyl_name": "Software (inquire at Circulation Desk)", 
+      "primary_loc": "Software"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Davis (Harmer E.) Transportation Library", 
+      "flag": "", 
+      "melvyl_name": "Institute of Transportation Studies", 
+      "primary_loc": "Trans"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Web Resource", 
+      "flag": "r", 
+      "melvyl_name": "Web Resource", 
+      "primary_loc": "WebResrce"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Berkeley", 
+      "primary_loc_display": "Water Resources Center Archives", 
+      "flag": "r", 
+      "melvyl_name": "Water Resources Center Archive", 
+      "primary_loc": "WRCA"
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Davis", 
+      "primary_loc_display": "Blaisdell Medical Library", 
+      "flag": "r", 
+      "melvyl_name": "Blaisdell Medical Li b", 
+      "primary_loc": "Blaisdell"
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Davis", 
+      "primary_loc_display": "Carlson (Loren D.) Health Sciences Library", 
+      "flag": "r", 
+      "melvyl_name": "Loren D. Carlson Health Sciences Lib", 
+      "primary_loc": "HealthSci"
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Davis", 
+      "primary_loc_display": "Mabie Law Library", 
+      "flag": "r", 
+      "melvyl_name": "Law Lib", 
+      "primary_loc": "Law Lib"
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Davis", 
+      "primary_loc_display": "Northern Regional Library Facility (NRLF)", 
+      "flag": "g", 
+      "melvyl_name": "Northern Regional Lib Facility", 
+      "primary_loc": "NRLF"
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Davis", 
+      "primary_loc_display": "Physical Sciences and Engineering Library", 
+      "flag": "r", 
+      "melvyl_name": "Physical Sciences & Engineering Lib", 
+      "primary_loc": "PhySciEng"
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Davis", 
+      "primary_loc_display": "Shields (Peter J.) Library", 
+      "flag": "g", 
+      "melvyl_name": "Shields Lib", 
+      "primary_loc": "Shields"
+    }
+  }, 
+  {
+    "pk": 144, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Hastings College of the Law", 
+      "primary_loc_display": "", 
+      "flag": "g", 
+      "melvyl_name": "Hastings Law Library", 
+      "primary_loc": "HAST"
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Irvine", 
+      "primary_loc_display": "Langson Library", 
+      "flag": "r", 
+      "melvyl_name": "Langson - East Asian", 
+      "primary_loc": "EastAsian"
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Irvine", 
+      "primary_loc_display": "Internet Resource", 
+      "flag": "r", 
+      "melvyl_name": "Internet Resource", 
+      "primary_loc": "Internet"
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Irvine", 
+      "primary_loc_display": "Langson Library", 
+      "flag": "g", 
+      "melvyl_name": "Langson Library", 
+      "primary_loc": "Langson"
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Irvine", 
+      "primary_loc_display": "Grunigen Medical Library", 
+      "flag": "r", 
+      "melvyl_name": "Grunigen Medical Library", 
+      "primary_loc": "Grunigen"
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Irvine", 
+      "primary_loc_display": "Science Library", 
+      "flag": "r", 
+      "melvyl_name": "Science Lib", 
+      "primary_loc": "Sci Lib"
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Irvine", 
+      "primary_loc_display": "School of the Arts", 
+      "flag": "r", 
+      "melvyl_name": "School of the Arts", 
+      "primary_loc": "SOTA"
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "American Indian Studies Center Library", 
+      "flag": "r", 
+      "melvyl_name": "American Indian Studies Center Lib", 
+      "primary_loc": "AmerInd"
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Performing Arts Special Collections", 
+      "flag": "g", 
+      "melvyl_name": "Arts Lib", 
+      "primary_loc": "Arts"
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Asian American Studies Center", 
+      "flag": "r", 
+      "melvyl_name": "Asian American Studies Center Reading Room", 
+      "primary_loc": "AsianAmer"
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Biomedical Library (Louise M. Darling Biomedical Library)", 
+      "flag": "", 
+      "melvyl_name": "Biomedical Lib", 
+      "primary_loc": "Biomed"
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Chicano Studies Research Center", 
+      "flag": "", 
+      "melvyl_name": "Chicano Studies Research Center Lib", 
+      "primary_loc": "Chicano"
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Clark (William Andrews) Memorial Library", 
+      "flag": "", 
+      "melvyl_name": "Clark Memorial Lib", 
+      "primary_loc": "Clark"
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "College Library", 
+      "flag": "r", 
+      "melvyl_name": "College Lib", 
+      "primary_loc": "College"
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Bunche (Ralph J.) Center for African American Studies Library", 
+      "flag": "r", 
+      "melvyl_name": "Center for African American Studies Lib", 
+      "primary_loc": "CtrAfrAmr"
+    }
+  }, 
+  {
+    "pk": 76, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Rudolph (Richard C.) East Asian Library", 
+      "flag": "r", 
+      "melvyl_name": "East Asian Lib", 
+      "primary_loc": "EastAsian"
+    }
+  }, 
+  {
+    "pk": 77, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Department of English Reading Room", 
+      "flag": "r", 
+      "melvyl_name": "English Reading Room", 
+      "primary_loc": "EngReadRm"
+    }
+  }, 
+  {
+    "pk": 78, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Ethnomusicology Archive", 
+      "flag": "", 
+      "melvyl_name": "Ethnomusicology Archive", 
+      "primary_loc": "EthnoArcv"
+    }
+  }, 
+  {
+    "pk": 79, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Film and Television Archive", 
+      "flag": "", 
+      "melvyl_name": "Film & Television Archive", 
+      "primary_loc": "FilmTV"
+    }
+  }, 
+  {
+    "pk": 80, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Instructional Media Lab", 
+      "flag": "r", 
+      "melvyl_name": "Instructional Media Lab", 
+      "primary_loc": "IMLab"
+    }
+  }, 
+  {
+    "pk": 81, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Instructional Media Library", 
+      "flag": "r", 
+      "melvyl_name": "Instructional Media Lib", 
+      "primary_loc": "IMLib"
+    }
+  }, 
+  {
+    "pk": 82, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Department of Information Studies Technology Lab", 
+      "flag": "r", 
+      "melvyl_name": "Information Studies Technology Lab", 
+      "primary_loc": "IS-Lab"
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Institute for Social Science Research Data Archive", 
+      "flag": "r", 
+      "melvyl_name": "Institute for Social Science Research Data Archives Lib", 
+      "primary_loc": "ISSR"
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Hugh and Hazel Darling Law Library", 
+      "flag": "g", 
+      "melvyl_name": "Law Lib", 
+      "primary_loc": "Law"
+    }
+  }, 
+  {
+    "pk": 85, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Siporin (Rae Lee) Lesbian Gay Bisexual Transgender Library", 
+      "flag": "r", 
+      "melvyl_name": "Rae Lee Siporin Lesbian Gay Bisexual Transgender Library", 
+      "primary_loc": "LGBT"
+    }
+  }, 
+  {
+    "pk": 86, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Rosenfeld Library", 
+      "flag": "r", 
+      "melvyl_name": "Management Lib", 
+      "primary_loc": "Managemnt"
+    }
+  }, 
+  {
+    "pk": 87, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Performing Arts Special Collections", 
+      "flag": "g", 
+      "melvyl_name": "Music Lib", 
+      "primary_loc": "Music"
+    }
+  }, 
+  {
+    "pk": 88, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Online Resource", 
+      "flag": "r", 
+      "melvyl_name": "Online Resource", 
+      "primary_loc": "Online"
+    }
+  }, 
+  {
+    "pk": 89, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Performing Arts Special Collections", 
+      "flag": "", 
+      "melvyl_name": "Performing Arts Special Collections", 
+      "primary_loc": "PerfArts"
+    }
+  }, 
+  {
+    "pk": 90, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Science and Engineering Library", 
+      "flag": "r", 
+      "melvyl_name": "Science & Engineering Lib: Boelter Hall ", 
+      "primary_loc": "SEL/Boelt"
+    }
+  }, 
+  {
+    "pk": 91, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Science and Engineering Library", 
+      "flag": "r", 
+      "melvyl_name": "Science & Engineering Lib: Geology/Geophysics", 
+      "primary_loc": "SEL/Geol"
+    }
+  }, 
+  {
+    "pk": 92, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Science and Engineering Library", 
+      "flag": "r", 
+      "melvyl_name": "Science & Engineering Lib: Young Hall", 
+      "primary_loc": "SEL/Young"
+    }
+  }, 
+  {
+    "pk": 93, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Southern Regional Library Facility (SRLF)", 
+      "flag": "r", 
+      "melvyl_name": "Southern Regional Lib Facility", 
+      "primary_loc": "SRLF"
+    }
+  }, 
+  {
+    "pk": 94, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "University Elementary School Gonda Family Lib", 
+      "flag": "r", 
+      "melvyl_name": "UES Gonda Family Lib", 
+      "primary_loc": "UES"
+    }
+  }, 
+  {
+    "pk": 95, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "University Archives", 
+      "flag": "r", 
+      "melvyl_name": "Young Research Lib University Archives", 
+      "primary_loc": "UnivArchv"
+    }
+  }, 
+  {
+    "pk": 96, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Young (Charles E.) Research Library", 
+      "flag": "r", 
+      "melvyl_name": "Young Research Lib", 
+      "primary_loc": "YRL"
+    }
+  }, 
+  {
+    "pk": 97, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Los Angeles", 
+      "primary_loc_display": "Special Collections, Young (Charles E.) Research Library", 
+      "flag": "", 
+      "melvyl_name": "Young Research Lib Special Collections", 
+      "primary_loc": "YRL SpCol"
+    }
+  }, 
+  {
+    "pk": 98, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Merced", 
+      "primary_loc_display": "", 
+      "flag": "r", 
+      "melvyl_name": "Kolligian Library", 
+      "primary_loc": "Univ Lib"
+    }
+  }, 
+  {
+    "pk": 99, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Merced", 
+      "primary_loc_display": "", 
+      "flag": "", 
+      "melvyl_name": "Special Collections (inquire at Reference Desk)", 
+      "primary_loc": "Spec Col"
+    }
+  }, 
+  {
+    "pk": 100, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Acquisitions Department", 
+      "flag": "r", 
+      "melvyl_name": "Acquisitions Department", 
+      "primary_loc": "Acq.Dept."
+    }
+  }, 
+  {
+    "pk": 101, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Cataloging Department", 
+      "flag": "r", 
+      "melvyl_name": "Cataloging Department", 
+      "primary_loc": "Cat.Dept."
+    }
+  }, 
+  {
+    "pk": 102, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Center for Bibliographical Studies and Research", 
+      "flag": "r", 
+      "melvyl_name": "Center for Bibliographical Studies and Research", 
+      "primary_loc": "CBSR"
+    }
+  }, 
+  {
+    "pk": 103, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "CD-Rom (inquire at Circulation Desk)", 
+      "flag": "r", 
+      "melvyl_name": "CD-Rom (inquire at Circulation Desk)", 
+      "primary_loc": "CD-Rom"
+    }
+  }, 
+  {
+    "pk": 104, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Collection Development", 
+      "flag": "r", 
+      "melvyl_name": "Collection Development", 
+      "primary_loc": "Coll.Dev."
+    }
+  }, 
+  {
+    "pk": 105, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Education Services", 
+      "flag": "r", 
+      "melvyl_name": "Education Services", 
+      "primary_loc": "EducServ"
+    }
+  }, 
+  {
+    "pk": 106, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Rivera (Tomas) Library", 
+      "flag": "r", 
+      "melvyl_name": "Government Publications", 
+      "primary_loc": "GovPub"
+    }
+  }, 
+  {
+    "pk": 107, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Internet", 
+      "flag": "r", 
+      "melvyl_name": "Internet", 
+      "primary_loc": "Internet"
+    }
+  }, 
+  {
+    "pk": 108, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Library Administration", 
+      "flag": "r", 
+      "melvyl_name": "Lib Administration", 
+      "primary_loc": "Lib.Admin"
+    }
+  }, 
+  {
+    "pk": 109, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Science Library", 
+      "flag": "r", 
+      "melvyl_name": "Map Collection", 
+      "primary_loc": "Map"
+    }
+  }, 
+  {
+    "pk": 110, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Multimedia Library", 
+      "flag": "r", 
+      "melvyl_name": "Media Lib", 
+      "primary_loc": "Media"
+    }
+  }, 
+  {
+    "pk": 111, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Music Library", 
+      "flag": "r", 
+      "melvyl_name": "Music Lib", 
+      "primary_loc": "Music"
+    }
+  }, 
+  {
+    "pk": 112, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Palm Desert Digital Library", 
+      "flag": "r", 
+      "melvyl_name": "Palm Desert", 
+      "primary_loc": "Palm Des"
+    }
+  }, 
+  {
+    "pk": 113, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Rivera (Tomas) Library", 
+      "flag": "r", 
+      "melvyl_name": "Rivera Lib", 
+      "primary_loc": "Rivera"
+    }
+  }, 
+  {
+    "pk": 114, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Science Library", 
+      "flag": "r", 
+      "melvyl_name": "Science Lib", 
+      "primary_loc": "Science"
+    }
+  }, 
+  {
+    "pk": 115, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Serials", 
+      "flag": "r", 
+      "melvyl_name": "Serials", 
+      "primary_loc": "Serials"
+    }
+  }, 
+  {
+    "pk": 116, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Special Collections and Archives", 
+      "flag": "", 
+      "melvyl_name": "Special Collections", 
+      "primary_loc": "SpCol"
+    }
+  }, 
+  {
+    "pk": 117, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Riverside", 
+      "primary_loc_display": "Systems", 
+      "flag": "r", 
+      "melvyl_name": "Systems", 
+      "primary_loc": "Systems"
+    }
+  }, 
+  {
+    "pk": 125, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Arts Library Special Collections", 
+      "flag": "g", 
+      "melvyl_name": "Art & Architecture Lib", 
+      "primary_loc": "Art&Arch"
+    }
+  }, 
+  {
+    "pk": 126, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Biomedical and Medical Center Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Biomedical Lib", 
+      "primary_loc": "Biomed"
+    }
+  }, 
+  {
+    "pk": 127, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Geisel Library", 
+      "flag": "r", 
+      "melvyl_name": "Geisel Lib", 
+      "primary_loc": "Central"
+    }
+  }, 
+  {
+    "pk": 128, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Center for Library and Instructional Computing Services", 
+      "flag": "r", 
+      "melvyl_name": "Center for Lib & Instructional Computing Services", 
+      "primary_loc": "CLICS"
+    }
+  }, 
+  {
+    "pk": 129, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Center for Magnetic Recording Research", 
+      "flag": "r", 
+      "melvyl_name": "Center for Magnetic Recording Research", 
+      "primary_loc": "CMRR"
+    }
+  }, 
+  {
+    "pk": 130, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Arts Library Special Collections", 
+      "flag": "g", 
+      "melvyl_name": "Film & Video Lib", 
+      "primary_loc": "FVL"
+    }
+  }, 
+  {
+    "pk": 131, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "International Relations and Pacific Studies Library", 
+      "flag": "r", 
+      "melvyl_name": "International Relations/Pacific Studies Lib", 
+      "primary_loc": "IR/PS"
+    }
+  }, 
+  {
+    "pk": 132, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Biomedical and Medical Center Libraries", 
+      "flag": "r", 
+      "melvyl_name": "Medical Center Lib", 
+      "primary_loc": "Med Ctr"
+    }
+  }, 
+  {
+    "pk": 133, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Arts Library Special Collections", 
+      "flag": "g", 
+      "melvyl_name": "Music Lib", 
+      "primary_loc": "Music"
+    }
+  }, 
+  {
+    "pk": 134, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Science and Engineering Library", 
+      "flag": "r", 
+      "melvyl_name": "Science & Engineering Lib", 
+      "primary_loc": "S & E"
+    }
+  }, 
+  {
+    "pk": 135, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Scripps Institution of Oceanography Archives", 
+      "flag": "g", 
+      "melvyl_name": "Scripps Institution of Oceanography Lib", 
+      "primary_loc": "Scripps"
+    }
+  }, 
+  {
+    "pk": 136, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Mandeville Special Collections Library", 
+      "flag": "r", 
+      "melvyl_name": "Mandeville Special Collections Lib", 
+      "primary_loc": "SpecColl"
+    }
+  }, 
+  {
+    "pk": 137, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Diego", 
+      "primary_loc_display": "Social Sciences and Humanities Library", 
+      "flag": "r", 
+      "melvyl_name": "Social Sciences & Humanities Lib", 
+      "primary_loc": "SSH"
+    }
+  }, 
+  {
+    "pk": 138, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Francisco", 
+      "primary_loc_display": "Library and Center for Knowledge Management", 
+      "flag": "r", 
+      "melvyl_name": "Center for Knowledge Management", 
+      "primary_loc": "C.K.M."
+    }
+  }, 
+  {
+    "pk": 139, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Francisco", 
+      "primary_loc_display": "Library and Center for Knowledge Management", 
+      "flag": "r", 
+      "melvyl_name": "UCSF Lib", 
+      "primary_loc": "Library"
+    }
+  }, 
+  {
+    "pk": 140, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Francisco", 
+      "primary_loc_display": "Mission Bay FAMRI Library", 
+      "flag": "r", 
+      "melvyl_name": "Mission Bay Community Center", 
+      "primary_loc": "MB"
+    }
+  }, 
+  {
+    "pk": 141, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Francisco", 
+      "primary_loc_display": "Fishbon (H.M.) Memorial Library ", 
+      "flag": "g", 
+      "melvyl_name": "UCSF Medical Center at Mount Zion Lib", 
+      "primary_loc": "Mt. Zion"
+    }
+  }, 
+  {
+    "pk": 142, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Francisco", 
+      "primary_loc_display": "Northern Regional Library Facility (NRLF)", 
+      "flag": "g", 
+      "melvyl_name": "Northern Regional Lib Facility", 
+      "primary_loc": "NRLF"
+    }
+  }, 
+  {
+    "pk": 143, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC San Francisco", 
+      "primary_loc_display": "Barnett-Briggs Medical Library", 
+      "flag": "r", 
+      "melvyl_name": "San Francisco General Hospital Lib", 
+      "primary_loc": "SFGH"
+    }
+  }, 
+  {
+    "pk": 118, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Santa Barbara", 
+      "primary_loc_display": "Arts Library Special Collections", 
+      "flag": "g", 
+      "melvyl_name": "Arts Lib", 
+      "primary_loc": "Arts Lib"
+    }
+  }, 
+  {
+    "pk": 119, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Santa Barbara", 
+      "primary_loc_display": "Davidson Library", 
+      "flag": "g", 
+      "melvyl_name": "Main Lib", 
+      "primary_loc": "Main Lib"
+    }
+  }, 
+  {
+    "pk": 120, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Santa Cruz", 
+      "primary_loc_display": "Internet", 
+      "flag": "r", 
+      "melvyl_name": "Internet", 
+      "primary_loc": "Internet"
+    }
+  }, 
+  {
+    "pk": 121, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Santa Cruz", 
+      "primary_loc_display": "McHenry Library", 
+      "flag": "g", 
+      "melvyl_name": "McHenry Lib", 
+      "primary_loc": "McHenry"
+    }
+  }, 
+  {
+    "pk": 122, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Santa Cruz", 
+      "primary_loc_display": "Northern Regional Library Facility (NRLF)", 
+      "flag": "g", 
+      "melvyl_name": "Northern Regional Lib Facility", 
+      "primary_loc": "NRLF"
+    }
+  }, 
+  {
+    "pk": 123, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Santa Cruz", 
+      "primary_loc_display": "Science and Engineering Library", 
+      "flag": "g", 
+      "melvyl_name": "Science & Engineering Lib", 
+      "primary_loc": "S & E Lib"
+    }
+  }, 
+  {
+    "pk": 124, 
+    "model": "oac.marcprimarynamedisplay", 
+    "fields": {
+      "campus_name": "UC Santa Cruz", 
+      "primary_loc_display": "Special Collections and Archives", 
+      "flag": "", 
+      "melvyl_name": "Special Collections", 
+      "primary_loc": "Spec Coll"
+    }
+  }
+]

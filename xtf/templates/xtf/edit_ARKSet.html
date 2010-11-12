@@ -1,0 +1,13 @@
+{% extends 'xtf/base.html' %}
+{% block title %}Edit arkset{% endblock title %}
+{% block bodycontent %}
+<form action="." method="post">
+    {% for field in form %}
+        <div class="fieldWrapper">
+            {{ field.errors }}
+            {{ field.label_tag }}: {{ field }}
+        </div>
+    {% endfor %}
+    <p><input type="submit" value="Update Set" /></p>
+</form>
+{% endblock bodycontent %}

@@ -1,0 +1,18 @@
+{% extends 'xtf/base.html' %}
+{% block title %}Set member {{member}} added{% endblock title %}
+{% block bodycontent %}
+    <div class="container">
+        <h2>Added {{member}}</h2>
+        to set {{set}}
+     </div>
+
+
+<hr/>
+<h2>You are logged in as {{ request.user }}</h2>
+      <h3>Sets for user</h3>
+      {% for s in sets %}
+        {{s}}
+      {%endfor%}
+
+</div>
+{% endblock bodycontent %}

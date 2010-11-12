@@ -1,0 +1,10 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<div id="content-main">
+    A request has been sent to add {{ user.get_full_name }} to the CDL Hosted {{ type }}
+    application for {{ institution }}.
+    A CDL staff member will contact you shortly. 
+</div>
+{% endblock content %}
+

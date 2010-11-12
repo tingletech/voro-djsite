@@ -1,0 +1,102 @@
+[
+  {
+    "pk": 1, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2009-07-06 18:13:41", 
+      "institution": 95, 
+      "expires_at": null, 
+      "name": "San Jose State University, Special Collections and Archives"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2009-08-13 23:29:16", 
+      "institution": 124, 
+      "expires_at": null, 
+      "name": "Loyola Marymount University Library, Department of Archives and Special Collections"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2009-08-13 23:38:18", 
+      "institution": 124, 
+      "expires_at": null, 
+      "name": "William H. Hannon Library, Department of Archives and Special Collections"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2009-08-14 06:16:17", 
+      "institution": 148, 
+      "expires_at": null, 
+      "name": "UC Los Angeles"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2010-01-29 23:59:41", 
+      "institution": 207, 
+      "expires_at": null, 
+      "name": "Starr (C.V.) East Asian Library"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2010-02-02 01:54:48", 
+      "institution": 83, 
+      "expires_at": null, 
+      "name": "Regional History Center"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2010-02-18 03:14:49", 
+      "institution": 63, 
+      "expires_at": null, 
+      "name": "California State University, Channel Islands"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2010-08-20 18:52:00", 
+      "institution": 115, 
+      "expires_at": null, 
+      "name": "San Francisco Public Library"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2010-09-03 17:42:10", 
+      "institution": 115, 
+      "expires_at": null, 
+      "name": "San Francisco History Center, San Francisco Public Library"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2010-09-25 00:01:02", 
+      "institution": 115, 
+      "expires_at": null, 
+      "name": "San Francisco History Center"
+    }
+  }
+]

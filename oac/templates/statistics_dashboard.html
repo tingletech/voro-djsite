@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>OAC Ingest Statistics Dashboard</title>
+
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="/css/blueprint-css/blueprint/screen.css" type="text/css" media="screen, projection, print">
+
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection, print">
+<![endif]-->
+
+    <!-- Import fancy-type plugin for the sample page. -->
+    <link rel="stylesheet" href="/css/blueprint-css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection, print">
+     <style type="text/css">
+.area {background:none repeat scroll 0 0 #E6EBEC; padding:0.8em; margin-bottom:1em;}
+.ci {border:2px solid #DDDDDD; margin-bottom:1em; padding:0.8em; background:none repeat scroll 0 0 #E6EBEC;}
+.img { text-decoration:none; } 
+img {  border-style: none; }
+h2 { color:#C2492C; }
+h1 { margin-top:0.5em; }
+     </style>
+
+     {% comment %}
+     !!!!============= THE FOLLOWING DOES NOT WORK, NOT SURE WHY YET ======!!!
+     {% for field in dateForm %}
+        {{ field.media }}
+     {% endfor %}
+     ADDED LINE BELOW WITH SUPPORT IN VIEW
+     # this NOT WORK{{ media }} 
+     {% endcomment %}
+     <link rel="stylesheet" type="text/css" href="/media/css/base.css" />
+     <link rel="stylesheet" type="text/css" href="/media/css/forms.css" />
+     <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/media/css/ie.css" /><![endif]-->
+
+    <script type="text/javascript">
+        window.__admin_media_prefix__ = '/media/';
+    </script>
+
+    <script type="text/javascript" src="/admin/OAC_admin/jsi18n/"></script>
+     <script type="text/javascript" src="/media/js/core.js"></script>
+     <script type="text/javascript" src="/media/js/jquery.min.js"></script>
+     <script type="text/javascript" src="/media/js/jquery.init.js"></script>
+     <!--
+     <script type="text/javascript" src="/media/js/actions.min.js"></script>
+     <script type="text/javascript" src="/media/js/SelectBox.js"></script>
+     <script type="text/javascript" src="/media/js/SelectFilter2.js"></script>
+     -->
+     <script type="text/javascript" src="/media/js/calendar.js"></script>
+     <script type="text/javascript" src="/media/js/admin/DateTimeShortcuts.js"></script>
+     <script type="text/javascript" src="/media/js/inlines.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>OAC Ingest Statistics Dashboard</h1>
+
+      <div class="area span-24">
+          <h2>Ingest object reports</h2>
+          <form action="{% url oac.views.statistics_ingest %} " method="post">
+                <fieldset>
+                    <legend>METS objects for a given time period</legend>
+                    {% for field in dateForm.visible_fields %}
+                      <p class='datetime'>
+                      {{ field.errors }}
+                      {{ field.label_tag }}: {{ field }}
+                      </p>
+                    {% endfor %}
+                    <input type="hidden" name='type' id="id_type" value="METS"/>
+                  <input type="submit" value="Generate METS report" />
+                  <input type="reset" value="Reset" />
+                </fieldset>
+            </form>
+          <form action="{% url oac.views.statistics_ingest %} " method="post">
+                <fieldset>
+                    <legend>EAD documents for a given time period</legend>
+                    {% for field in dateForm.visible_fields %}
+                      <p class='datetime'>
+                      {{ field.errors }}
+                      {{ field.label_tag }}: {{ field }}
+                      </p>
+                    {% endfor %}
+                    <input type="hidden" name='type' id="id_type" value="EAD"/>
+                  <input type="submit" value="Generate EAD report" />
+                  <input type="reset" value="Reset" />
+                </fieldset>
+            </form>
+      </div>
+
+      <a href='/admin/OAC_admin/contributor-activity/'>Get recent contributor activity report</a>
+
+    </div>
+  </body>
+</html>

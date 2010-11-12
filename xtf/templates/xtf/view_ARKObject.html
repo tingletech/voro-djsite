@@ -1,0 +1,279 @@
+{% extends "xtf/base.html" %}
+
+{% block bodycontent %}
+<div class='container' id="arkobject">
+      <div class="area span-24">
+        <h1>XTF Item: {{ arkobject.pk }}</h1>
+        <h1>XTF Item ARK? --> {{ arkobject.ark }}</h1>
+        <h3>Thumb<img src="{{arkobject.thumbnail}}"/></h3>
+        <h3><img src="{{arkobject.image}}"/>{{arkobject.image}}</h3>
+    </div>
+        <div class="span-12 ">
+            <div class="area">
+                Metadata Overrides
+            </div>
+            <div class="box">
+                <h4>contributor</h4>
+                <ul>
+                    {% for dcterm in arkobject.contributors %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>coverage</h4>
+                <ul>
+                    {% for dcterm in arkobject.coverages %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>creators</h4>
+                <ul>
+                    {% for dcterm in arkobject.creators %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>date</h4>
+                <ul>
+                    {% for dcterm in arkobject.dates %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>description</h4>
+                <ul>
+                    {% for dcterm in arkobject.descriptions %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>format</h4>
+                <ul>
+                    {% for dcterm in arkobject.formats %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>identifiers</h4>
+                <ul>
+                    {% for dcterm in arkobject.identifiers %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>language</h4>
+                <ul>
+                    {% for dcterm in arkobject.languages %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>publisher</h4>
+                <ul>
+                    {% for dcterm in arkobject.publishers %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>relation</h4>
+                <ul>
+                    {% for dcterm in arkobject.relations %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>rights</h4>
+                <ul>
+                    {% for dcterm in arkobject.rights %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>source</h4>
+                <ul>
+                    {% for dcterm in arkobject.sources %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>subject</h4>
+                <ul>
+                    {% for dcterm in arkobject.subjects %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>title</h4>
+                <ul>
+                    {% for dcterm in arkobject.titles %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>type</h4>
+                <ul>
+                    {% for dcterm in arkobject.types %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>DCTERMS</h4>
+                <ul>
+                    {% for dcterm in arkobject.DCTerms %}
+                    <li>{{ dcterm.get_term_display }}  -- {{dcterm.content}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="last span-12">
+            <div class="area">
+            XTF Source Data
+            </div>
+            <div class="box">
+                <h4>contributor</h4>
+                <ul>
+                    {% for dcterm in arkobject.contributors %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>coverage</h4>
+                <ul>
+                    {% for dcterm in arkobject.coverages %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>creators</h4>
+                <ul>
+                    {% for dcterm in arkobject.creators %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>date</h4>
+                <ul>
+                    {% for dcterm in arkobject.dates %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>description</h4>
+                <ul>
+                    {% for dcterm in arkobject.descriptions %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>format</h4>
+                <ul>
+                    {% for dcterm in arkobject.formats %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>identifiers</h4>
+                <ul>
+                    {% for dcterm in arkobject.identifiers %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>language</h4>
+                <ul>
+                    {% for dcterm in arkobject.languages %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>publisher</h4>
+                <ul>
+                    {% for dcterm in arkobject.publishers %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>relation</h4>
+                <ul>
+                    {% for dcterm in arkobject.relations %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>rights</h4>
+                <ul>
+                    {% for dcterm in arkobject.rights %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>source</h4>
+                <ul>
+                    {% for dcterm in arkobject.sources %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>subject</h4>
+                <ul>
+                    {% for dcterm in arkobject.subjects %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>title</h4>
+                <ul>
+                    {% for dcterm in arkobject.titles %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>type</h4>
+                <ul>
+                    {% for dcterm in arkobject.types %}
+                    <li>{{ dcterm.content }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="box">
+                <h4>DCTERMS</h4>
+                <ul>
+                    {% for dcterm in arkobject.DCTerms %}
+                    <li>{{ dcterm.get_term_display }}  -- {{dcterm.content}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+    </div>
+</div>
+{% endblock bodycontent %}
+

@@ -1,0 +1,62 @@
+<!-- template for changing the intitution's location
+-->
+{% extends "admin/base_site.html" %}
+
+{% block userlinks %}
+{%endblock userlinks %}
+
+{% block breadcrumbs %}{% if not is_popup %}
+<div class="breadcrumbs">
+     <a href="../../../../">Home</a> &rsaquo;
+     <a href="../../">Institutions</a> &rsaquo;
+     <a href="../">{{ object }}</a> &rsaquo;
+     Change Coordinates
+</div>
+{% endif %}{% endblock %}
+
+{% block extrahead %}
+<!-- PUT JAVASCRIPT PULLINS HERE -->
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAPZhPbFDgyqqKaAJtfPgdhRQxAnOebRR8qqjlEjE1Y4ZOeQ67yxSVDP1Eq9oU2BZjw2PaheQ5prTXaw"
+	type="text/javascript"></script>
+<script src="/map/map_change_institution.js" type="text/javascript"></script>
+<script type="text/javascript">
+    function windowLoad() {
+        load({{ object.latitude }}, {{ object.longitude }}, "{{ object.name|addslashes}}");
+        {% for inst in other_insts %}
+        loadOtherMarker({{ inst.latitude }}, {{ inst.longitude }}, "{{ inst.name|addslashes }}");
+        {% endfor %}
+    }
+    window.onload = windowLoad;
+</script>
+{% endblock extrahead %}
+
+{% block title %}
+Change Coordinates | {{ object.name }}
+{% endblock title %}
+
+{% block content_title %}
+<h2>Change location for {{ object.name }}</h2>
+{% endblock content_title %}
+
+{% block content %}
+<h4>{{ update }}</h4>
+<h3>Original Coordinates</h3>
+<h3>Lat: {{ object.latitude }}</h3>
+<h3>Lng: {{ object.longitude }}</h3>
+Click and drag marker on map to actual location.
+
+<div id="map" style="width: 600px; height: 540px"></div>
+
+<h3>Current Coordinates</h3>
+<form method="GET" action='.'>
+    <h3>Lat:<input READONLY type="text" id="id_latitude" name="latitude" value="{{ object.latitude }}"/></h3>
+    <h3>Lng:<input READONLY type="text" id="id_longitude" name="longitude" value="{{ object.longitude }}"/></h3>
+    <input type="submit" id="id_update" name="update" value="Update coordinates"/>
+</form>
+<h3>{{ latitude }} </h3>
+{% endblock content %}
+
+
+
+
+

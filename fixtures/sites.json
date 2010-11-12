@@ -1,0 +1,26 @@
+[
+  {
+    "pk": 2, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "dsc-voro-dev.cdlib.org", 
+      "name": "dsc-voro-dev.cdlib.org"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "dsc-voro-dev.cdlib.org:18444", 
+      "name": "dev-1"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "oac.cdlib.org", 
+      "name": "oac.cdlib.org"
+    }
+  }
+]

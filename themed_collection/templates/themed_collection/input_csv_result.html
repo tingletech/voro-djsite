@@ -1,0 +1,42 @@
+{% extends 'themed_collection/base.html' %}
+{% block title %}Added csv to {{themed_collection.title}} themed collection{% endblock title %}
+{% block bodycontent %}
+    <div class="container">
+        <div class="span-24 last">
+            <h1>Result of add set members to {{themed_collection.title}} themed collection.</h1>
+        </div>
+        <hr/>
+        <h2>Processed {{numrows}} rows</h2>
+        <hr/>
+        <h2>Number of entries added to set: {{num}}</h2>
+{% if set_members_added %}
+<div class='area'>
+<ul>
+{%for member in set_members_added %}
+<li>{{member.object}}, Set:{{member.set}}, Annotation:{{member.annotation}}</li>
+{%endfor%}
+</ul>
+</div>
+{% endif %}
+<hr/>
+{%if not_geocoded %}
+<h2>Geocoding problems:</h2>
+<div class='area'>
+    <ul>
+{%for member, message, location in not_geocoded %}
+<li>{{member.object}} -- {{message}} location:{{location}}</li>
+{% endfor %}
+</ul>
+</div>
+<hr/>
+{% endif %}
+{%if errs %}
+<h2>The following {{errs|length}} entries were not added:</h2>
+<div class='area'>
+<ul>
+{% for err in errs %}
+<li>{{err.1.1}}  -&gt; {{err.0}}</li>
+{%endfor%}
+</div>
+{%endif%}
+{% endblock bodycontent %}

@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>OAC Contributor Dashboard</title>
+
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="/site_media/css/blueprint-css/blueprint/screen.css" type="text/css" media="screen, projection, print">
+    <!-- link rel="stylesheet" href="/css/blueprint-css/blueprint/print.css" type="text/css" media="print" -->
+
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint-css/blueprint/ie.css" type="text/css" media="screen, projection, print">
+<![endif]-->
+
+    <!-- Import fancy-type plugin for the sample page. -->
+    <link rel="stylesheet" href="/site_media/css/blueprint-css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection, print">
+     <style type="text/css">
+h1 { margin-top:0.5em; }
+     </style>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>OAC Contributor Dashboard</h1>
+
+<form action="{{ app_path }}" method="post" id="login-form">{% csrf_token %}
+  <div class="form-row">
+    <label for="id_username" class="span-2" style="margin-top: 1.5em; text-align: right;">Username:</label> <input class="title" type="text" name="username" id="id_username">
+  </div>
+  <div class="form-row">
+
+    <label for="id_password" class="span-2" style="margin-top: 1.5em; text-align: right;">Password:</label> <input class="title" type="password" name="password" id="id_password">
+    <input type="hidden" name="this_is_the_login_form" value="1">
+  </div>
+  <div class="submit-row">
+    <label class="span-2">&nbsp;</label><input type="submit" value="Log in" style="font-size: 1.5em;
+height: 1.8em; background-color: #ffffff;">
+  </div>
+</form>
+
+
+</div>
+
+</body>
+</html>

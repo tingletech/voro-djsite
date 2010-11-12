@@ -1,0 +1,33 @@
+{% extends 'xtf/base.html' %}
+{% block title %}Input a csv into set{% endblock title %}
+{% block bodycontent %}
+    <div class="container">
+        <div class="span-24 last">
+            <h1>Add set members to {{arkset.title}}.</h1>
+        </div>
+        <hr/>
+        <div class="span-6 colborder">
+                <form action="." method="POST" enctype="multipart/form-data">
+                    {{form}}
+                    <input type="submit" value="process"/>
+                </form>
+        </div>
+        <div class="span-17 last">
+            <div class="area">
+                Upload a csv file with the following format:<br/>
+                <table>
+                    <tr>
+                        <th>ARK (fully qualified),Annotation</th>
+                    </tr>
+                    <tr>
+                        <td>ark:/13030/kt9p302972,A nice label for Redlands orange</td>
+                    </tr>
+                    <tr>
+                        <td>ark:/13030/kt100025wf,Another nice label for Redlands orange</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <hr/>
+    </div>
+{% endblock bodycontent %}

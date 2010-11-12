@@ -1,0 +1,24 @@
+{% extends 'xtf/base.html' %}
+{% block title %}Add an ARK object to a set{% endblock title%}
+{% block bodycontent %}
+    <div class="container">
+        <h2>Object to add: {{arkobject}}</h2>
+        {{arkobject.titles.0.content}}
+      <h2>Add Set Member</h2>
+      <div class="area">
+          <form action='' method='POST'>
+          {{ form.as_p }}
+          <input type='submit' value='add to set'/>
+      </form>
+     </div>
+     <h3>Object Metadata</h3>
+     i want to have this addable editable from here? or send to page to edit
+     ARKSetMember page should display this stuff, for suggesting metadata to people
+    <ul>
+        {% for dcterm in arkobject.DCTerms %}
+        <li>{{ dcterm.get_term_display }}  -- {{dcterm.content}}</li>
+        {% endfor %}
+    </ul>
+
+
+{% endblock bodycontent %}

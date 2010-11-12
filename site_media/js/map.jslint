@@ -1,0 +1,333 @@
+var CDL = {};
+CDL.DSC = {};
+CDL.DSC.OAC = {};
+
+CDL.DSC.OAC.mapns = function() {
+    return {
+        marker_dict:{}, //Ark indexed list of markers, for lookup
+    //var yH = YAHOO.util.History;
+    
+    //var mapBookmarkedState = yH.getBookmarkedState('mapHist');
+    //var mapDefaultState = 'hide';
+    //var mapInitState = mapBookmarkedState || mapDefaultState;
+    //this seems to be 'hide', alert(mapInitState);
+    
+    set_map_state: function (state){
+        //alert('STATE:' + state);
+        if (state == 'show') {
+            myPanel.show();
+        }
+        if (state.split('|')[0] == 'openMarker') {
+            //get the marker from marker_dict and ark
+            //make open window
+            ark = state.split('|')[1];
+            myPanel.show();
+            //TODO: wait for map to be instantiated and markers set!
+            GEvent.addListener(window.map, "load", function () {
+            marker = CDL.DSC.OAC.mapns.marker_dict[ark];
+            marker.openInfoWindowHtml(marker.label);
+            });
+        }
+        return false;
+    },
+    
+    mapStateChangeHandler: function (state){
+        //if not init state, do a set map state
+        if (state != mapDefaultState) {
+            set_map_state(state);
+        }
+    },
+    
+    //yH.register('mapHist', mapInitState, mapStateChangeHandler);
+    
+    //yH.onReady(function() {
+    //        var mapCurrentState = yH.getCurrentState('mapHist');
+    //        //alert('CUR STATE:'+mapCurrentState);
+    //        if (mapCurrentState != mapDefaultState){
+    //            set_map_state(mapCurrentState);
+    //            }
+    //        });
+    
+    //yH.initialize("yui-history-field", "yui-history-iframe"); 
+    
+    handleNoFlash: function (errorCode) {
+          if (errorCode == GStreetviewPanorama.ErrorValues.NO_NEARBY_PANO) {
+            CDL.DSC.OAC.mapns.streetviewPanel.setBody('<div><h2>No streetview available at this location</h2></div>');
+          }
+          if (errorCode == GStreetviewPanorama.ErrorValues.FLASH_UNAVAILABLE) {
+            CDL.DSC.OAC.mapns.streetviewPanel.setBody('<div><h2>Error: Flash doesn\'t appear to be supported by your browser');
+        }
+    },
+    
+    panelcleanup: function (type, args, x) {
+        x.myPano.hide();
+        x.myPano.remove();
+    },
+    
+    show_streetview: function (lat, lon, id_elem) {
+        var loc = new GLatLng(lat, lon);
+        var panoramaOptions = { latlng:loc };
+        //var pano_div = document.getElementById(id_elem);
+        //pano_div.style.display = 'block';
+        CDL.DSC.OAC.mapns.streetviewPanel = new YAHOO.widget.Panel("streetview_panel", {
+            width: '600px',
+            height: '400px',
+            //fixedcenter: true, 
+            //constraintoviewport: true, 
+            underlay: "shadow", 
+            close: true, 
+            visible: true, 
+            draggable: true,
+            modal: false,
+            zindex: 1111
+        });
+        svPanel = CDL.DSC.OAC.mapns.streetviewPanel;
+        //streetviewPanel.pano_div = pano_div
+        //get the bd div
+        //var viewdiv = pano_div.getElementsByClassName('bd')[0];
+        svPanel.setHeader("Current Streetview");
+        svPanel.setBody('<div style="width: 100%; height: 100%; id="' + id_elem + '"></div>');
+        svPanel.setFooter("");
+        svPanel.render("infoballoon");
+        svPanel.myPano = new GStreetviewPanorama(svPanel.body.firstChild, panoramaOptions);
+        GEvent.addListener(svPanel.myPano, "error", CDL.DSC.OAC.mapns.handleNoFlash);
+        svPanel.myPano.show();
+        svPanel.myPano.checkResize();
+        svPanel.beforeHideEvent.subscribe(CDL.DSC.OAC.mapns.panelcleanup, svPanel);
+        svPanel.show();
+    },
+        
+    
+    //var dataPanel;
+    //
+    //var handleSuccess = function(obj) {
+    //    //fill in the datapanel body with text
+    //    if(obj.responseText !== undefined){ 
+    //        alert('Success'+obj.responseText);
+    //        dataPanel.setBody(o.responseText);
+    //    }
+    //}
+    //var handleFailure = function(o){
+    //    alert("FAILED"+o.status+":"+o.statusText);
+    //    dataPanel.setBody(o.statusText);
+    //    if(o.responseText !== undefined){
+    //    alert("FAILED"+o.responseText);
+    //        dataPanel.setBody("<li>Transaction id: " + o.tId + "</li><li>HTTP status: " + o.status + "</li><li>Status code message: " + o.statusText + "</li>");
+    //    }
+    //}
+    //
+    //var dataCallback = {
+    //success: handleSuccess,
+    //failure: handleFailure,
+    //argument: { },
+    //}
+    //
+    openDataPanel: function (ark) {
+        dataPanel = new YAHOO.widget.Panel("dataPanel", {
+        width: panelWidth + 'px',
+        height: panelHeight + 'px',
+        //width: '500px',
+        //height: '300px',
+        fixedcenter: true, 
+        //constraintoviewport: true, 
+        underlay: "shadow", 
+        close: true, 
+        visible: true, 
+        draggable: true,
+        modal: true,
+        //context: [ 'mapPanel', 'tl', 'br', null, [10, 10] ],
+        zindex:1000
+        });
+        var url = 'http://www.oac.cdlib.org/dc/'+ark+'/';
+        url = 'http://content.cdlib.org/'+ark+'/?order=;layout=iframe;doc.view=';
+    //    url = 'http://oac-dev.cdlib.org:8086/';
+    //    var request = YAHOO.util.Connect.asyncRequest('GET', url, dataCallback, null);
+     
+        var frame = document.createElement('iframe');
+        frame.name = 'metaiframe';
+        frame.scrolling = 'auto';
+    //    frame.width = (panelWidth - 50) + 'px';
+    //    frame.height = (panelHeight - 100) + 'px';
+        frame.width = '100%';
+        frame.height = '100%';
+        frame.src = url;
+        dataPanel.setHeader('View of '+ ark);
+        dataPanel.setBody(frame);
+        dataPanel.setFooter('footer');
+        dataPanel.render(document.body);
+        dataPanel.show();
+    },
+    
+    openContentPanel: function (ark, image_src) {
+        var contentPanel = new YAHOO.widget.Panel("contentPanel", {
+        width: panelWidth + 'px',
+        height: panelHeight + 'px',
+        //width: '500px',
+        //height: '300px',
+        fixedcenter: true, 
+        //constraintoviewport: true, 
+        underlay: "shadow", 
+        close: true, 
+        visible: true, 
+        draggable: true,
+        modal: true,
+        //context: [ 'mapPanel', 'tl', 'br', null, [10, 10] ],
+        zindex:1000
+        });
+        contentPanel.setHeader('View of '+ ark);
+        contentPanel.setBody('<img src="' + image_src + '" height="100%" width="100%"/>');
+        contentPanel.setFooter('footer');
+        contentPanel.render(document.body);
+        contentPanel.show();
+    },
+    
+    
+    make_ark_object_label: function (ark, arkobject) {
+            //label = '<div class="balloon" style="width:300px"><a href="' + arkobject.url_content + '"><img src="' + arkobject.thumbnail + '" width="64" height="64" </img></a><strong><a href="' + arkobject.url_content + '">' + arkobject.title + '</a></strong><br/><br/>' + arkobject.note + '<br/>';
+            label = '<div id="infoballoon" class="balloon">';
+            if (!arkobject.exact) {
+                label = label + 'Location is approximate.<a href="">(Learn more)</a>';
+            }
+            label = label + '<a href=""><img src="' + arkobject.thumbnail + '" onClick="mapns.openContentPanel(\'' + ark + '\',\''+ arkobject.image + '\');return false;"></img></a><h1>Title:</h1><a href="" onClick="mapns.openDataPanel(\''+ ark + '\');return false;">' + arkobject.title + '</a><br/>';
+            if (arkobject.date) {
+                label = label + '<h2>Date:</h2>'+ arkobject.date + '<br/>';
+            }
+            if (arkobject.place) {
+                label = label + '<h2>Location:</h2>' + arkobject.place + '<br/>';
+            }
+            //TODO: Is there a street view available?
+            label = label + '<a href="" onclick="mapns.show_streetview('+ arkobject.lat + ', ' + arkobject.lon + ', \'streetview_' + ark + '\'); return false;">Current street view of location</a>';
+    //        label = label + '<div style="width: 500px; height: 300px; display: none;" id="streetview_'+ ark + '"><div class="hd">' + arkobject.title + '</div><div class="bd" style="width: 100%; height: 100%;"></div><div class="ft"></div></div>';
+            label = label + "</div>";
+            return label;
+    },
+    
+    marker_icon_map: { 1 : 'blue.png',
+            2 : 'green.png',
+            3 : 'orange.png',
+            4 : 'pink.png',
+            5 : 'purple.png'
+    },
+    
+    showMap: function (ark) {
+        //yH.navigate('mapHist','show');
+        myPanel.show();
+        if (ark) {
+            //NOTE: the event listener doesn't seem to work
+            // is it already loaded?
+            GEvent.addListener(window.map, "load", function () {
+            alert("IN SHOW MAP MARKER STUFF ark:"+ark);
+            marker = CDL.DSC.OAC.mapns.marker_dict[ark];
+            marker.openInfoWindowHtml(marker.label);
+            });
+            if (window.map.isLoaded()) {
+                marker = CDL.DSC.OAC.mapns.marker_dict[ark];
+                marker.openInfoWindowHtml(marker.label);
+            }
+        }
+        return false;
+    },
+    
+    load: function (centerLat, centerLon ) {
+          if (GBrowserIsCompatible() ) {
+            window.map = new GMap2(document.getElementById("map_canvas"),size=GSize(300,300) );
+            window.map.addControl(new GLargeMapControl());
+            window.map.addControl(new GMapTypeControl());
+            //window.map.setMapType(G_HYBRID_MAP);
+    
+            var zoomLevel = 6;
+    
+            window.map.setCenter(new GLatLng(centerLat, centerLon), zoomLevel);
+            // Creates a marker at the given point with the given number label
+            var baseIcon = new GIcon(G_DEFAULT_ICON);
+            baseIcon.image = "http://www.google.com/mapfiles/ms/micons/blue.png";
+            baseIcon.shadow = "";
+            baseIcon.iconSize = new GSize(32, 32);
+            baseIcon.iconAnchor = new GPoint(15, 31);
+            baseIcon.infoWindowAnchor = new GPoint(15, 2);
+            
+            var x = function createIndexedMarker(point, label, icon_image_name) {
+            
+              baseIcon.image = "http://www.google.com/mapfiles/ms/micons/"+icon_image_name;
+              var marker = new GMarker(point, {draggable:false, icon : baseIcon});
+              marker.enableDragging();
+              
+              GEvent.addListener(marker, "click", function() {
+                //yH.navigate('mapHist', marker);
+                marker.openInfoWindowHtml(label);
+                });
+              /*
+              GEvent.addListener(marker, "dragend", function() {
+                      marker.openInfoWindowHtml(marker.getLatLng().toUrlValue());
+                      });
+                      */
+              return marker;
+            };
+    
+            var y = function createImageMarker(point, ark, arkobj, label) {
+            
+                icon = new GIcon(baseIcon);
+                icon.image = arkobj.thumbnail;
+                icon.imageMap = [0,0, 31,0, 31,31, 0,31];
+                //alert(icon.image);
+                var marker = new GMarker(point, {draggable:false, icon : icon});
+                //marker.enableDragging();
+                marker.ark = ark;
+                marker.label = label;
+              
+              GEvent.addListener(marker, "click", function() {
+                //yH.navigate('mapHist', 'openMarker|'+marker.ark);
+                marker.openInfoWindowHtml(label);
+                });
+              /*
+              GEvent.addListener(marker, "dragend", function() {
+                      marker.openInfoWindowHtml(marker.getLatLng().toUrlValue());
+                      });
+                      */
+              return marker;
+            };
+    
+            /* Loop over the arkobjects object and create the markers and 
+             * the righthandside list
+             */
+            //var arkobject_html = '';// '<div>\n';
+            //var inChild = false;//for tracking child institutes
+            var markerBounds = new GLatLngBounds();//needed to stretch view of map
+            for (var ark_x in window.arkobjects) {
+                arkobject = window.arkobjects[ark_x];
+                label = CDL.DSC.OAC.mapns.make_ark_object_label(ark_x, arkobject);
+                //alert(ark_x + " ->lat/lon:" + arkobject.lat + '/' + arkobject.lon);
+                if (arkobject.lat) {
+                    var point = new GLatLng(arkobject.lat, 
+                                            arkobject.lon);
+        
+                    markerBounds.extend(point);
+                    var marker = createImageMarker(point, ark_x, arkobject, label);
+                    //var marker = createIndexedMarker(point, label, 'blue.png');
+                    window.map.addOverlay(marker);
+                    //marker.themes = arkobject.themes;
+                    CDL.DSC.OAC.mapns.marker_dict[ark_x] = marker; //Ark indexed list of markers, for lookup
+                }
+                //if (ark == ark_x) {
+                    //select current marker!
+                //    marker.openInfoWindowHtml(label);
+                //}
+    
+                //arkobject_html += make_ark_object_html_sidebar(ark_x, arkobject);
+            }
+            map.setCenter(markerBounds.getCenter(), map.getBoundsZoomLevel(markerBounds));
+          }
+          alert("HERE");
+        YAHOO.util.Event.addListener("showMap", "click", CDL.DSC.OAC.mapns.showMap);
+    },
+    
+    init: function () {
+        CDL.DSC.OAC.mapns.load(37.8086906,-122.267541);
+    }
+
+
+    };//namespace return wrapper
+}();
+
+YAHOO.util.Event.onDOMReady(CDL.DSC.OAC.mapns.init);
+var mapns = CDL.DSC.OAC.mapns;

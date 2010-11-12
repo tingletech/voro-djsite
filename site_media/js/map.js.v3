@@ -1,0 +1,143 @@
+var marker_dict = {}; //Ark indexed list of markers, for lookup
+
+function ark_url(ark) {
+        return "http://content.cdlib.org/"+ark.toString(); //+"/";
+}
+
+//    function ark_thumbnail(ark) {
+//        return ark_url(ark)+"thumbnail";
+//    }
+
+function show_streetview(lat, lon, id_elem) {
+    //alert("IN SHOW STREETVIEW: lat:"+lat+" lon:"+lon);
+    var loc = new google.maps.LatLng(lat, lon);
+    panoramaOptions = { latlng:loc };
+    pano_div = document.getElementById(id_elem)
+    pano_div.style.display = 'block';
+    var myPano = new google.maps.StreetviewPanorama(pano_div, panoramaOptions);
+    google.maps.Event.addListener(myPano, "error", handleNoFlash);
+    myPano.show();
+    myPano.checkResize();
+}
+    
+function handleNoFlash(errorCode) {
+    alert("ERR - "+errorCode);
+      if (errorCode == FLASH_UNAVAILABLE) {
+        alert("Error: Flash doesn't appear to be supported by your browser");
+        return;
+    }
+}
+
+function make_ark_object_label(ark, arkobject) {
+        label = '<div class="balloon" style="width:300px"><a href="' + ark_url(ark) + '"><img src="' + arkobject.thumbnail + '" width="64" height="64" </img><strong><a href="' + ark_url(ark) + '">' + arkobject.title + '</a></strong><br/><br/>' + arkobject.note + '<br/>';
+        label = label + '<br/><a href="" onclick="show_streetview('+ arkobject.lat + ', ' + arkobject.lon + ', \'streetview_' + ark + '\'); return false;">Current view of location</a>';
+        label = label + '<div style="width: 500px; height: 300px; display: none;" id="streetview_'+ ark + '"><div>';
+        label = label + "</div>";
+        return label;
+    }
+
+    var marker_icon_map = { 1 : 'blue.png',
+        2 : 'green.png',
+        3 : 'orange.png',
+        4 : 'pink.png',
+        5 : 'purple.png',
+    }
+
+    function load(centerLat, centerLon ) {
+//      if (google.maps.GBrowserIsCompatible() ) {
+        //window.map = new GMap2(document.getElementById("map"),size=GSize(300,300) );
+        var myOptions = {
+                  zoom: 8,
+                  center: myLatlng,
+                  mapTypeId: google.maps.MapTypeId.HYBRID
+                  }
+        window.map = new google.maps.Map(document.getElementById("map"), myOptions );
+
+	    //rightsideTitle = document.getElementById("row2-right-header");
+	    //rightside = document.getElementById("row2-right-content");
+	    //directions = new GDirections(map, rightside);
+        //GEvent.addListener(directions, "error", directionsError);
+        //window.map.addControl(new GLargeMapControl());
+        //window.map.addControl(new GMapTypeControl());
+        //window.map.setMapType(G_HYBRID_MAP);
+
+        //var centerLat = 37.301392;
+        //var centerLon = -120.486127;
+        var zoomLevel = 6;
+
+        window.map.setCenter(new google.maps.LatLng(centerLat, centerLon), zoomLevel);
+        // Creates a marker at the given point with the given number label
+        var baseImage = new MarkerImage(url:"http://www.google.com/mapfiles/ms/micons/blue.png",
+                            size:new google.maps.Size(32, 32),
+                            anchor = new google.maps.Point(15, 31),
+        baseIcon.infoWindowAnchor = new google.maps.Point(15, 2);
+        
+        function createIndexedMarker(point, label, icon_image_name) {
+        
+          baseIcon.image = "http://www.google.com/mapfiles/ms/micons/"+icon_image_name;
+          var marker = new google.maps.Marker(point, {draggable:false, icon : baseIcon});
+          marker.enableDragging();
+          
+          google.maps.Event.addListener(marker, "click", function() {
+            marker.openInfoWindowHtml(label);
+            });
+          /*
+          GEvent.addListener(marker, "dragend", function() {
+                  marker.openInfoWindowHtml(marker.getLatLng().toUrlValue());
+                  });
+                  */
+          return marker;
+        }
+
+        function createImageMarker(point, ark, arkobj, label) {
+        
+            icon = new google.maps.Icon(baseIcon);
+            icon.image = arkobj.thumbnail;
+            //alert(icon.image);
+            var marker = new google.maps.Marker(point, {draggable:false, icon : icon});
+            //marker.enableDragging();
+          
+          google.maps.Event.addListener(marker, "click", function() {
+            marker.openInfoWindowHtml(label);
+            });
+          /*
+          GEvent.addListener(marker, "dragend", function() {
+                  marker.openInfoWindowHtml(marker.getLatLng().toUrlValue());
+                  });
+                  */
+          return marker;
+        }
+
+        /* Loop over the arkobjects object and create the markers and 
+         * the righthandside list
+         */
+        //var arkobject_html = '';// '<div>\n';
+        //var inChild = false;//for tracking child institutes
+        var markerBounds = new google.maps.LatLngBounds();//needed to stretch view of map
+        for (ark_x in window.arkobjects) {
+            arkobject = window.arkobjects[ark_x];
+            label = make_ark_object_label(ark_x, arkobject);
+            //alert(ark_x + " ->lat/lon:" + arkobject.lat + '/' + arkobject.lon);
+            if (arkobject.lat) {
+                var point = new google.maps.LatLng(arkobject.lat, 
+                                        arkobject.lon);
+    
+                markerBounds.extend(point);
+                var marker = createImageMarker(point, ark_x, arkobject, label);
+                //var marker = createIndexedMarker(point, label, 'blue.png');
+                map.addOverlay(marker);
+    
+                //marker.themes = arkobject.themes;
+                marker_dict[ark_x] = marker; //Ark indexed list of markers, for lookup
+    
+            }
+            //if (ark == ark_x) {
+                //select current marker!
+            //    marker.openInfoWindowHtml(label);
+            //}
+
+            //arkobject_html += make_ark_object_html_sidebar(ark_x, arkobject);
+        }
+        map.setCenter(markerBounds.getCenter(), map.getBoundsZoomLevel(markerBounds));
+      //}
+}

@@ -1,0 +1,357 @@
+{% extends 'themed_collection/base.html'%}
+{% load themedcollection_tags %}
+
+{%block title%}{{themed_collection.title}}{%endblock title%}
+{%block blueprintcss%}{%endblock blueprintcss%}
+
+{%block extrahead %}
+<!-- Sam Skin CSS -->
+<link rel="stylesheet" type="text/css" href="/css/yui-container.css">
+
+<style>
+#yui-history-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  visibility: hidden;
+}
+</style>
+<style>
+    button {
+        text-align:left;
+        padding:0px;
+    }
+    div.balloon {
+        text-align:left;
+        min-width:300px;
+        max-width:450px;
+        max-height:450px;
+    }
+    div.balloon img {
+        float:left;
+        padding-right:1em;
+    }
+    .balloon h1 {
+    color:#306666;
+    font-size:125%;
+    font-weight:bold;
+}
+    .balloon h2 {
+    color:#306666;
+    font-size:110%;
+    font-weight:bold;
+}
+
+    .balloon p + p {
+        text-indent:0em;
+    }
+
+   .view_all_images_btn {
+        text-align:right;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+	border-style: none;
+	background-color: Transparent;
+}
+
+.yui-skin-sam div#contentPanel .container-close {
+    background:url("/images/themed_collections/back_to_map.png") no-repeat;
+    height: 30px;
+    width: 101px;
+    top: -4px;
+    right: -9px;
+}
+
+/*
+.gmaps-map-container img {
+    border: 3px solid rgb(255,0,0);
+}
+*/
+</style>
+<script type="text/javascript" src="/js/nifty.js"></script>
+<script type="text/javascript" src="/js/calisphere.js"></script>
+{% endblock extrahead %}
+
+{% block bodyattrs %}class='yui-skin-sam' onunload="GUnload()" {%endblock bodyattrs%}
+
+{% block bodycontent %}
+{%comment%}
+<iframe id="yui-history-iframe" src="."></iframe>
+<input id="yui-history-field" type="hidden">
+{%endcomment%}
+ 
+
+<!-- BEGIN PAGE ID -->
+<div id="feature">
+
+<!-- BEGIN HEADER ROW-->
+
+<div id="header">
+<div id="masthead">
+<a href="/"><img class="header-logo" src="/images/logos/calisphere_logo.gif" width="137" height="29" border="0" alt="Calisphere" title="Calisphere" /></a> <img class="header-uc" src="/images/headers/uc2.gif" width="119" height="13" alt="University of California" title="University of California" />
+</div>
+<div id="site-nav">
+<a href="/browse-a-z.html">browse a-z</a> <span class="bullet">.</span> <a href="/about-cs.html">about</a> <span class="bullet">.</span> <a href="/contact-us-faq.html">contact us</a>
+</div>
+
+<br clear="all" />
+</div>
+
+<!-- END HEADER ROW-->
+
+<!-- BEGIN SECONDARY HEADER ROW-->
+<div id="header-secondary">
+
+<div id="multi-use">
+
+<!-- BEGIN BREADCRUMBS-->
+<div id="breadcrumbs"><a href="/">Calisphere</a> &gt; Local History Mapped &gt; {{ themed_collection.title }}</div>
+
+<!-- END BREADCRUMBS-->
+
+</div>
+
+<!-- BEGIN SITE-SEARCH -->
+<div id="site-search" class="searchbox-outer nifty1">
+<div class="searchbox-inner">
+<form action="/search" class="search-form" name="search-form" method="get">
+<input type="hidden" name="facet" value="type-tab"/>
+<input type="hidden" name="relation" value="calisphere.universityofcalifornia.edu"/>
+<input type="hidden" name="style" value="cui"/>
+<input name="keyword" type="text" class="text-field" size="18" maxlength="80"/> <input type="image" src="/images/buttons/search.gif" class="search-button" value="Search" alt="Search" title="Search" />
+</form>
+  <!--
+<script type="text/javascript" language="JavaScript">
+  var focusControl = document.forms["search-form"].elements["keyword"];
+
+  if (focusControl.type != "hidden") {
+     focusControl.focus();
+  }
+  </script>
+  // -->
+</div>
+
+</div>
+
+<!--END SITE-SEARCH -->
+
+<br clear="all" />
+</div>
+<!-- END SECONDARY HEADER ROW-->
+
+<!-- BEGIN CONTENT ROW -->
+<a name="content"></a>
+
+<!-- BEGIN CONTENT PRIMARY -->
+<div id="content-primary">
+
+    <h1>{{ themed_collection.title }}</h1>
+    <button id="showMap" disabled="disabled" onmouseover="this.style.cursor='pointer';" style="border-style:none; background-color:Transparent;"><img id="showMap_img" height="51" width="380" border="0" title="View map icon" alt="View map" src="/images/themed_collections/view_map_icon_loading.gif"></button>
+
+
+    <div>
+    <h2>Questions to Consider</h2>
+    {{ themed_collection.questions|safe }}
+    </div>
+
+    <div>
+    {{ themed_collection.markup|safe }}
+    </div>
+
+</div>
+<!-- END CONTENT PRIMARY -->
+
+<!-- BEGIN CONTENT SECONDARY -->
+<div id="content-secondary">
+
+<!-- BEGIN CONTENT NAVIGATION -->
+
+<div id="content-nav" class="nifty4">
+<div class="box4">
+
+<table>
+{%spaceless%}
+{%comment%} here's the image table. for each set loop and create a row....
+{%endcomment%}
+{% for member in themed_collection.mosaic_members.all %}
+{% with member.object.thumbnail as thumbnail %}
+{% cycle '<tr>' '' '' %}
+        <td ><div style="width:100px; height:100px; overflow:hidden;"><a href="{{ member.object.url_content}}" > <img class='mosaicimage' src="{{thumbnail.src}}" {% mosaicImageStyle thumbnail.width thumbnail.height 100 %} border="0" alt="{{ member.title }}" title="{{member.title}}" /></a></div></td>
+{% cycle '' '' '</tr>' %}
+{%endwith%}
+{%endfor%}
+{%endspaceless%}
+</table>
+</div>
+</div>
+<div class="view_all_images_btn"><button  id='view_all_images_btn' onClick="CDL.DSC.OAC.mapns.showMap(); return false;" onmouseover="this.style.cursor='pointer';" style="text-align: right; border-style: none; background-color:Transparent;" disabled="disabled"><img id="view_all_images_img" height="24" width="134" title="View all images" alt="View all images" src="/images/themed_collections/view_all_images_loading.gif"></button>
+</div>
+
+<!-- END CONTENT NAVIGATION -->
+
+<!--BEGIN GLOSSARY TABLE -->
+
+<div class="callout-box nifty2">
+<div class="box2">
+
+<div class="secondary-text">
+    <h1>Choose another Local History Mapped Set:</h1>
+    <form name="pulldownform">
+        <div class="pulldown-topic">
+            <select name="location0" size="1" onChange="javascript:formHandler()">
+                {% for collection in collections %}
+                {% spaceless %}
+                <option value="/mapped/{{collection.slug}}/"
+                {%ifequal collection.id themed_collection.id %}SELECTED="selected"{%endifequal%}
+                >{{collection.title}}</option> 
+                {% endspaceless %}
+                {%endfor%}
+            </select>
+        </div>
+    </form>
+</div> 
+</div>   
+</div>   
+
+<!--END GLOSSARY TABLE -->
+<!--BEGIN GLOSSARY TABLE -->
+
+<div class="callout-box nifty2">
+<div class="box2">
+
+<div class="secondary-text">
+    <h1>How we mapped the images</h1>
+    <p>The images in this set attempt to represent a variety of regions and communities.  We researched each one to determine its closest possible location. <a href="/themed_collections/pdf/how_we_mapped.pdf">Learn more (PDF)</a></p>
+    <p>If you have information about an image that will help us more accurately map it, <a href="/contact-us-faq.html">let us know.</a></p>
+</div> 
+</div>   
+</div>   
+
+<!--END GLOSSARY TABLE -->
+
+<!--BEGIN GLOSSARY TABLE -->
+
+<div class="callout-box nifty2">
+<div class="box2">
+
+<div class="secondary-text">
+    <h1>Teachers' Toolbox</h1>
+    <p><a href="/themed_collections/pdf/activities_assignments.pdf">How to use Local History Mapped (PDF):</a> ideas and activities for the classroom</p>
+    <p><a href="/themed_collections/pdf/content_standards.pdf">Relevant Analytical Skills and Content Standards (PDF)</a></p>
+    <p><a href="/themed_collections/pdf/k-6guidelines.pdf">K-6 Geography: Themes, Key Ideas, and Learning Opportunities (PDF)</a> (Source: Geographic Education National Implementation Project)</p>
+    <p><a href="http://www.nationalgeographic.com/resources/ngo/education/themes.html">Five Themes of Geography</a> (Source: Joint Committee on Geographic Education of the NCGE/AAG)</p>
+</div> 
+</div>   
+</div>   
+
+<!--END GLOSSARY TABLE -->
+{%comment%}
+<!--BEGIN GLOSSARY TABLE -->
+
+{% for sidebar in themed_collection.themedcollectionsidebar_set.all %}
+<div class="callout-box nifty2">
+<div class="box2">
+
+<div class="secondary-text">
+
+    <h1>{{sidebar.title}}</h1>
+
+    {{sidebar.content}}
+</div>
+
+</div> 
+</div>   
+{% endfor %}
+<!--END GLOSSARY TABLE -->
+<!--BEGIN GLOSSARY TABLE -->
+
+<div class="callout-box nifty2">
+<div class="box2">
+
+<div class="secondary-text">
+
+<h1>Analysis Tools</h1>
+
+
+<p><a href="/themed_collections/pdf/6cs_primary_source.pdf">6C's of Primary Source Analysis (PDF)</a> <span class="callbox-small-text">(Source: UCI History Project)</span><br />
+
+<a href="/themed_collections/pdf/photographs_analysis_worksheet_libraryofcongress.pdf">Photographs (PDF)</a> <span class="callbox-small-text">(Source: Library of Congress)</span><br />
+<a href="/themed_collections/pdf/poster_visual_analysis_worksheet_bringinghistoryhome.pdf">Posters/Visuals (PDF)</a> <span class="callbox-small-text">(Source: Bringing History Home)</span><br />
+<a href="/themed_collections/pdf/written_document_analysis_worksheet_nara.pdf">Written Documents (PDF)</a> <span class="callbox-small-text">(Source: NARA)</span><br />
+<a href="/themed_collections/pdf/primary_source_activity_worksheet_libraryofcongress.pdf">Primary Source Activity (PDF)</a> <span class="callbox-small-text">(Source: Library of Congress)</span>
+</p>
+
+</div>
+
+</div> 
+</div> 
+<!--END GLOSSARY TABLE -->
+{%endcomment%}
+
+</div>
+
+<br clear="all" />
+
+
+<!-- END CONTENT ROW -->
+
+<div id="footer">
+
+    <div id="footer-nav"><a href="/">Home</a> <span class="pipe">|</span> <a href="/themed_collections/">Themed Collections</a> <span class="pipe">|</span> <a href="/calcultures/">California Cultures</a> <span class="pipe">|</span> <a href="/jarda/">JARDA</a> <span class="pipe">|</span> <a href="/copyright-cs.html">Terms of Use</a> <span class="pipe">|</span> <a href="/privacy.html">Privacy Statement</a> <span class="pipe">|</span> <a href="/site-map.html">Site Map</a></div> 
+
+
+<div class="footer-sentence1">Calisphere is a service of the <a href="http://libraries.universityofcalifornia.edu">UC Libraries</a>, powered by the <a href="http://www.cdlib.org/">California Digital Library</a>.</div>
+
+<div class="footer-sentence2">Copyright &copy; 2010 The Regents of The University of California</div>
+
+<div id="footer-right">
+    <p>Connect with us <a href="http://www.facebook.com/calisphere"><img src="/images/misc/faceBook.png" alt="facebook" title="facebook" width="32" height="32" border="0" /></a> <a href="http://twitter.com/calisphere"><img src="/images/misc/twitter.png" alt="twitter" title="twitter" width="32" height="32" border="0" /></a></p>
+</div>
+</div>
+</div>
+
+
+<!-- END PAGE ID -->
+</div>
+<div id="mapPanel">
+    <div class="hd">{{themed_collection.title}}</div>
+    <div class="bd"><div id="map_canvas" name="map_canvas" style="width:100%; height:100%;"></div></div>
+    <div class="ft"></div>
+</div>
+
+<script type="text/javascript">
+    function formHandler(form){
+        var URL = document.pulldownform.location0.options[document.pulldownform.location0.selectedIndex].value;
+        window.location.href = URL;
+    }
+</script>
+{%comment%}
+<!-- Dependencies -->
+<script src="/yui/build/yahoo/yahoo-min.js"></script>
+<script src="/yui/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script src="/yui/build/container/container-min.js"></script>
+<script src="/yui/build/connection/connection_core-min.js"></script>
+{%endcomment%}
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key={{ google_map_key|safe }}" type="text/javascript"></script>
+{%comment%}
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+{%endcomment%}
+<script type="text/javascript" src="/js/map_themed_collection-all-min.js?V=0.6b"></script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(
+  ['_gat._anonymizeIp'],
+  ['cst._setAccount', 'UA-438369-1'],
+  ['cst._setAllowHash', false],
+  ['cst._trackPageview']
+);
+(function() {
+  var ga = document.createElement('script');     ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:'   == document.location.protocol ? 'https://ssl'   : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+{% endblock bodycontent %}

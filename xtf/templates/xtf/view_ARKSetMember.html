@@ -1,0 +1,14 @@
+{% extends "xtf/base.html" %}
+
+{% block bodycontent %}
+<div id="arksetmember">
+        <h1> Set Member ID: {{ arksetmember.pk }}</h1>
+        <h1> ARKObject referred:  {{ arksetmember.object }}
+        <h1>Set Object belongs to --> {{ arksetmember.set }}</h1>
+        <h3>Set Member Annotation --> {{ arksetmember.annotation }}</h3>
+
+        {% for term in arksetmember.DCTerms.all %}
+            Term: {{ term.get_term_display }}- qual:{{ term.qualifier }}- val: {{ term.content }} <br />
+        {% endfor %}
+    </div>
+{% endblock bodycontent %}

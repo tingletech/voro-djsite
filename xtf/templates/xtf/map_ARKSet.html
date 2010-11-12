@@ -1,0 +1,42 @@
+{% extends "xtf/base.html" %}
+{%block bodyattrs%} onload="load({{arkset.lat}},{{arkset.long}})" onunload="GUnload()" {%endblock bodyattrs%}
+
+{% block bodycontent %}
+<div id="ARKSet">
+        <h1> Set ID: {{ arkset.pk }}</h1>
+        <h1>Set Title --> {{ arkset.title }}</h1>
+        <h3>Set Markup --> {{ arkset.markup }}</h3>
+
+        {%comment%}
+        {% for member in arkset.arksetmember_set.all %}
+            <div class="area span-24">
+                <div class="span-5">
+                    <img src="{{ member.object.thumbnail }}" alt="Thumbnail for {{member.object}}" title="Thumbnail for {{member.object}}" />
+                </div>
+                <div class="span-17 last">
+                    <h3>ARKObject : {{ member.object }}</h3>
+                    Annotation : {{ member.annotation }}<br />
+                    {% for term in member.DCTerms.all %}
+                    Term: {{ term.get_term_display }}- qual:{{ term.qualifier }}- val: {{ term.content }} <br />
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+        {%endcomment%}
+        <div id="map" style="width: 700px; height: 700px"></div>
+        <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key="ABQIAAAAPZhPbFDgyqqKaAJtfPgdhRQxAnOebRR8qqjlEjE1Y4ZOeQ67yxSVDP1Eq9oU2BZjw2PaheQ5prTXaw" type="text/javascript"></script>
+<script type="text/javascript">
+    var arkobjects = {{ json|safe }}
+</script>
+<script type="text/javascript" src="/js/map.js"></script>
+{%comment%}
+{%if arkset.lat %}
+<script type="text/javascript">
+    //alert("RECENTER MAP ON::{{arkset.lat}}, {{arkset.long}}");
+    //this didn't workalert("MAP OBJECT"+window.map);
+    //window.map.setCenter(new GLatLng({{arkset.lat}}, {{arkset.long}}), 9);
+</script>
+{% endif %}
+{%endcomment%}
+</div>
+{% endblock bodycontent %}

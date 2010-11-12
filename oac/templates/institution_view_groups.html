@@ -1,0 +1,38 @@
+<!-- template for getting groups for institution
+-->
+{% extends "admin/base_site.html" %}
+
+{% block userlinks %}
+{%endblock userlinks %}
+
+{% block breadcrumbs %}{% if not is_popup %}
+<div class="breadcrumbs">
+     <a href="../../../../">Home</a> &rsaquo;
+     <a href="../../">Institutions</a> &rsaquo;
+     <a href="../">{{ inst }}</a> &rsaquo;
+     View Groups
+</div>
+{% endif %}{% endblock %}
+
+{% block title %}
+Group List | {{ inst.name }}
+{% endblock title %}
+
+{% block content_title %}
+<h2>Groups for institution: {{ inst.name }}</h2>
+{% endblock content_title %}
+
+{% block content %}
+<ul>
+{% for group in groups %}
+<li>{{ group.name }}</li>
+{% endfor %}
+</ul>
+
+{% endblock content %}
+
+
+
+
+
+

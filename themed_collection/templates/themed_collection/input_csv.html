@@ -1,0 +1,30 @@
+{% extends 'themed_collection/base.html' %}
+{% block title %}Input a csv into the {{themed_collection.title}} themed collection{% endblock title %}
+{% block bodycontent %}
+    <div class="container">
+        <div class="span-24 last">
+            <h1>Add set members to the {{themed_collection.title}} themed collection.</h1>
+        </div>
+        <hr/>
+        <div class="span-6 colborder">
+                <form action="." method="POST" enctype="multipart/form-data">
+                    {{form}}
+                    <input type="submit" value="process"/>
+                </form>
+        </div>
+        <div class="span-17 last">
+            <div class="area">
+                Upload a csv file with the following format:<br/>
+                <table>
+                    <th>Region, ARK URL, Title, Region Name, County, City, Geo Coordinates (address), Geo Coordinates Notes, Dates, Type, Contrib. Inst, Subtheme, Subtheme (themed collections), Notes</th>
+                    </tr>
+                    <tr>
+                        <td> 1, http://content.cdlib.org/ark:/13030/kt5s2017bm/, 1148. Madrona Tree, Healdsburg, Sonoma County., North Coast, Sonoma County, Healdsburg, , , 18601870, City scenes, Society of California Pioneers, , , Healdsburg plaza? See http://www.ourhealdsburg.com/history/healdsburg_plaza.htm</td></tr>
+                    <tr>
+                        <td>2, ark:/13030/tf2j49n6ch/  [Smith and Porter's coffee house and hotel on the corner of Sansome and Sacramento Streets, San Francisco.], San Francisco Bay Area, San Francisco County, San Francisco, Sacramento St & Sansome St San Francisco, CA 94111, , Collection ca. 1845-ca. 1870, City scenes, Bancroft Library., , Coffee house and hotel on the corner of Sansome and Sacramento Streets, San Francisco.]</td></tr>
+                </table>
+            </div>
+        </div>
+        <hr/>
+    </div>
+{% endblock bodycontent %}

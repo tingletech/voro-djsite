@@ -1,0 +1,483 @@
+[
+  {
+    "pk": 61, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-09-29 18:00:08", 
+      "campus_name": "UC Berkeley", 
+      "prefix": "", 
+      "mai_code_location": "BERqc", 
+      "primary_loc_display": "Ethnic Studies Library", 
+      "created_at": "2009-09-29 18:00:08"
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2010-03-15 19:41:07", 
+      "campus_name": "California Historical Society", 
+      "prefix": "", 
+      "mai_code_location": "California Historical SocietyMAIN", 
+      "primary_loc_display": "California Historical Society", 
+      "created_at": "2010-03-15 18:14:53"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "North Baker Research Library", 
+      "updated_at": "2009-06-03 22:42:17", 
+      "campus_name": "California Historical Society", 
+      "prefix": "", 
+      "mai_code_location": "CHSVNorth Baker Research Library", 
+      "primary_loc_display": "", 
+      "created_at": "2009-04-13 18:28:13"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:27:00", 
+      "campus_name": "UC Berkeley", 
+      "prefix": "", 
+      "mai_code_location": "CUBLBARCh1970.01", 
+      "primary_loc_display": "Bancroft Library", 
+      "created_at": "2009-04-13 18:27:00"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:29:27", 
+      "campus_name": "UC Berkeley", 
+      "prefix": "", 
+      "mai_code_location": "CUBLRBGAG", 
+      "primary_loc_display": "Law Library", 
+      "created_at": "2009-04-13 18:29:27"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:23:13", 
+      "campus_name": "UC Hastings College of the Law", 
+      "prefix": "", 
+      "mai_code_location": "CUHCUH1", 
+      "primary_loc_display": "", 
+      "created_at": "2009-04-13 18:22:12"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "Stored off-site; request at Special Collections", 
+      "updated_at": "2009-06-03 22:37:49", 
+      "campus_name": "UC Davis", 
+      "prefix": "", 
+      "mai_code_location": "DVXLNRLF-PSE", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-14 19:09:22"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "Stored off-site; request at Special Collections", 
+      "updated_at": "2009-04-15 21:06:48", 
+      "campus_name": "UC Davis", 
+      "prefix": "", 
+      "mai_code_location": "DVXLNRLF-SHLDS", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-14 19:09:39"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:14:55", 
+      "campus_name": "UC Davis", 
+      "prefix": "", 
+      "mai_code_location": "DVXLSSPEC-GEN", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:14:55"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:15:15", 
+      "campus_name": "UC Davis", 
+      "prefix": "", 
+      "mai_code_location": "DVXLSSPEC-HARRP", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:15:15"
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-07-09 18:57:45", 
+      "campus_name": "UC Davis", 
+      "prefix": "", 
+      "mai_code_location": "DVXLSSPEC-NRLF", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-07-09 18:57:45"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "Stored off-site; request at Bancroft Library", 
+      "updated_at": "2009-04-15 21:08:18", 
+      "campus_name": "UC Berkeley", 
+      "prefix": "", 
+      "mai_code_location": "GLADBNRLF", 
+      "primary_loc_display": "Bancroft Library", 
+      "created_at": "2009-04-14 19:10:04"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "Stored off-site; request at Doe/Moffitt Libraries", 
+      "updated_at": "2009-04-15 21:09:38", 
+      "campus_name": "UC Berkeley", 
+      "prefix": "", 
+      "mai_code_location": "GLADNRLF", 
+      "primary_loc_display": "Doe/Moffitt Libraries", 
+      "created_at": "2009-04-14 19:10:27"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:26:06", 
+      "campus_name": "Graduate Theological Union", 
+      "prefix": "", 
+      "mai_code_location": "GTBgspec", 
+      "primary_loc_display": "", 
+      "created_at": "2009-04-13 18:26:06"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:26:21", 
+      "campus_name": "Graduate Theological Union", 
+      "prefix": "", 
+      "mai_code_location": "GTBnone", 
+      "primary_loc_display": "", 
+      "created_at": "2009-04-13 18:26:21"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:16:53", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspa", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:16:53"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:17:11", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspd", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:17:11"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:17:29", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspdo", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:17:29"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:17:50", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspn", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:17:50"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:18:02", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspp", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:18:02"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:18:17", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspq", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:18:17"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:18:35", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspr", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:18:35"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:18:49", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspro", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:18:49"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:19:02", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspx", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:19:02"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:19:19", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspxd", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:19:19"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:19:32", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspxo", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:19:32"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-04-13 18:20:19", 
+      "campus_name": "UC Irvine", 
+      "prefix": "", 
+      "mai_code_location": "IRBspxt", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:20:19"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-07-08 19:14:39", 
+      "campus_name": "UC Santa Barbara", 
+      "prefix": "", 
+      "mai_code_location": "SBXLSPARC", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:10:13"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-07-08 19:14:45", 
+      "campus_name": "UC Santa Barbara", 
+      "prefix": "", 
+      "mai_code_location": "SBXLSPCMA", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:10:38"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-07-08 19:14:52", 
+      "campus_name": "UC Santa Barbara", 
+      "prefix": "", 
+      "mai_code_location": "SBXLSPEC", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:10:57"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-07-08 19:14:59", 
+      "campus_name": "UC Santa Barbara", 
+      "prefix": "", 
+      "mai_code_location": "SBXLSPMSS", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:11:19"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-07-08 19:15:05", 
+      "campus_name": "UC Santa Barbara", 
+      "prefix": "", 
+      "mai_code_location": "SBXLSPPA", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:12:08"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-07-08 19:15:11", 
+      "campus_name": "UC Santa Barbara", 
+      "prefix": "", 
+      "mai_code_location": "SBXLSPPRN", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:12:23"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-07-08 19:15:16", 
+      "campus_name": "UC Santa Barbara", 
+      "prefix": "", 
+      "mai_code_location": "SBXLSPSB", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:12:39"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "", 
+      "updated_at": "2009-07-08 19:15:26", 
+      "campus_name": "UC Santa Barbara", 
+      "prefix": "", 
+      "mai_code_location": "SBXLSPWYL", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-13 18:13:07"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "Stored off-site; request at McHenry Library", 
+      "updated_at": "2009-04-15 21:10:02", 
+      "campus_name": "UC Santa Cruz", 
+      "prefix": "", 
+      "mai_code_location": "SCBnrlf", 
+      "primary_loc_display": "McHenry Library", 
+      "created_at": "2009-04-14 19:12:44"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "oac.locationoverridedisplay", 
+    "fields": {
+      "notes": "Stored off-site; request at Special Collections", 
+      "updated_at": "2009-04-15 21:10:28", 
+      "campus_name": "UC San Francisco", 
+      "prefix": "", 
+      "mai_code_location": "SFBnrlf", 
+      "primary_loc_display": "Special Collections", 
+      "created_at": "2009-04-14 19:13:34"
+    }
+  }
+]

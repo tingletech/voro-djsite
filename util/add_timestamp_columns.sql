@@ -1,0 +1,14 @@
+alter table xtf_geopoint add column updated_at datetime NOT NULL;
+alter table xtf_dublincoreterm add column updated_at datetime NOT NULL;
+alter table xtf_arkobject add column updated_at datetime NOT NULL;
+alter table xtf_arkset add column updated_at datetime NOT NULL;
+alter table xtf_arksetmember add column updated_at datetime NOT NULL;
+alter table themed_collection_themedcollection add column updated_at datetime NOT NULL;
+alter table themed_collection_themedcollectionsidebar add column updated_at datetime NOT NULL;
+alter table xtf_geopoint add column created_at datetime NOT NULL;
+alter table xtf_dublincoreterm add column created_at datetime NOT NULL;
+alter table xtf_arkobject add column created_at datetime NOT NULL;
+alter table xtf_arkset add column created_at datetime NOT NULL;
+alter table xtf_arksetmember add column created_at datetime NOT NULL;
+alter table themed_collection_themedcollection add column created_at datetime NOT NULL;
+alter table themed_collection_themedcollectionsidebar add column created_at datetime NOT NULL;

@@ -1,0 +1,41 @@
+{% extends 'xtf/base.html' %}
+{% block title %}Edit set members{% endblock title %}
+{% block bodycontent %}
+    <div class="container">
+      <h1>Set Members</h1>
+      <h2>Set Information</h2>
+      <div class="area">
+          {{arkset.title}}
+     </div>
+
+<h2>Member Information</h2>
+
+<!-- SetMember -->
+        TODO:NEEDS TO BE A FORM WHERE YOU CAN EDIT ANNOTATION
+
+{% for member in arkset.arksetmember_set.all %}
+<div class="span-24 ci">
+    <div class="span-19">
+        <img src="{{member.object.thumbnail}}" align='left'/>
+        {{member.object.ark}}
+        {{member.annotation}}
+        {%for termname, elements in member.object.DCTerms.items %}
+          {%if elements %}
+          |{{termname}}
+          {%for element in elements%}
+            -- {{element.text}}
+            {%endfor%}
+          {%endif%}
+        {%endfor%}
+
+    </div>
+
+</div>
+
+<hr/>
+<!-- SetMember -->
+{% endfor %}
+ADD A FORM FOR ADDING A MEMBER HERE.
+
+</div>
+{% endblock bodycontent %}

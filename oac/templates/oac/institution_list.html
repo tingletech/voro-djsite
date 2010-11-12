@@ -1,0 +1,7 @@
+<h1>Repositories that have opted in to ArchiveGrid harvesting</h1>
+<ul>
+{% for inst in object_list %}
+<li>
+<h3>{{inst.name}}</h3> {%if inst.parent%}Part of:{{inst.parent}}{%endif%} <strong>Primary Contact: {{inst.primary_contact.get_full_name}} Email: {{inst.primary_contact.email}}</strong> ----&gt {{url_ead_root}}/{{inst.cdlpath}}  
+</li>
+{% endfor %}

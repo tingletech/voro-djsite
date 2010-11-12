@@ -1,0 +1,28 @@
+{% extends "admin/base_site.html" %}
+{% block extrahead %}
+{% endblock extrahead %}
+
+{% block content %}
+<div id="content-main">
+    Request an {{ type }} account for {{ user.get_full_name }}
+    <br/>
+    <form action="./{{ type_code }}" method="POST">
+        {% if multiple_insts %}
+        Please select an institution to access:<br/>
+
+            {% for id, name in user_institutions %}
+            <input type="radio" name="institution" value="{{ id }}">
+                {{ name }}
+                </input><br/>
+            {% endfor %}
+            {% else %}
+            <input type="hidden" name="institution" value="{{ user_institutions.0.0 }}"/>
+        {% endif %}
+        <input type="submit" value="Request Account"/>
+    </form>
+{% comment %}
+insts:    {{ user_institutions }}
+method: {{ request.method }}
+{% endcomment %}
+</div>
+{% endblock content %}

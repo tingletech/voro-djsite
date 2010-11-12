@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+{% load ssi_relative %}
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Online Archive of California</title>
+<link rel="stylesheet" type="text/css" href="/yui/build/reset-fonts-grids/reset-fonts-grids.css" />
+<link rel="stylesheet" type="text/css" href="/css/oac.css" />
+</head>
+
+<body>
+<a name="top"></a>
+<p><a class="jump-to-content" href="#content">Jump to Content</a></p>
+
+<!-- BEGIN PAGE CLASS -->
+<div class="static">
+
+<!-- BEGIN YUI CONTAINER -->
+<div id="custom-doc">
+
+<!-- BEGIN YUI HEADER -->
+<div id="hd">
+
+<!-- BEGIN TOP HEADER -->
+{% ssi_rel '' includes/top-header.html %}
+<!--#include virtual="/includes/top-header.html" -->
+<!-- END TOP HEADER -->
+
+<!-- BEGIN TOP NAVIGATION -->
+{% ssi_rel '' includes/topnav.html %}
+<!--#include virtual="/includes/topnav.html" -->
+<!-- END TOP NAVIGATION -->
+
+</div>
+<!-- END YUI HEADER -->
+
+<!-- BEGIN YUI BODY -->
+<div id="bd">
+<a name="content"></a>
+
+<!-- BEGIN ROW 1 -->
+<div class="row1">
+<div class="row1-left">
+
+<div class="header-box">
+
+<div class="heading">Contact Us</div>
+
+<p><strong>Send us your feedback</strong></p>
+<p>Please let us know if you have technical problems, questions, or general
+comments about the Online Archive of California.
+</p>
+</div>
+
+<div class="content-box">
+
+<form action="" method="POST">
+    <p><input id="id_url_refer" type="hidden" name="url_refer" maxlength="255"
+    value ="{{ refer_page }}" />
+    </p>
+    <p><input id="id_user_agent" type="hidden" name="user_agent" maxlength="255"
+    value ="{{ META.HTTP_USER_AGENT }}" />
+    </p>
+    <p><label for="id_subject"><strong>Subject</strong></label></p>
+    <p><input id="id_subject" type="text" name="subject" maxlength="255" 
+    value="{{ form.data.subject }}"/>
+    </p>
+    <p><label for="id_message"><strong>Message</strong></label></p>
+    <p><div style="color: red">{{ form.message.errors }}</div></p>
+    <p><textarea id="id_message" rows="10" cols="40"
+        name="message" >{{ form.data.message }}</textarea>
+    </p>
+
+    <p><strong>Word verification</strong></p>
+    <p>(Please verify the word below before submitting your feedback.)</p>
+
+    <p><div style="color: red">{{ form.spam_errors.recaptcha }}</div></p>
+
+<script>
+    var RecaptchaOptions = {
+        theme : 'clean'
+    }
+</script>
+<script type="text/javascript"
+    src="http://api.recaptcha.net/challenge?k=6LcXmwIAAAAAAIaSRnI0ItW4FjahxiBM9m1aqqUp">
+</script>
+
+<noscript>
+    <iframe
+        src="http://api.recaptcha.net/noscript?k=6LcXmwIAAAAAAIaSRnI0ItW4FjahxiBM9m1aqqUp"
+        height="300" width="500" frameborder="0">
+    </iframe><br/>
+    <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+    </textarea>
+    <input type="hidden" name="recaptcha_response_field"
+    value="manual_challenge" />
+</noscript>
+
+<br/><br/>
+<p>
+Optional: (If you would like a response to your feedback, please enter the following.)
+</p>
+
+<p><label for="id_name"><strong>Name</strong></label></p>
+<p><input id="id_name" type="text" name="name" maxlength="255" 
+    value="{{ form.data.name }}" />
+    </p>
+    <p><label for="id_email"><strong>Email</strong></label></p>
+    <p><div style="color: red">{{ form.email.errors }}</div></p>
+    <p><input id="id_email" type="text" name="email" maxlength="255" 
+    value="{{ form.data.email}}"/>
+    </p>
+
+<p><input id="id_submit" type="submit" name="submit" value='Submit' />
+<input id="id_cancel" type="submit" name="cancel" value='Cancel' /></p>
+
+</form>
+
+</div>
+</div>
+
+<div class="row1-right">
+<div class="row1-right-content">
+
+<div class="heading">Contact Information</div>
+
+<div><strong>Mailing Address</strong><br/><br/>
+    Online Archive of California<br/>
+    California Digital Library<br/>
+    Office of the President, University of California<br/>
+    415 20th Street, 4th Floor<br/>
+    Oakland, CA 94612-2901<br/>
+</div>
+<br/>
+<br/>
+
+<div><strong>Phone/Fax</strong><br/><br/>
+    CDL Helpline: (510) 987-0555<br/>
+    CDL Administration: (510) 987-0425<br/>
+    Fax: (510) 893-5212<br/>
+</div>
+
+</div>
+</div>
+
+</div>
+<!-- END ROW 1 -->
+	
+</div>
+<!-- END YUI BODY -->
+
+<!-- BEGIN YUI FOOTER -->
+<div id="ft">
+
+<!-- BEGIN FOOTER -->
+{% ssi_rel '' includes/footer.html %}
+<!--#include virtual="/includes/footer.html" -->
+<!-- END FOOTER -->
+
+</div>
+<!-- END YUI FOOTER -->
+
+</div>
+<!-- END YUI CONTAINER -->
+
+</div>
+<!-- END PAGE CLASS -->
+
+</body>
+</html>
+

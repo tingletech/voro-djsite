@@ -1,0 +1,70 @@
+{% extends "xtf/base.html" %}
+
+{% block bodycontent %}
+<div id="ARKSet">
+        <h1> Set ID: {{ arkset.pk }}</h1>
+        <h1>Set Title --> {{ arkset.title }}</h1>
+        <h3>Set Markup --> {{ arkset.markup }}</h3>
+
+        {% for member in arkset.arksetmember_set.all %}
+            <div class="area span-24">
+                <div class="span-5">
+                    <img src="{{ member.object.thumbnail }}" alt="Thumbnail for {{member.object}}" title="Thumbnail for {{member.object}}" />
+                </div>
+                <div class="span-17 last">
+                    <h3>ARKObject : {{ member.object }}</h3>
+                    Annotation : {{ member.annotation }}<br />
+                    {% for term in member.DCTerms.all %}
+                    Term: {{ term.get_term_display }}- qual:{{ term.qualifier }}- val: {{ term.content }} <br />
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    {% comment %}
+        <h2>ARKObjects direct from set</h2>
+        {% for arkobject in arkset.ark_objects.all %}
+        <h2>ARKObject: {{ arkobject }}</h2>
+        <h3>META TAGS</h3>
+        <ul>
+            {% for meta in arkobject.meta_tags %}
+            <li>{{ meta }}</li>
+            {% endfor %}
+        </ul>
+        <h3>DC.title TAGS</h3>
+        <ul>
+            {% for tag in arkobject.titles %}
+            <li>{{ tag }}</li>
+            {% endfor %}
+        </ul>
+        <h3>DC.identifier TAGS</h3>
+        <ul>
+            {% for tag in arkobject.identifiers %}
+            <li>{{ tag }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+    <h4>title: {{ arkset.titles }}</h4>
+    <h4>creators: 
+        {% for creator in arkset.creators %}
+        {{ creator.content }} <br/>
+        {% endfor %}
+    </h4>
+    <h4>subject: {{ arkset.subjects }} </h4>
+    <h4>description: {{ arkset.descriptions }} </h4>
+    <h4>publisher: {{ arkset.publishers }} </h4>
+    <h4>contributor: {{ arkset.contributors }} </h4>
+    <h4>date: {{ arkset.dates }} </h4>
+    <h4>type: {{ arkset.types }} </h4>
+    <h4>format: {{ arkset.formats }} </h4>
+    <h4>identifier: {{ arkset.identifiers }} </h4>
+    <h4>source: {{ arkset.sources }} </h4>
+    <h4>language: {{ arkset.languages}} </h4>
+    <h4>relation: {{ arkset.relations }} </h4>
+    {%for inst in arkset.relations %}
+    <h5> {{ inst.1 }} {{ inst.2.q }} {{ inst.0 }} </h5>
+    {% endfor %}
+    <h4>coverage: {{ arkset.coverages }} </h4>
+    <h4>rights: {{ arkset.rights }} </h4>
+    {% endcomment %}
+{% endblock bodycontent %}
