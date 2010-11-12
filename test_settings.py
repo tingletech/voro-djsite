@@ -12,6 +12,9 @@ err_stream("test_settings overriding default settings...\n")
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+FIXTURE_DIRS = (os.path.join(settings.PROJECT_ROOT, 'fixtures'),)
+print "FIXTURE_DIRS:", FIXTURE_DIRS
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
