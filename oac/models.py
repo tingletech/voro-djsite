@@ -77,7 +77,7 @@ class Institution(models.Model):
                                         null=True,
                                         blank=True)
     worldcat_harvest = models.NullBooleanField(null=True, blank=True, default=False, verbose_name="WorldCat Export", help_text="Share my institution's digital object metadata with OCLC, for inclusion in WorldCat and OAIster")
-    archivegrid_harvest = models.NullBooleanField(null=True, blank=True, default=False, verbose_name="ArchiveGrid Export", help_text="Share my institution's EAD collection guides with OCLC, for inclusion in WorldCat and ArchiveGrid")
+    archivegrid_harvest = models.NullBooleanField(null=True, blank=True, default=False, verbose_name="ArchiveGrid Export", help_text="Share my EAD collection guides with OCLC's ArchiveGrid and WorldCat")
     show_subjects = models.NullBooleanField(null=True, blank=True, default=False, verbose_name="Show EAD Subject Terms", help_text="Show subject terms from your EADs on the institution home page.")
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

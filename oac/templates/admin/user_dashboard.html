@@ -70,7 +70,7 @@ h1 { margin-top:0.5em; }
 </div>
 </div>
 
-<div class="span-11 colborder"><h3>Submit Collection Guides<a href="javascript:window.open('http://www.cdlib.org/services/dsc/contribute/submit.html','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()"><img src="/site_media/css/blueprint-css/icons/help.png" alt="learn more" title="learn more"/></a></h3>
+<div class="span-11 colborder"><h3>Submit/Obtain Copies of Collection Guides<a href="javascript:window.open('http://www.cdlib.org/services/dsc/contribute/submit.html','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()"><img src="/site_media/css/blueprint-css/icons/help.png" alt="learn more" title="learn more"/></a></h3>
     <div class="area">
     
     <h4>webDAV URLs</h4>
@@ -96,16 +96,19 @@ h1 { margin-top:0.5em; }
 </div>
 
 <div class="span-12 last">
-    <h3>Share Content</h3>
+    <h3>Broaden Access to Your Collections</h3>
 
 
-<h4>Record Sharing</h4>
 <div class="area span-12">
+<h4>Record Sharing</h4>
 <form style="margin-bottom: 1.5em;" action="." method="POST">
     {% csrf_token %}
-    {% for field in inst.form_harvesting %}
-    <p>{{ field }}{{ field.help_text }}</p>
-    {% endfor %}
+    <p>{{ inst.form_harvesting.archivegrid_harvest}}{{inst.form_harvesting.archivegrid_harvest.help_text}}</p>
+    {% if not inst.archivegrid_harvest %}
+    <br/>
+    <p>By selecting this option, you will be contacted by an OCLC representative, who will make arrangements with you to become an ArchiveGrid contributor.  The representative will work with you to identify which collection guides you'd like to share.  They will then harvest copies of your EAD files that are hosted on OAC servers.
+    </p>
+    {% endif %}
     <input type="hidden" name="pk" id="pk" value="{{ inst.id }}"/>
     <input type="submit" value="Update" />
     {%comment%}
@@ -119,7 +122,7 @@ h1 { margin-top:0.5em; }
 </form>
 </div>
 
-<div class="area span-12"><h4>Search Box</h4>
+<div class="area span-12"><h4>OAC Search Box Widget</h4>
     <div class="description">Add a search box to your institution’s website that is limited to your content in the OAC.  Cut and paste the following code into the html where you want the box.</div>
     <form>
     <textarea style="height:180px;" readonly="readonly" onfocus="select(self);" onclick="select(self);">
@@ -157,17 +160,5 @@ h1 { margin-top:0.5em; }
 
 </div>
 
-<!-- Piwik -->
-<script type="text/javascript">
-    var pkBaseURL = (("https:" == document.location.protocol) ? "http://oac-dev.cdlib.org:2510/piwik/" : "http://oac-dev.cdlib.org:2510/piwik/");
-    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-    </script><script type="text/javascript">
-    try {
-        var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-        piwikTracker.trackPageView();
-        piwikTracker.enableLinkTracking();
-    } catch( err ) {}
-</script><noscript><p><img src="http://oac-dev.cdlib.org:2510/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tag -->
 </body>
 </html>
