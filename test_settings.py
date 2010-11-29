@@ -12,7 +12,7 @@ err_stream("test_settings overriding default settings...\n")
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-FIXTURE_DIRS = (os.path.join(settings.PROJECT_ROOT, 'fixtures'),)
+FIXTURE_DIRS = (os.path.join(PROJECT_ROOT, 'fixtures'),)
 print "FIXTURE_DIRS:", FIXTURE_DIRS
 
 DATABASES = {
@@ -26,3 +26,5 @@ FIXTURE_DIRS = (os.path.join(PROJECT_ROOT, 'fixtures'),)
 
 MD5_REALM = 'voro user'
 MD5_SHELF = './users.digest'
+
+sys.stderr.write('\n\nDATABASES:'+str(DATABASES)+'\n\n')
