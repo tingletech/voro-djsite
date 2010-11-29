@@ -11,7 +11,7 @@ from xtf.models import DublinCoreTerm
 
 
 class ARKObjectTestCase(TestCase):
-    """Test the AJAX views of institution data.
+    """Test basic ARKObject function
     """
     fixtures = ['auth.json', 'xtf.json']
 
@@ -65,3 +65,17 @@ ark:/13030/tf3h4nb6hn/,Old Klamath River woman.\
         self.assertEqual(0, len(errs))
         self.assertEqual(3, len(set_members_added))
         self.assertEqual(3, len(arks_added))
+
+class ARKObjectViewTestCase(TestCase):
+    '''Test views of the arkobjects
+    '''
+    fixtures = ['xtf.json',]
+
+    def testThumbnail(self):
+        '''The ark had a problem with thumbnails as of 2010-11-29
+        this test will pass once fixed
+        '''
+        a = ARKObject.objects.get(ark='ark:/13030/kt3t1nb8s2')
+        c = Client()
+        response = c.get(a.get_absolute_url())
+        self.failUnlessEqual(200, response.status_code)

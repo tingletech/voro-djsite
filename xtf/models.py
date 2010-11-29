@@ -327,14 +327,14 @@ class ARKObject(models.Model):
 
     def _parse_thumbnail_data(self, etree_root):
         thumbnode = etree_root.xpath('//thumbnail')[0]
+        # there appear to be some thumbnode with blank X, Y -- these return ''
+        # need to handle that possibility
+        X = int(thumbnode.attrib.get('X', 185)) if thumbnode.attrib.get('X', 185) != '' else 185
+        Y = int(thumbnode.attrib.get('Y', 140)) if thumbnode.attrib.get('Y', 140) != '' else 140
         thumbnail = {'src': self.url_content_root + self.ark.strip('/') + '/thumbnail', #A HACK HERE
-                     'width': int(thumbnode.attrib.get('X', 185)),
-                     'height': int(thumbnode.attrib.get('Y', 140))
+                     'width': X,
+                     'height': Y,
                     }
-        #if not thumbnail['width']:
-        #    thumbnail['width'] = 185
-        #if not thumbnail['height']:
-        #    thumbnail['height'] = 140
         return thumbnail
 
     def _parse_metadata_xml_page(self, xml):
