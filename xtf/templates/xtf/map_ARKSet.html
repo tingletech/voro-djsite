@@ -11,7 +11,7 @@
         {% for member in arkset.arksetmember_set.all %}
             <div class="area span-24">
                 <div class="span-5">
-                    <img src="{{ member.object.thumbnail }}" alt="Thumbnail for {{member.object}}" title="Thumbnail for {{member.object}}" />
+                    <img src="{{ member.object.thumbnail.src }}" alt="Thumbnail for {{member.object}}" title="Thumbnail for {{member.object}}" />
                 </div>
                 <div class="span-17 last">
                     <h3>ARKObject : {{ member.object }}</h3>

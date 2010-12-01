@@ -16,7 +16,7 @@
 {% for member in arkset.arksetmember_set.all %}
 <div class="span-24 ci">
     <div class="span-19">
-        <img src="{{member.object.thumbnail}}" align='left'/>
+        <img src="{{member.object.thumbnail.src}}" align='left'/>
         {{member.object.ark}}
         {{member.annotation}}
         {%for termname, elements in member.object.DCTerms.items %}
