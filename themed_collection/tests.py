@@ -1,8 +1,12 @@
 import sys
 import time
 from django.test import TestCase
+from django.test.client import Client
 from liveTestCase import TestCaseLiveServer
 from selenium import selenium
+
+from themed_collection.models import ThemedCollection
+from xtf.models import ARKSet
 
 #__test__ = {"doctest": """
 #Another way to test that 1 + 1 is equal to 2.
@@ -10,6 +14,25 @@ from selenium import selenium
 #>>> 1 + 1 == 2
 #True
 #"""}
+
+class ThemedCollectionViewTestCase(TestCase):
+    '''Test the view of ThemedCollections
+    '''
+    fixtures = ['themed_collection.json', 'xtf.json']
+    def testEverydayLifeView(self):
+        t = ThemedCollection.objects.get(id=5)
+        c = Client()
+        response = c.get(t.get_absolute_url())
+        self.failUnlessEqual(200, response.status_code)
+
+    def testEverydayLifeViewJSON(self):
+        t = ThemedCollection.objects.get(id=5)
+        c = Client()
+        response = c.get(t.get_absolute_url()+'/json/')
+        self.failUnlessEqual(200, response.status_code)
+        print response
+        a = ARKSet.objects.get(pk=5)
+        print a
 
 def test_map_marker_infowin_WithTestCaseInstance(testcase, selenium_obj):
     sel = selenium_obj
