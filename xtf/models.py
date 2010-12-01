@@ -345,7 +345,7 @@ class ARKObject(models.Model):
         root = ET.fromstring(xml)
         terms = {}
         for term in DublinCoreTerm.DCTERM_LIST:
-            terms[term] = [self._etree_to_dcterm(elem) for elem in root.xpath('//'+term)]
+            terms[term] = [self._etree_to_dcterm(elem) for elem in root.xpath('//'+term) if elem.text]
         metas = root.xpath('//meta')[0].getchildren()
         terms['thumbnail'] = self._parse_thumbnail_data(root)
         return terms
@@ -386,7 +386,7 @@ class ARKObject(models.Model):
         root = ET.fromstring(xml)
         terms = {}
         for term in DublinCoreTerm.DCTERM_LIST:
-            terms[term] = [self._etree_to_dcterm(elem) for elem in root.findall(term)]
+            terms[term] = [self._etree_to_dcterm(elem) for elem in root.findall(term) if elem.text]
         return terms
 
     def _get_XTF_thumbnail(self):

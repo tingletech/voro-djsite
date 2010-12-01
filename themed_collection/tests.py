@@ -30,9 +30,6 @@ class ThemedCollectionViewTestCase(TestCase):
         c = Client()
         response = c.get(t.get_absolute_url()+'/json/')
         self.failUnlessEqual(200, response.status_code)
-        print response
-        a = ARKSet.objects.get(pk=5)
-        print a
 
 def test_map_marker_infowin_WithTestCaseInstance(testcase, selenium_obj):
     sel = selenium_obj
