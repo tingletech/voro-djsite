@@ -225,7 +225,8 @@ class ARKObject(models.Model):
                 return False
             arkimg = soup.findAll(arkimg)[0]
             image_link = arkimg['src']
-        return self.url_content_root+image_link.lstrip('/')
+        img_obj = { 'src': self.url_content_root+image_link.lstrip('/'), }
+        return img_obj
         '''
         return src.group(1)
         return anchor_zoom.renderContents()
