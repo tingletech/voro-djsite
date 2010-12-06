@@ -70,16 +70,16 @@ h1 { margin-top:0.5em; }
 </div>
 </div>
 
-<div class="span-11 colborder"><h3>Submit/Obtain Copies of Collection Guides<a href="javascript:window.open('http://www.cdlib.org/services/dsc/contribute/submit.html','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()"><img src="/site_media/css/blueprint-css/icons/help.png" alt="learn more" title="learn more"/></a></h3>
+<div class="span-11 colborder"><h3>Submit Content</h3>
     <div class="area">
     
-    <h4>webDAV URLs</h4>
+    <h4>Here are your webDAV URLs, plus links to associated interfaces for submitting and obtaining copies of your EAD collection guides.<a href="javascript:window.open('http://www.cdlib.org/services/dsc/contribute/submitead.html','','width=1000,height=900,left=100,top=0,resizable,scrollbars').focus()"><img src="/site_media/css/blueprint-css/icons/help.png" alt="learn more" title="learn more"/></a></h4>
     <dl>
-    <dt>EAD production directory</dt>
+    <dt>voroEAD testing directory</dt><dd><input readonly name="" size="50" value="https://voro.cdlib.org/test-oac/{{inst.cdlpath}}" onfocus="select(self);" onclick="select(self);"/></dd>
+    <dd><a href="https://voro.cdlib.org/cgi/blackhole.cgi?subdir={{inst.cdlpath}}/">Testing interface</a>
+    <dt>voroEAD production directory</dt>
     <dd><input readonly name="" size="50" value="https://voro.cdlib.org/oac-dav/{{inst.cdlpath}}" onfocus="select(self);" onclick="select(self);"/></dd>
-    <dd><a  href="https://voro.cdlib.org/cgi/process.cgi?subdir={{inst.cdlpath}}/">process</a></dd>
-    <dt>EAD testing directory</dt><dd><input readonly name="" size="50" value="https://voro.cdlib.org/test-oac/{{inst.cdlpath}}" onfocus="select(self);" onclick="select(self);"/></dd>
-    <dd><a href="https://voro.cdlib.org/cgi/blackhole.cgi?subdir={{inst.cdlpath}}/">preview</a>
+    <dd><a  href="https://voro.cdlib.org/cgi/process.cgi?subdir={{inst.cdlpath}}/">Production interface</a></dd>
     
 {%comment%}
     <dt>MARC submission directory</dt><dd><input readonly name="" size="50" value="https://voro.cdlib.org/marc-dav/{{inst.cdlpath}}" onfocus="select(self);" onclick="select(self);"/></dd>
@@ -105,9 +105,6 @@ h1 { margin-top:0.5em; }
     {% csrf_token %}
     <p>{{ inst.form_harvesting.archivegrid_harvest}}{{inst.form_harvesting.archivegrid_harvest.help_text}}</p>
     {% if not inst.archivegrid_harvest %}
-    <br/>
-    <p>By selecting this option, you will be contacted by an OCLC representative, who will make arrangements with you to become an ArchiveGrid contributor.  The representative will work with you to identify which collection guides you'd like to share.  They will then harvest copies of your EAD files that are hosted on OAC servers.
-    </p>
     {% endif %}
     <input type="hidden" name="pk" id="pk" value="{{ inst.id }}"/>
     <input type="submit" value="Update" />
