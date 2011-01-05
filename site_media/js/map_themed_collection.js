@@ -209,7 +209,7 @@ CDL.DSC.OAC.mapns = function() {
                 h_img = arkobject.thumbnail.height;
                 w_img = arkobject.thumbnail.width;
             }
-            label = label + '<img src="' + arkobject.thumbnail.src + '" width="' + w_img + 'px" height="' + h_img + 'px" onClick="mapns.openContentPanel(\'' + ark + '\',\''+ arkobject.image.src + '\');return false;" onmouseover="this.style.cursor=\'pointer\';"</img>';
+            label = label + '<img src="' + arkobject.thumbnail.src + '" width="' + w_img + 'px" height="' + h_img + 'px" onClick="CDL.DSC.OAC.mapns.openContentPanel(\'' + ark + '\',\''+ arkobject.image.src + '\');return false;" onmouseover="this.style.cursor=\'pointer\';"</img>';
             label = label +  '<h1>Title:</h1><p>' + arkobject.title + '</p>';
             if (arkobject.date) {
                 label = label + '<h2>Date:</h2><p>'+ arkobject.date + '</p>';
