@@ -14,6 +14,7 @@ import cgitb; cgitb.enable(format='text')
 FILE_PATH = os.path.abspath(os.path.split(__file__)[0])
 DJSITE_DIR = os.path.join(FILE_PATH, '..')
 EAD_ROOT_DIR = '/dsc/data/in/oac-ead/prime2002/'
+STATS_FILE = '/dsc/data/ingest-stats/data/ingest_stats.txt'
 
 sys.path.append(DJSITE_DIR)
 
@@ -51,7 +52,7 @@ def parse_ingest_stats():
     Return 2 dictionaries, one of EADs one of METS, both ark indexed.
     Each dict value is a list of the entries in ingest_stats.txt
     --May want to map to inst now?'''
-    f = open('/voro/ingest/data/ingest_stats.txt')
+    f = open(STATS_FILE)
     EAD = collections.defaultdict(list)
     METS = collections.defaultdict(list)
     reader = csv.reader(f, delimiter=' ')
@@ -98,7 +99,10 @@ def find_EAD_ARK_for_METS(ark, directory):
     '''
     ead_ark = None
     inst_ark = None
-    foo = open(os.path.join(directory, ''.join((ark, '.dc.xml'))))
+    try:
+        foo = open(os.path.join(directory, ''.join((ark, '.dc.xml'))))
+    except:
+        return ead_ark, inst_ark
     # will elementtree suffice? probably need lxml
     tree = ET.parse(foo)
     foo.close()
