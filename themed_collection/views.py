@@ -18,12 +18,12 @@ def ARKSetMember_map_data(member):
     '''build the data object for an ARKSetMember'''
     if member.object.titles:
         #titles = ' '.join([ d['value'] for d in member.object.titles]) # Used when BeautifulSoup is parser, should probably wrap the elem...
-        titles = ' '.join([ d.content for d in member.object.titles]) #-- used whne ElementTree is parser 
+        titles = ' '.join([ d.content for d in member.object.titles if d.content]) #-- used whne ElementTree is parser 
     else:
         titles = member.title
     if member.object.dates:
         #dates = ' '.join([ d['value'] for d in member.object.dates if d])
-        dates = ' '.join([ d.content for d in member.object.dates if d])
+        dates = ' '.join([ d.content for d in member.object.dates if d.content])
     else:
         dates = ''
     return dict(title=titles,
