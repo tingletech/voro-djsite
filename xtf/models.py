@@ -1,5 +1,6 @@
 import urllib2
 import re
+import os
 import lxml.etree as ET
 from BeautifulSoup import BeautifulSoup
 from _mysql_exceptions import IntegrityError
@@ -91,7 +92,7 @@ class ARKObject(models.Model):
 
     def __init__(self, *args, **kwargs):
         super(ARKObject, self).__init__(*args, **kwargs)
-        self._url_content_root = 'http://content.cdlib.org/'
+        self._url_content_root = ''.join(('http://', os.environ.get('CONTENT_HOSTNAME', 'http://content.cdlib.org/'), '/'))
         
 
     @staticmethod
@@ -150,7 +151,7 @@ class ARKObject(models.Model):
     def url_dc_root(self):
         '''Return the URL to the OAC dublin core document
         '''
-        return 'http://www.oac.cdlib.org/dc/' #''.join(('http://www.oac.cdlib.org/dc/', self.ark.strip(),))# '/?layout=metadata'))
+        return ''.join(('http://', os.environ.get('FINDAID_HOSTNAME','http://www.oac.cdlib.org/dc/'), '/dc/'))
 
     @property
     def url_metadata(self):
@@ -269,8 +270,8 @@ class ARKObject(models.Model):
     # returns list of creator DCTerms
     # Need to change the Inline to get the underlying XTF data if possible.
 
-    def _get_XTF_search_page(self, url_base='http://content.cdlib.org/'):
-        url = ''.join(( url_base, 'search?query=', self.ark.rstrip('/'), ';group=Items;raw=1'))
+    def _get_XTF_search_page(self, url_base=None):
+        url = ''.join(( url_base if url_base else self.url_content_root, 'search?query=', self.ark.rstrip('/'), ';group=Items;raw=1'))
         # When Mod_security was added, it required an Accept header
         # so need to use urllib2 Request object, rather than urllib.urlopen()
         req = urllib2.Request(url=url)
@@ -284,13 +285,13 @@ class ARKObject(models.Model):
         resp_str = u.read()
         return resp_str
 
-    def _get_XTF_page(self, url_base='http://content.cdlib.org/', query=None):
+    def _get_XTF_page(self, url_base=None, query=None):
         '''Send a request to the dynaXML engine with an id?
         return string of xml.
         Can raise any urllib2.urlopen errors and 404?
         '''
         # the /dc/ interface is picky about the trailing slash, one & only one
-        url = ''.join(( url_base, self.ark.rstrip('/'), '/'))
+        url = ''.join(( url_base if url_base else self.url_content_root, self.ark.rstrip('/'), '/'))
         if (query):
             url = ''.join((url, '?', query,))
         # When Mod_security was added, it required an Accept header
