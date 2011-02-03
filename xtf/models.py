@@ -292,6 +292,7 @@ class ARKObject(models.Model):
         '''
         # the /dc/ interface is picky about the trailing slash, one & only one
         url = ''.join(( url_base if url_base else self.url_content_root, self.ark.rstrip('/'), '/'))
+        #url = 'http://www.oac.cdlib.org/bogus'
         if (query):
             url = ''.join((url, '?', query,))
         # When Mod_security was added, it required an Accept header
@@ -302,15 +303,23 @@ class ARKObject(models.Model):
             u = urllib2.urlopen(req)
         except urllib2.HTTPError, e:
             #the dc interface should play nice
+            import sys
+            sys.stderr.write('HTTPError for:'+url+' CODE:'+str(e.code)+' '+str(e.msg))
             if e.code == 404:
                 raise XTFNOTFOUND('ARK not found in OAC')
+            else:
+                raise e
+        except urllib2.URLError, e:
+            import sys
+            sys.stderr.write('URLError for:'+url+' REASON:'+str(e.reason))
+            raise e
         resp_str = u.read()
         if (resp_str.find('Document Not Found') > 0 or resp_str.find('Invalid Document') > 0):
             #TODO: SHOULD NEVER GET THIS
             raise XTFNOTFOUND('ARK not found in OAC')
         return resp_str
 
-    def _etree_to_dcterm(self, element):
+    def _etree_to_dcterm(self, element)
         '''Takes an etree element for the OAC QDC xml representation and 
         stuffs it into a DCTerm django object
         '''
