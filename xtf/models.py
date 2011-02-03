@@ -319,7 +319,7 @@ class ARKObject(models.Model):
             raise XTFNOTFOUND('ARK not found in OAC')
         return resp_str
 
-    def _etree_to_dcterm(self, element)
+    def _etree_to_dcterm(self, element):
         '''Takes an etree element for the OAC QDC xml representation and 
         stuffs it into a DCTerm django object
         '''
