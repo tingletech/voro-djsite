@@ -18,7 +18,7 @@ FILE_PATH = os.path.abspath(os.path.split(__file__)[0])
 DJSITE_DIR = os.path.join(FILE_PATH, '..')
 
 URL_OAC_INSTITUTIONS = '/institutions/'
-XTF_URL_BASE ="http://content.cdlib.org:8088/xtf/" #rawQuery?query=";
+XTF_URL_BASE ="http://" + os.environ.get('J2EE_SERVER', 'content.cdlib.org:10890') + '/xtf/'
 
 sys.path.append(DJSITE_DIR)
 

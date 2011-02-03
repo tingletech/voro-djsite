@@ -1,27 +1,27 @@
 '''Uses make_map_data.py to create a new institutes list. It then smartly puts
 in place. It copies it to the proper directory then checks the corresponding map
-web page. If OK, it commits the file to cvs. If not, it overwrites the file with
-the cvs version.
+web page.
 '''
 import sys
 import os
 import shutil
 
-DIR_PYTHON_CODE = '/findaid/code/dlxs-fa/oac4/djsite/util/'
-DIR_RUN = '/findaid/var/map_data/'
-DIR_WEB = '/findaid/code/dlxs-fa/oac4/htdocs/map'
+DIR_DJSITE = os.environ.get('HOME','/dsc') + '/branches/production/djsite/'
+DIR_RUN = os.environ.get('HOME', '/dsc')+'/workspace/map_institutions/'
+DIR_WEB = os.environ.get('OAC_TEMPLATE_BASE', '/dsc/webdocs/www.oac.cdlib.org') +'/map'
 
 FILE_RESULTS = 'institutes.js'
 
-URL_CHECK = 'http://oac4.cdlib.org/map'
+#URL_CHECK = 'http://oac4.cdlib.org/map'
 
-CVS_SERVER = 'cvs.cdlib.org'
-CVS_USER = ''
-CVS_PASSWD = ''
+#CVS_SERVER = 'cvs.cdlib.org'
+#CVS_USER = ''
+#CVS_PASSWD = ''
 
 
 # a little magic to make the import work
-sys.path.insert(0, DIR_PYTHON_CODE)
+sys.path.insert(0, DIR_DJSITE+'util')
+sys.path.insert(0, DIR_DJSITE+'apps')
 import make_map_data
 
 def main(argv):
