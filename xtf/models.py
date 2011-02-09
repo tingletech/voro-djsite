@@ -92,7 +92,7 @@ class ARKObject(models.Model):
 
     def __init__(self, *args, **kwargs):
         super(ARKObject, self).__init__(*args, **kwargs)
-        self._url_content_root = ''.join(('http://', os.environ.get('CONTENT_HOSTNAME', 'http://content.cdlib.org/'), '/'))
+        self._url_content_root = ''.join(('http://', os.environ.get('CONTENT_HOSTNAME', 'content.cdlib.org/'), '/'))
         
 
     @staticmethod
