@@ -17,14 +17,14 @@
                     <h5>Annotated Terms from set member intermediate</h5>
                     Annotation : {{ member.annotation }}<br />
                     {% for term in member.DCTerms.all %}
-                    Term: {{ term.get_term_display }}{%if term.qualifier %}:{{ term.qualifier }}{% endif %}={{ term.content }} <br />
+                    {{ term.get_term_display }}{%if term.qualifier %}:{{ term.qualifier }}{% endif %}={{ term.content }} <br />
                     {% endfor %}
                     </div>
                     <br></br>
                     <div>
                     <h5>Terms from object</h5>
                     {% for term in member.object.DCTerms %}
-                    OBJTerm: {{ term.get_term_display }}{%if term.qualifier %}:{{ term.qualifier }}{% endif %}={{ term.content }} <br />
+                    {{ term.get_term_display }}{%if term.qualifier %}:{{ term.qualifier }}{% endif %}={{ term.content }} <br />
                     {% endfor %}
                     </div>
                 </div>
