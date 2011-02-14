@@ -5,7 +5,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-08-10 23:19:32", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt9c6029ms", 
@@ -27,6 +27,7 @@
       "url": "http://www.oaklandlibrary.org/AAMLO/", 
       "region": "1", 
       "longitude": -122.276501655579, 
+      "parent_ark": "ark:/13030/kt1w1019nn", 
       "mainagency": "CaOlAAM", 
       "parent_institution": 118
     }
@@ -37,7 +38,7 @@
     "fields": {
       "created_at": "2009-02-06 03:32:47", 
       "show_subjects": null, 
-      "updated_at": "2010-05-20 15:12:44", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 33, 
       "primary_contact": 299, 
       "ark": "ark:/13030/kt4c6034tc", 
@@ -59,6 +60,7 @@
       "url": "http://www.accmuseum.org/", 
       "region": "5", 
       "longitude": -116.542625427, 
+      "parent_ark": null, 
       "mainagency": "CaPsACC", 
       "parent_institution": null
     }
@@ -69,7 +71,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 17:55:49", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 1, 
       "primary_contact": 270, 
       "ark": "ark:/13030/kt5c6032x8", 
@@ -91,6 +93,7 @@
       "url": "http://www.aclibrary.org/branches/dub/default.asp?topic=Dublin&cat=DUBHome", 
       "region": "1", 
       "longitude": -121.918269, 
+      "parent_ark": null, 
       "mainagency": "CFrA", 
       "parent_institution": null
     }
@@ -101,7 +104,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 17:56:59", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 1, 
       "primary_contact": 5, 
       "ark": "ark:/13030/kt9r29p9nc", 
@@ -123,6 +126,7 @@
       "url": "http://www.aclibrary.org/branches/alb/albanyhome.asp", 
       "region": "6", 
       "longitude": -122.293164, 
+      "parent_ark": null, 
       "mainagency": "CAlb", 
       "parent_institution": null
     }
@@ -133,7 +137,7 @@
     "fields": {
       "created_at": "2009-07-24 16:17:59", 
       "show_subjects": null, 
-      "updated_at": "2009-10-28 17:02:53", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": 314, 
       "ark": "ark:/13030/kt8j49s18j", 
@@ -155,6 +159,7 @@
       "url": "http://library.ajula.edu/", 
       "region": "5", 
       "longitude": -118.471632599831, 
+      "parent_ark": null, 
       "mainagency": "CajOUL", 
       "parent_institution": null
     }
@@ -165,7 +170,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 17:57:49", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 30, 
       "primary_contact": 8, 
       "ark": "ark:/13030/kt3000166r", 
@@ -187,6 +192,7 @@
       "url": "http://www2.anaheim.net/custom.cfm?name=welcome_library.cfm", 
       "region": "5", 
       "longitude": -117.919338942, 
+      "parent_ark": null, 
       "mainagency": "CAna", 
       "parent_institution": null
     }
@@ -197,7 +203,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 18:01:15", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": 250, 
       "ark": "ark:/13030/kt867nd5bd", 
@@ -219,6 +225,7 @@
       "url": "http://www.ci.arcadia.ca.us/home/index.asp?page=664", 
       "region": "5", 
       "longitude": -118.028612137, 
+      "parent_ark": null, 
       "mainagency": "CaArPL", 
       "parent_institution": null
     }
@@ -229,7 +236,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 16:18:25", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf029009dp", 
@@ -251,6 +258,7 @@
       "url": "http://archives.csudh.edu/", 
       "region": "5", 
       "longitude": -118.255956172943, 
+      "parent_ark": "ark:/13030/tf787013xg", 
       "mainagency": "CDhS", 
       "parent_institution": 157
     }
@@ -261,7 +269,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-28 17:15:49", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": 44, 
       "ark": "ark:/13030/kt3c60193q", 
@@ -283,6 +291,7 @@
       "url": "http://www.artcenter.edu/", 
       "region": "5", 
       "longitude": -118.184866905212, 
+      "parent_ark": null, 
       "mainagency": "CLArt", 
       "parent_institution": null
     }
@@ -293,7 +302,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 18:03:28", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf987013wk", 
@@ -315,6 +324,7 @@
       "url": "http://www2.library.ucla.edu/libraries/arts/index.cfm", 
       "region": "5", 
       "longitude": -118.441404104, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU", 
       "parent_institution": 148
     }
@@ -325,7 +335,7 @@
     "fields": {
       "created_at": "2008-10-28 01:26:12", 
       "show_subjects": null, 
-      "updated_at": "2008-11-13 01:47:44", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt1j49r25v", 
@@ -347,6 +357,7 @@
       "url": "http://aal.ucsd.edu/", 
       "region": "5", 
       "longitude": -117.23752141, 
+      "parent_ark": "ark:/13030/tf5j49p47v", 
       "mainagency": "CaSdUCAA", 
       "parent_institution": 10
     }
@@ -357,7 +368,7 @@
     "fields": {
       "created_at": "2008-11-01 00:37:42", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 16:27:04", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 42, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt5v19r77h", 
@@ -379,6 +390,7 @@
       "url": "http://www.library.ucsb.edu/arts/", 
       "region": "5", 
       "longitude": -119.845433235168, 
+      "parent_ark": "ark:/13030/tf7779p82v", 
       "mainagency": "", 
       "parent_institution": 109
     }
@@ -389,7 +401,7 @@
     "fields": {
       "created_at": "2008-10-22 00:50:11", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 20:37:52", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt7489r6bm", 
@@ -411,6 +423,7 @@
       "url": "http://www.aasc.ucla.edu/", 
       "region": "5", 
       "longitude": -118.441318273544, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "", 
       "parent_institution": 148
     }
@@ -421,7 +434,7 @@
     "fields": {
       "created_at": "2008-11-03 23:46:53", 
       "show_subjects": null, 
-      "updated_at": "2009-10-28 17:44:54", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": 277, 
       "ark": "ark:/13030/kt8489r6nk", 
@@ -443,6 +456,7 @@
       "url": "http://www.autrynationalcenter.org/", 
       "region": "5", 
       "longitude": -118.28162491321601, 
+      "parent_ark": null, 
       "mainagency": "CLGAM", 
       "parent_institution": null
     }
@@ -453,7 +467,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-07-15 14:58:44", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 1, 
       "primary_contact": 142, 
       "ark": "ark:/13030/tf7r29p8s0", 
@@ -475,6 +489,7 @@
       "url": "http://bancroft.berkeley.edu/", 
       "region": "1", 
       "longitude": -122.258825898, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-BANC", 
       "parent_institution": 25
     }
@@ -485,7 +500,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 18:11:25", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 1, 
       "primary_contact": 147, 
       "ark": "ark:/13030/tf2580094t", 
@@ -507,6 +522,7 @@
       "url": "http://www.bampfa.berkeley.edu/collections/", 
       "region": "1", 
       "longitude": -122.255854011, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-BANC", 
       "parent_institution": 25
     }
@@ -517,7 +533,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 18:11:53", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 1, 
       "primary_contact": 230, 
       "ark": "ark:/13030/kt187019nq", 
@@ -539,6 +555,7 @@
       "url": "http://www.berkeleypubliclibrary.org/community/berkeley_history/", 
       "region": "1", 
       "longitude": -122.26861100000001, 
+      "parent_ark": null, 
       "mainagency": "CB", 
       "parent_institution": null
     }
@@ -549,7 +566,7 @@
     "fields": {
       "created_at": "2008-10-28 01:32:30", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 19:55:26", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt7199r7gh", 
@@ -571,6 +588,7 @@
       "url": "http://www.ucsd.edu/portal/site/Libraries/menuitem.7974bc238fac0eb7147f6defd34b01ca/?vgnextoid=66632d6bec1b3110VgnVCM10000045b410acRCRD", 
       "region": "5", 
       "longitude": -117.23753213882399, 
+      "parent_ark": "ark:/13030/tf5j49p47v", 
       "mainagency": "", 
       "parent_institution": 10
     }
@@ -581,16 +599,16 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2010-10-12 23:38:07", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
-      "primary_contact": 67, 
+      "primary_contact": null, 
       "ark": "ark:/13030/tf8h4nc0sw", 
       "zip4": "90095-1798", 
       "city": 557, 
       "archivegrid_harvest": null, 
       "cdlpath": "ucla/biomed", 
       "worldcat_harvest": null, 
-      "latitude": 34.066664137499998, 
+      "latitude": 34.066664137463803, 
       "email": "http://www.library.ucla.edu/libraries/biomed/6850.cfm", 
       "fax": "", 
       "description": "", 
@@ -602,7 +620,8 @@
       "name": "Biomedical Library (Louise M. Darling Biomedical Library)", 
       "url": "http://www2.library.ucla.edu/specialcollections/biomedicallibrary/index.cfm", 
       "region": "5", 
-      "longitude": -118.442829698, 
+      "longitude": -118.442829698324, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU", 
       "parent_institution": 148
     }
@@ -613,7 +632,7 @@
     "fields": {
       "created_at": "2008-10-15 01:06:03", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 16:13:32", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt087029kt", 
@@ -635,6 +654,7 @@
       "url": "http://www.lib.berkeley.edu/BIOS/", 
       "region": "1", 
       "longitude": -122.26232886314401, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -645,7 +665,7 @@
     "fields": {
       "created_at": "2008-10-22 01:04:01", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 20:42:32", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt629032xm", 
@@ -667,6 +687,7 @@
       "url": "http://www.bunche.ucla.edu/newsite/", 
       "region": "5", 
       "longitude": -118.44111442565899, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CaLaRBC", 
       "parent_institution": 148
     }
@@ -677,7 +698,7 @@
     "fields": {
       "created_at": "2008-10-15 20:35:43", 
       "show_subjects": null, 
-      "updated_at": "2010-01-30 00:02:49", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 1, 
       "primary_contact": 336, 
       "ark": "ark:/13030/kt596nf0qv", 
@@ -699,6 +720,7 @@
       "url": "http://www.lib.berkeley.edu/EAL/", 
       "region": "1", 
       "longitude": -122.260386944, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CaBeUCVS", 
       "parent_institution": 25
     }
@@ -709,7 +731,7 @@
     "fields": {
       "created_at": "2008-10-14 19:51:13", 
       "show_subjects": null, 
-      "updated_at": "2008-12-05 17:29:09", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 38, 
       "primary_contact": 276, 
       "ark": "ark:/13030/kt9k4037h1", 
@@ -731,6 +753,7 @@
       "url": "http://www.calacademy.org/", 
       "region": "", 
       "longitude": -122.466788292, 
+      "parent_ark": null, 
       "mainagency": "CSfA", 
       "parent_institution": null
     }
@@ -741,7 +764,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-05-24 15:53:25", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 38, 
       "primary_contact": 298, 
       "ark": "ark:/13030/tf7v19p5mm", 
@@ -763,6 +786,7 @@
       "url": "http://www.californiahistoricalsociety.org/collections/northbaker_research.html", 
       "region": "5", 
       "longitude": -122.401589155, 
+      "parent_ark": null, 
       "mainagency": "CHi", 
       "parent_institution": null
     }
@@ -773,7 +797,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 18:27:31", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": 37, 
       "ark": "ark:/13030/tf938nc278", 
@@ -795,6 +819,7 @@
       "url": "http://archives.caltech.edu/", 
       "region": "7", 
       "longitude": -118.127486, 
+      "parent_ark": null, 
       "mainagency": "CIT", 
       "parent_institution": null
     }
@@ -805,7 +830,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2008-09-16 21:51:57", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt2x0nc61h", 
@@ -827,6 +852,7 @@
       "url": "http://library.calarts.edu/", 
       "region": "5", 
       "longitude": -118.566101, 
+      "parent_ark": null, 
       "mainagency": "CValA", 
       "parent_institution": null
     }
@@ -837,7 +863,7 @@
     "fields": {
       "created_at": "2010-04-27 18:02:06", 
       "show_subjects": null, 
-      "updated_at": "2010-04-27 18:11:51", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 43, 
       "primary_contact": 344, 
       "ark": "ark:/13030/kt8t1nf5sh", 
@@ -859,6 +885,7 @@
       "url": "http://www.jesuitscalifornia.org/", 
       "region": "1", 
       "longitude": 121.93489551499999, 
+      "parent_ark": null, 
       "mainagency": "CaStcPSJ", 
       "parent_institution": null
     }
@@ -869,7 +896,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 19:59:56", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 33, 
       "primary_contact": 82, 
       "ark": "ark:/13030/tf1870105s", 
@@ -891,6 +918,7 @@
       "url": "http://www.cmp.ucr.edu/", 
       "region": "8", 
       "longitude": -117.374598383904, 
+      "parent_ark": "ark:/13030/tf1n39p20p", 
       "mainagency": "CRivCMP", 
       "parent_institution": 140
     }
@@ -901,7 +929,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-08-04 17:41:37", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 40, 
       "primary_contact": 236, 
       "ark": "ark:/13030/kt529026qp", 
@@ -923,6 +951,7 @@
       "url": "http://www.lib.calpoly.edu/specialcollections", 
       "region": "2", 
       "longitude": -120.661597, 
+      "parent_ark": null, 
       "mainagency": "CSluSP", 
       "parent_institution": null
     }
@@ -933,7 +962,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-21 19:04:12", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt8f59q5cg", 
@@ -955,6 +984,7 @@
       "url": "http://www.usc.edu/libraries/archives/arc/libraries/cswa/", 
       "region": "5", 
       "longitude": -118.282542228699, 
+      "parent_ark": "ark:/13030/tf2870098j", 
       "mainagency": "CLSU", 
       "parent_institution": 80
     }
@@ -965,7 +995,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-06-30 18:26:22", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 34, 
       "primary_contact": 19, 
       "ark": "ark:/13030/tf6g5012g8", 
@@ -987,6 +1017,7 @@
       "url": "http://www.sos.ca.gov/archives/", 
       "region": "7", 
       "longitude": -121.495256, 
+      "parent_ark": null, 
       "mainagency": "C-Ar", 
       "parent_institution": null
     }
@@ -997,7 +1028,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-05-12 02:21:29", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 34, 
       "primary_contact": 348, 
       "ark": "ark:/13030/tf5r29p4sf", 
@@ -1019,6 +1050,7 @@
       "url": "http://www.library.ca.gov/", 
       "region": "7", 
       "longitude": -121.496445537, 
+      "parent_ark": null, 
       "mainagency": "C", 
       "parent_institution": null
     }
@@ -1029,7 +1061,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2010-05-19 19:53:22", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 34, 
       "primary_contact": 102, 
       "ark": "ark:/13030/kt3g50036k", 
@@ -1051,6 +1083,7 @@
       "url": "http://www.parks.ca.gov/", 
       "region": "", 
       "longitude": -121.496926, 
+      "parent_ark": null, 
       "mainagency": "CSPR", 
       "parent_institution": null
     }
@@ -1061,7 +1094,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 18:45:40", 
+      "updated_at": "2011-02-12 00:48:59", 
       "county": 34, 
       "primary_contact": 86, 
       "ark": "ark:/13030/tf0f59p354", 
@@ -1083,6 +1116,7 @@
       "url": "http://www.csrmf.org/doc.asp?id=14", 
       "region": "6", 
       "longitude": -121.504100561, 
+      "parent_ark": null, 
       "mainagency": "CSCRM", 
       "parent_institution": null
     }
@@ -1093,7 +1127,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 16:21:23", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf7d5nb9d4", 
@@ -1115,6 +1149,7 @@
       "url": "http://archives.csudh.edu/csu/", 
       "region": "3", 
       "longitude": -118.255913257599, 
+      "parent_ark": "ark:/13030/tf787013xg", 
       "mainagency": "CDhS", 
       "parent_institution": 157
     }
@@ -1125,7 +1160,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2010-02-18 03:14:49", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 56, 
       "primary_contact": 229, 
       "ark": "ark:/13030/kt138nb0s0", 
@@ -1147,6 +1182,7 @@
       "url": "http://www.csuci.edu/library/archives/", 
       "region": "", 
       "longitude": -119.04338836700001, 
+      "parent_ark": null, 
       "mainagency": "CaCamCUC", 
       "parent_institution": null
     }
@@ -1157,7 +1193,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 16:09:37", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 4, 
       "primary_contact": 30, 
       "ark": "ark:/13030/tf7v19p5n4", 
@@ -1179,6 +1215,7 @@
       "url": "http://www.csuchico.edu/lbib/spc/", 
       "region": "1", 
       "longitude": -121.84643626213099, 
+      "parent_ark": null, 
       "mainagency": "Cchic", 
       "parent_institution": null
     }
@@ -1189,7 +1226,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 21:11:24", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf787013xg", 
@@ -1211,6 +1248,7 @@
       "url": "http://www.csudh.edu/", 
       "region": "5", 
       "longitude": -118.25610637664801, 
+      "parent_ark": null, 
       "mainagency": "", 
       "parent_institution": null
     }
@@ -1221,7 +1259,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 16:31:41", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 10, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf329009q8", 
@@ -1243,6 +1281,7 @@
       "url": "http://www.csufresno.edu/library/", 
       "region": "3", 
       "longitude": -119.747200012207, 
+      "parent_ark": null, 
       "mainagency": "CFS", 
       "parent_institution": null
     }
@@ -1253,7 +1292,7 @@
     "fields": {
       "created_at": "2009-08-06 19:42:22", 
       "show_subjects": null, 
-      "updated_at": "2009-08-06 19:56:58", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt9r29s2tx", 
@@ -1275,6 +1314,7 @@
       "url": "http://www.fullerton.edu/", 
       "region": "5", 
       "longitude": -117.888300419, 
+      "parent_ark": null, 
       "mainagency": "CFlS", 
       "parent_institution": null
     }
@@ -1285,7 +1325,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-06-29 21:14:09", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 265, 
       "ark": "ark:/13030/kt1t1nd6dp", 
@@ -1307,6 +1347,7 @@
       "url": "http://www.calstatela.edu/library/", 
       "region": "5", 
       "longitude": -118.167486190796, 
+      "parent_ark": null, 
       "mainagency": "CLS", 
       "parent_institution": null
     }
@@ -1317,7 +1358,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 16:58:12", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 34, 
       "primary_contact": 108, 
       "ark": "ark:/13030/kt796nc8ds", 
@@ -1339,6 +1380,7 @@
       "url": "http://library.csus.edu/", 
       "region": "7", 
       "longitude": -121.423677206039, 
+      "parent_ark": null, 
       "mainagency": "CSS", 
       "parent_institution": null
     }
@@ -1349,7 +1391,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 17:28:45", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 50, 
       "primary_contact": 208, 
       "ark": "ark:/13030/kt7r29q5bm", 
@@ -1371,6 +1413,7 @@
       "url": "http://library.csustan.edu/", 
       "region": "3", 
       "longitude": -120.858562588692, 
+      "parent_ark": null, 
       "mainagency": "CTurS", 
       "parent_institution": null
     }
@@ -1381,7 +1424,7 @@
     "fields": {
       "created_at": "2008-10-15 01:24:49", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 20:04:31", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt1f59r2mx", 
@@ -1403,6 +1446,7 @@
       "url": "http://www.lib.berkeley.edu/CCSL/", 
       "region": "1", 
       "longitude": -122.265408039093, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -1413,7 +1457,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 18:50:00", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 10, 
       "primary_contact": 31, 
       "ark": "ark:/13030/tf6w1014hc", 
@@ -1435,6 +1479,7 @@
       "url": "http://fresno.edu/library/cmbs/", 
       "region": "5", 
       "longitude": -119.735205173, 
+      "parent_ark": null, 
       "mainagency": "CFP-MB", 
       "parent_institution": null
     }
@@ -1445,7 +1490,7 @@
     "fields": {
       "created_at": "2009-08-06 19:46:34", 
       "show_subjects": null, 
-      "updated_at": "2010-01-04 18:20:46", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 323, 
       "ark": "ark:/13030/kt2d5nd9mx", 
@@ -1467,40 +1512,9 @@
       "url": "http://coph.fullerton.edu/", 
       "region": "5", 
       "longitude": -117.885344625, 
+      "parent_ark": "ark:/13030/kt9r29s2tx", 
       "mainagency": "CaFlSOP", 
       "parent_institution": 251
-    }
-  }, 
-  {
-    "pk": 269, 
-    "model": "oac.institution", 
-    "fields": {
-      "created_at": "2010-10-06 20:32:36", 
-      "show_subjects": false, 
-      "updated_at": "2010-10-06 20:37:12", 
-      "county": 19, 
-      "primary_contact": 376, 
-      "ark": "ark:/13030/kt109nd96s", 
-      "zip4": "90095-1575", 
-      "city": 557, 
-      "archivegrid_harvest": false, 
-      "cdlpath": "ucla/cohr", 
-      "worldcat_harvest": false, 
-      "latitude": 34.070264000000002, 
-      "email": "oral-history@library.ucla.edu", 
-      "fax": "(310) 206-2796", 
-      "description": "", 
-      "address1": "11717 Charles E. Young Research Library", 
-      "address2": "Box 951575 ", 
-      "phone": "(310) 825-4932", 
-      "custom_zoom_level": null, 
-      "isa_campus": false, 
-      "name": "Center for Oral History Research", 
-      "url": "http://oralhistory.library.ucla.edu/", 
-      "region": "5", 
-      "longitude": -118.44405620000001, 
-      "mainagency": "CLUCOHR", 
-      "parent_institution": 148
     }
   }, 
   {
@@ -1509,7 +1523,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 16:32:39", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 10, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt9g5024m1", 
@@ -1531,6 +1545,7 @@
       "url": "http://www.cvparchive.org/", 
       "region": "3", 
       "longitude": -119.74945306778, 
+      "parent_ark": "ark:/13030/tf329009q8", 
       "mainagency": "CFSCVPA", 
       "parent_institution": 65
     }
@@ -1541,7 +1556,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 19:36:25", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt5489q9r6", 
@@ -1563,6 +1578,7 @@
       "url": "http://www.chabotspace.org/", 
       "region": "6", 
       "longitude": -122.180349827, 
+      "parent_ark": null, 
       "mainagency": "COCh", 
       "parent_institution": null
     }
@@ -1573,7 +1589,7 @@
     "fields": {
       "created_at": "2009-07-09 19:48:47", 
       "show_subjects": null, 
-      "updated_at": "2009-10-28 18:56:05", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 30, 
       "primary_contact": 312, 
       "ark": "ark:/13030/kt4779r888", 
@@ -1595,6 +1611,7 @@
       "url": "http://www1.chapman.edu/library/", 
       "region": "5", 
       "longitude": -117.851184010506, 
+      "parent_ark": null, 
       "mainagency": "COrC", 
       "parent_institution": null
     }
@@ -1605,7 +1622,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-01-12 19:29:21", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 42, 
       "primary_contact": 258, 
       "ark": "ark:/13030/kt9v19r2dx", 
@@ -1627,6 +1644,7 @@
       "url": "http://ccber.lifesci.ucsb.edu/", 
       "region": "2", 
       "longitude": -119.85450983, 
+      "parent_ark": "ark:/13030/tf7779p82v", 
       "mainagency": "CaStbUCC", 
       "parent_institution": 109
     }
@@ -1637,7 +1655,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 18:06:58", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 65, 
       "ark": "ark:/13030/kt187015vw", 
@@ -1659,6 +1677,7 @@
       "url": "http://www.sscnet.ucla.edu/csrc/", 
       "region": "5", 
       "longitude": -118.44116806983899, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU", 
       "parent_institution": 148
     }
@@ -1669,7 +1688,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 19:44:51", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 37, 
       "primary_contact": 213, 
       "ark": "ark:/13030/kt100019rv", 
@@ -1691,6 +1710,7 @@
       "url": "http://www.chulavistalibrary.com/", 
       "region": "8", 
       "longitude": -117.08259200000001, 
+      "parent_ark": null, 
       "mainagency": "CChu", 
       "parent_institution": null
     }
@@ -1701,7 +1721,7 @@
     "fields": {
       "created_at": "2009-07-24 16:20:50", 
       "show_subjects": null, 
-      "updated_at": "2009-08-12 17:45:23", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 315, 
       "ark": "ark:/13030/kt8s2037n3", 
@@ -1723,6 +1743,7 @@
       "url": "http://www.ci.commerce.ca.us/library.asp", 
       "region": "5", 
       "longitude": -118.15688489999999, 
+      "parent_ark": null, 
       "mainagency": "CCmm", 
       "parent_institution": null
     }
@@ -1733,7 +1754,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-05-12 02:03:57", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 27, 
       "ark": "ark:/13030/kt6z09p076", 
@@ -1755,6 +1776,7 @@
       "url": "http://voxlibris.claremont.edu/denison/", 
       "region": "", 
       "longitude": -117.71123707300001, 
+      "parent_ark": null, 
       "mainagency": "CCC", 
       "parent_institution": null
     }
@@ -1765,7 +1787,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-05-19 21:26:49", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 64, 
       "ark": "ark:/13030/tf9n39p92k", 
@@ -1787,6 +1809,7 @@
       "url": "http://www.humnet.ucla.edu/humnet/clarklib/", 
       "region": "5", 
       "longitude": -118.31549699999999, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU", 
       "parent_institution": 148
     }
@@ -1797,7 +1820,7 @@
     "fields": {
       "created_at": "2008-10-22 01:12:40", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 20:46:49", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt6j49r6sn", 
@@ -1819,6 +1842,7 @@
       "url": "http://www2.library.ucla.edu/libraries/college/index.cfm", 
       "region": "5", 
       "longitude": -118.44225704670001, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU-COL", 
       "parent_institution": 148
     }
@@ -1829,7 +1853,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 19:46:04", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 43, 
       "primary_contact": 249, 
       "ark": "ark:/13030/kt5q2nd3pz", 
@@ -1851,6 +1875,7 @@
       "url": "http://www.computerhistory.org/", 
       "region": "6", 
       "longitude": -122.07705, 
+      "parent_ark": null, 
       "mainagency": "CaMvCHM", 
       "parent_institution": null
     }
@@ -1861,7 +1886,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2008-09-16 21:51:55", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 33, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt0k4017ds", 
@@ -1883,6 +1908,7 @@
       "url": "http://www.coronapubliclibrary.org/", 
       "region": "5", 
       "longitude": -117.567413, 
+      "parent_ark": null, 
       "mainagency": "CCoro", 
       "parent_institution": null
     }
@@ -1893,7 +1919,7 @@
     "fields": {
       "created_at": "2009-07-24 16:24:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-28 19:39:30", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 37, 
       "primary_contact": 316, 
       "ark": "ark:/13030/kt25803396", 
@@ -1915,6 +1941,7 @@
       "url": "http://www.coronado.ca.us/library/", 
       "region": "5", 
       "longitude": -117.177584767342, 
+      "parent_ark": null, 
       "mainagency": "CCoron", 
       "parent_institution": null
     }
@@ -1925,7 +1952,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-10-18 16:50:20", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 215, 
       "ark": "ark:/13030/kt1d5nc5kq", 
@@ -1940,13 +1967,14 @@
       "description": "", 
       "address1": "234 N. Second Avenue", 
       "address2": "", 
-      "phone": "(626) 384-5300", 
+      "phone": "(951) 736-2381", 
       "custom_zoom_level": null, 
       "isa_campus": false, 
       "name": "Covina Public Library", 
-      "url": "http://www.covinaca.gov", 
+      "url": "http://www.ci.covina.ca.us/library/", 
       "region": "5", 
       "longitude": -117.887565494, 
+      "parent_ark": null, 
       "mainagency": "CCov", 
       "parent_institution": null
     }
@@ -1957,7 +1985,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-07-29 21:18:45", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 30, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt1m3nb11c", 
@@ -1979,6 +2007,7 @@
       "url": "http://www.lib.uci.edu/libraries/collections/special/coll/critical_theory_archive/", 
       "region": "5", 
       "longitude": -117.841123044, 
+      "parent_ark": "ark:/13030/tf3f59p4sv", 
       "mainagency": "CU-I", 
       "parent_institution": 101
     }
@@ -1989,7 +2018,7 @@
     "fields": {
       "created_at": "2008-11-01 00:53:37", 
       "show_subjects": null, 
-      "updated_at": "2009-11-25 20:08:56", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 42, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt5j49r8jp", 
@@ -2011,6 +2040,7 @@
       "url": "http://www.library.ucsb.edu/", 
       "region": "5", 
       "longitude": -119.84534740399999, 
+      "parent_ark": "ark:/13030/tf7779p82v", 
       "mainagency": "", 
       "parent_institution": 109
     }
@@ -2021,7 +2051,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 16:27:12", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": 160, 
       "ark": "ark:/13030/kt8c6006j3", 
@@ -2043,6 +2073,7 @@
       "url": "http://www.lib.berkeley.edu/ITSL/", 
       "region": "7", 
       "longitude": -122.25904583931001, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-IT", 
       "parent_institution": 25
     }
@@ -2053,7 +2084,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:22:15", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 43, 
       "primary_contact": 4, 
       "ark": "ark:/13030/kt000016m1", 
@@ -2075,6 +2106,7 @@
       "url": "http://www.calhistory.org/library.html", 
       "region": "6", 
       "longitude": -122.04731226, 
+      "parent_ark": null, 
       "mainagency": "CaCupCHC", 
       "parent_institution": null
     }
@@ -2085,7 +2117,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-04 18:47:03", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt7199q50v", 
@@ -2107,6 +2139,7 @@
       "url": "http://voxlibris.claremont.edu/den/", 
       "region": "5", 
       "longitude": -117.711263895035, 
+      "parent_ark": "ark:/13030/kt6z09p076", 
       "mainagency": "CCC", 
       "parent_institution": 91
     }
@@ -2117,7 +2150,7 @@
     "fields": {
       "created_at": "2008-10-15 02:00:36", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 20:12:15", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt7f59r96z", 
@@ -2139,6 +2172,7 @@
       "url": "http://www.lib.berkeley.edu/doemoff/", 
       "region": "1", 
       "longitude": -122.26005434989899, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -2149,7 +2183,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2008-09-16 21:51:57", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt958023h1", 
@@ -2171,6 +2205,7 @@
       "url": "http://www.mta.net/about_us/library/about_us.htm", 
       "region": "5", 
       "longitude": -118.232716, 
+      "parent_ark": null, 
       "mainagency": "CaLaMTA", 
       "parent_institution": null
     }
@@ -2181,7 +2216,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2008-12-04 22:39:51", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": 264, 
       "ark": "ark:/13030/kt2k403169", 
@@ -2203,6 +2238,7 @@
       "url": "http://www.ci.dublin.ca.us/DepartmentSub.cfm?PL=Rec&SL=herit", 
       "region": "1", 
       "longitude": -121.93848699999999, 
+      "parent_ark": null, 
       "mainagency": "CfraDHC", 
       "parent_institution": null
     }
@@ -2213,7 +2249,7 @@
     "fields": {
       "created_at": "2008-10-15 02:10:07", 
       "show_subjects": null, 
-      "updated_at": "2008-11-03 22:37:38", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt6j49r6r4", 
@@ -2235,6 +2271,7 @@
       "url": "http://www.lib.berkeley.edu/EART/", 
       "region": "1", 
       "longitude": -122.259635925, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -2245,7 +2282,7 @@
     "fields": {
       "created_at": "2008-10-15 19:38:34", 
       "show_subjects": null, 
-      "updated_at": "2008-10-15 19:41:18", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt3c6030t4", 
@@ -2267,6 +2304,7 @@
       "url": "http://nisee.berkeley.edu/library", 
       "region": "1", 
       "longitude": -122.33433008194, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-EERC", 
       "parent_institution": 25
     }
@@ -2277,7 +2315,7 @@
     "fields": {
       "created_at": "2008-10-15 19:46:07", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 20:27:42", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt567nd8kj", 
@@ -2299,6 +2337,7 @@
       "url": "http://www.lib.berkeley.edu/EDP/", 
       "region": "1", 
       "longitude": -122.263562679291, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -2309,7 +2348,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 16:31:39", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": 149, 
       "ark": "ark:/13030/tf5j49p46b", 
@@ -2331,6 +2370,7 @@
       "url": "http://www.ced.berkeley.edu/cedarchives/", 
       "region": "1", 
       "longitude": -122.25480794906601, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-CEDA", 
       "parent_institution": 25
     }
@@ -2341,7 +2381,7 @@
     "fields": {
       "created_at": "2009-07-24 16:27:40", 
       "show_subjects": null, 
-      "updated_at": "2009-08-07 18:54:30", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 37, 
       "primary_contact": 317, 
       "ark": "ark:/13030/kt0c6031s5", 
@@ -2363,6 +2403,7 @@
       "url": "http://www.library.escondido.org/pioneer/index.htm", 
       "region": "5", 
       "longitude": -117.07928200000001, 
+      "parent_ark": null, 
       "mainagency": "CEsc", 
       "parent_institution": null
     }
@@ -2373,7 +2414,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:35:24", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt4b69n6wx", 
@@ -2395,6 +2436,7 @@
       "url": "http://eslibrary.berkeley.edu/", 
       "region": "1", 
       "longitude": -122.25754112, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-ETH", 
       "parent_institution": 25
     }
@@ -2405,7 +2447,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 18:32:04", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 162, 
       "ark": "ark:/13030/kt2g501822", 
@@ -2427,6 +2469,7 @@
       "url": "http://www.ethnomusic.ucla.edu/Archive/", 
       "region": "5", 
       "longitude": -118.44011664390599, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU", 
       "parent_institution": 148
     }
@@ -2437,7 +2480,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 16:28:36", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt5j49q642", 
@@ -2459,6 +2502,7 @@
       "url": "http://www.usc.edu/libraries/archives/arc/libraries/feuchtwanger/", 
       "region": "5", 
       "longitude": -118.283743858337, 
+      "parent_ark": "ark:/13030/tf2870098j", 
       "mainagency": "CLSU", 
       "parent_institution": 80
     }
@@ -2469,7 +2513,7 @@
     "fields": {
       "created_at": "2008-10-22 01:29:00", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 18:43:08", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt9489r9qc", 
@@ -2491,6 +2535,7 @@
       "url": "http://www.cinema.ucla.edu/", 
       "region": "5", 
       "longitude": -118.439349532127, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU-FT", 
       "parent_institution": 148
     }
@@ -2501,7 +2546,7 @@
     "fields": {
       "created_at": "2008-11-01 00:06:41", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 15:56:14", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 38, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt8x0nf3c0", 
@@ -2523,6 +2568,7 @@
       "url": "http://mountzion.ucsfmedicalcenter.org/library/", 
       "region": "1", 
       "longitude": -122.439421713352, 
+      "parent_ark": "ark:/13030/tf3x0nb742", 
       "mainagency": "", 
       "parent_institution": 182
     }
@@ -2533,7 +2579,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:38:31", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 56, 
       "primary_contact": 24, 
       "ark": "ark:/13030/kt609nc82b", 
@@ -2555,6 +2601,7 @@
       "url": "http://www.FocusOnTheMasters.com/", 
       "region": "5", 
       "longitude": -119.283154, 
+      "parent_ark": null, 
       "mainagency": "CaVtFOM", 
       "parent_institution": null
     }
@@ -2565,7 +2612,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 18:45:23", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 166, 
       "ark": "ark:/13030/tf0h4nb4rc", 
@@ -2587,6 +2634,7 @@
       "url": "http://www.fmch.ucla.edu/", 
       "region": "5", 
       "longitude": -118.443109989166, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLUS", 
       "parent_institution": 148
     }
@@ -2597,7 +2645,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:40:25", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 10, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf496nb7k5", 
@@ -2619,6 +2667,7 @@
       "url": "http://www.valleyhistory.org/", 
       "region": "1", 
       "longitude": -119.920914, 
+      "parent_ark": null, 
       "mainagency": "CFKMM", 
       "parent_institution": null
     }
@@ -2629,7 +2678,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 20:39:07", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 10, 
       "primary_contact": 266, 
       "ark": "ark:/13030/kt296nd6mt", 
@@ -2651,6 +2700,7 @@
       "url": "http://www.fresnolibrary.org/", 
       "region": "3", 
       "longitude": -119.786338806152, 
+      "parent_ark": null, 
       "mainagency": "CFCPL", 
       "parent_institution": null
     }
@@ -2661,7 +2711,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:41:36", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 30, 
       "primary_contact": 198, 
       "ark": "ark:/13030/kt2w1019fv", 
@@ -2683,6 +2733,7 @@
       "url": "http://www.fullcoll.edu/", 
       "region": "5", 
       "longitude": -117.91950300000001, 
+      "parent_ark": null, 
       "mainagency": "CFlJ", 
       "parent_institution": null
     }
@@ -2693,15 +2744,15 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2010-10-05 23:12:13", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 38, 
       "primary_contact": 232, 
       "ark": "ark:/13030/tf8j49p7c9", 
       "zip4": "94105", 
       "city": 836, 
-      "archivegrid_harvest": true, 
+      "archivegrid_harvest": null, 
       "cdlpath": "glhs", 
-      "worldcat_harvest": true, 
+      "worldcat_harvest": null, 
       "latitude": 37.786709999999999, 
       "email": "info@glbthistory.org", 
       "fax": "(415) 777-5576", 
@@ -2715,6 +2766,7 @@
       "url": "http://www.glbthistory.org/", 
       "region": "5", 
       "longitude": -122.400839, 
+      "parent_ark": null, 
       "mainagency": "CSfGLHS", 
       "parent_institution": null
     }
@@ -2725,7 +2777,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-08-08 01:11:47", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 159, 
       "ark": "ark:/13030/tf8b69p8g1", 
@@ -2747,6 +2799,7 @@
       "url": "http://www.getty.edu/", 
       "region": "1", 
       "longitude": -118.474974632263, 
+      "parent_ark": null, 
       "mainagency": "CMalG", 
       "parent_institution": null
     }
@@ -2757,7 +2810,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:42:49", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 216, 
       "ark": "ark:/13030/kt696nc8zr", 
@@ -2779,6 +2832,7 @@
       "url": "http://www.glendalepubliclibrary.org/", 
       "region": "5", 
       "longitude": -118.253547549, 
+      "parent_ark": null, 
       "mainagency": "CGl", 
       "parent_institution": null
     }
@@ -2789,7 +2843,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-04 20:01:04", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": 318, 
       "ark": "ark:/13030/tf6g5012hs", 
@@ -2811,6 +2865,7 @@
       "url": "http://www.gtu.edu/library/special-collections", 
       "region": "5", 
       "longitude": -122.26187288761101, 
+      "parent_ark": null, 
       "mainagency": "CBGTU", 
       "parent_institution": null
     }
@@ -2821,7 +2876,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:49:19", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 46, 
       "ark": "ark:/13030/tf987013v2", 
@@ -2843,6 +2898,7 @@
       "url": "http://www.hammer.ucla.edu/", 
       "region": "6", 
       "longitude": -118.443819433, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLGCG", 
       "parent_institution": 148
     }
@@ -2853,7 +2909,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 15:59:46", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": 309, 
       "ark": "ark:/13030/tf5580115v", 
@@ -2875,6 +2931,7 @@
       "url": "http://hearstmuseum.berkeley.edu/", 
       "region": "1", 
       "longitude": -122.255226373672, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-HM", 
       "parent_institution": 25
     }
@@ -2885,20 +2942,20 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2010-10-06 19:17:00", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 12, 
-      "primary_contact": 20, 
+      "primary_contact": null, 
       "ark": "ark:/13030/tf7j49p7k3", 
-      "zip4": "95521", 
-      "city": 32, 
+      "zip4": "95503", 
+      "city": 315, 
       "archivegrid_harvest": null, 
       "cdlpath": "hssa", 
       "worldcat_harvest": null, 
-      "latitude": 40.866016421499999, 
+      "latitude": 40.791732000000003, 
       "email": "", 
       "fax": "", 
       "description": "", 
-      "address1": "P.O. Box 4521", 
+      "address1": "1086 Redmond Road", 
       "address2": "", 
       "phone": "707-822-4722", 
       "custom_zoom_level": null, 
@@ -2906,7 +2963,8 @@
       "name": "Historical Sites Society of Arcata", 
       "url": "http://www.arcatahistory.org/", 
       "region": "1", 
-      "longitude": -124.077894688, 
+      "longitude": -124.069506, 
+      "parent_ark": null, 
       "mainagency": "CArcHSS", 
       "parent_institution": null
     }
@@ -2917,7 +2975,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-09-07 17:41:55", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 43, 
       "primary_contact": 310, 
       "ark": "ark:/13030/kt1d5nc252", 
@@ -2939,6 +2997,7 @@
       "url": "http://www.historysanjose.org/", 
       "region": "1", 
       "longitude": -121.85937199999999, 
+      "parent_ark": null, 
       "mainagency": "CaSjHSJ", 
       "parent_institution": null
     }
@@ -2949,7 +3008,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:51:21", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 38, 
       "primary_contact": 203, 
       "ark": "ark:/13030/tf9d5nc2vj", 
@@ -2971,6 +3030,7 @@
       "url": "http://www.hcnc.org/", 
       "region": "1", 
       "longitude": -122.39254099999999, 
+      "parent_ark": null, 
       "mainagency": "CSfHCN", 
       "parent_institution": null
     }
@@ -2981,7 +3041,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-06 17:00:38", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt9g5023wp", 
@@ -3003,6 +3063,7 @@
       "url": "http://libraries.claremont.edu/sc/default.html", 
       "region": "5", 
       "longitude": -117.71235823631299, 
+      "parent_ark": "ark:/13030/kt6z09p076", 
       "mainagency": "CCC", 
       "parent_institution": 91
     }
@@ -3013,7 +3074,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-09-20 20:51:33", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 43, 
       "primary_contact": 128, 
       "ark": "ark:/13030/tf4m3nb8sq", 
@@ -3035,6 +3096,7 @@
       "url": "http://www.hoover.org/library-and-archives", 
       "region": "6", 
       "longitude": -122.166337967, 
+      "parent_ark": null, 
       "mainagency": "CSUZ", 
       "parent_institution": null
     }
@@ -3045,7 +3107,7 @@
     "fields": {
       "created_at": "2008-10-22 01:34:49", 
       "show_subjects": null, 
-      "updated_at": "2009-10-17 00:29:15", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt038nd6rz", 
@@ -3067,6 +3129,7 @@
       "url": "http://www.law.ucla.edu/home/index.asp?page=11", 
       "region": "5", 
       "longitude": -118.438432217, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU-L", 
       "parent_institution": 148
     }
@@ -3077,7 +3140,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:55:01", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 12, 
       "primary_contact": 22, 
       "ark": "ark:/13030/tf609nb7vz", 
@@ -3099,6 +3162,7 @@
       "url": "http://library.humboldt.edu/humco/", 
       "region": "5", 
       "longitude": -124.080308676, 
+      "parent_ark": null, 
       "mainagency": "CArcHT", 
       "parent_institution": null
     }
@@ -3109,7 +3173,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 20:24:06", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 290, 
       "ark": "ark:/13030/tf3j49p346", 
@@ -3131,6 +3195,7 @@
       "url": "http://www.huntington.org/huntingtonlibrary.aspx?id=544", 
       "region": "5", 
       "longitude": -118.109979629517, 
+      "parent_ark": null, 
       "mainagency": "CSmH", 
       "parent_institution": null
     }
@@ -3141,7 +3206,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:55:59", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt287031wp", 
@@ -3163,6 +3228,7 @@
       "url": "http://www.cityofinglewood.org/depts/library/default.asp", 
       "region": "5", 
       "longitude": -118.35628800000001, 
+      "parent_ark": null, 
       "mainagency": "CIng", 
       "parent_institution": null
     }
@@ -3173,7 +3239,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:56:51", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": 271, 
       "ark": "ark:/13030/kt496nd7vj", 
@@ -3195,6 +3261,7 @@
       "url": "http://www.irle.berkeley.edu/library/", 
       "region": "1", 
       "longitude": -122.25784421, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CaBeURLE", 
       "parent_institution": 25
     }
@@ -3205,7 +3272,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 16:43:19", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf2m3nb7t4", 
@@ -3227,6 +3294,7 @@
       "url": "http://www.igs.berkeley.edu/library/", 
       "region": "1", 
       "longitude": -122.257994413376, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-IG", 
       "parent_institution": 25
     }
@@ -3237,7 +3305,7 @@
     "fields": {
       "created_at": "2009-02-02 20:55:04", 
       "show_subjects": null, 
-      "updated_at": "2009-08-08 01:14:51", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt0p30317v", 
@@ -3259,6 +3327,7 @@
       "url": "http://www.getty.edu/research/conducting_research/institutional_archives/", 
       "region": "5", 
       "longitude": -118.47462899999999, 
+      "parent_ark": "ark:/13030/tf8b69p8g1", 
       "mainagency": "CMalG-IA", 
       "parent_institution": 186
     }
@@ -3269,7 +3338,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:58:16", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 43, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt0q2nc4gb", 
@@ -3291,6 +3360,7 @@
       "url": "http://www.intel.com/museum/index.htm", 
       "region": "1", 
       "longitude": -121.96648120899999, 
+      "parent_ark": null, 
       "mainagency": "CStclI", 
       "parent_institution": null
     }
@@ -3301,7 +3371,7 @@
     "fields": {
       "created_at": "2008-10-28 01:39:36", 
       "show_subjects": null, 
-      "updated_at": "2008-11-13 01:49:49", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt1h4nd8h7", 
@@ -3323,6 +3393,7 @@
       "url": "http://irpslibrary.ucsd.edu/", 
       "region": "5", 
       "longitude": -117.240922451, 
+      "parent_ark": "ark:/13030/tf5j49p47v", 
       "mainagency": "", 
       "parent_institution": 10
     }
@@ -3333,7 +3404,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2008-12-04 22:39:51", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 37, 
       "primary_contact": 246, 
       "ark": "ark:/13030/kt758028mc", 
@@ -3355,6 +3426,7 @@
       "url": "http://www.jahssd.org", 
       "region": "5", 
       "longitude": -117.15649999999999, 
+      "parent_ark": null, 
       "mainagency": "CaSdJAH", 
       "parent_institution": null
     }
@@ -3365,7 +3437,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 16:59:08", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 293, 
       "ark": "ark:/13030/tf000007c3", 
@@ -3387,6 +3459,7 @@
       "url": "http://www.janm.org/", 
       "region": "1", 
       "longitude": -118.238575, 
+      "parent_ark": null, 
       "mainagency": "CLJANM", 
       "parent_institution": null
     }
@@ -3397,7 +3470,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 17:00:50", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": 291, 
       "ark": "ark:/13030/tf9s2014xv", 
@@ -3419,6 +3492,7 @@
       "url": "http://www.magnes.org/", 
       "region": "", 
       "longitude": -122.24802196, 
+      "parent_ark": null, 
       "mainagency": "CBM", 
       "parent_institution": null
     }
@@ -3429,7 +3503,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-09-07 17:10:35", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 15, 
       "primary_contact": 356, 
       "ark": "ark:/13030/kt1d5nc5j6", 
@@ -3451,6 +3525,7 @@
       "url": "http://www.kerncountylibrary.org/", 
       "region": "4", 
       "longitude": -119.009306, 
+      "parent_ark": null, 
       "mainagency": "CBaK", 
       "parent_institution": null
     }
@@ -3461,7 +3536,7 @@
     "fields": {
       "created_at": "2008-10-15 19:59:12", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 18:35:05", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt4199r6cj", 
@@ -3483,6 +3558,7 @@
       "url": "http://www.lib.berkeley.edu/ENGI/", 
       "region": "1", 
       "longitude": -122.25840747356401, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -3493,7 +3569,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-01-09 02:14:20", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 30, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt1c6024gt", 
@@ -3515,6 +3591,7 @@
       "url": "http://www.oac.cdlib.org/institutions/ark:/13030/kt1c6024gt", 
       "region": "5", 
       "longitude": -117.94420838356, 
+      "parent_ark": null, 
       "mainagency": "ClaOSHS", 
       "parent_institution": null
     }
@@ -3525,7 +3602,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-04 19:06:31", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 38, 
       "primary_contact": 330, 
       "ark": "ark:/13030/tf7779p81b", 
@@ -3547,6 +3624,7 @@
       "url": "http://www.library.sfsu.edu/about/depts/larc.php", 
       "region": "1", 
       "longitude": -122.48100100000001, 
+      "parent_ark": null, 
       "mainagency": "CSfSt", 
       "parent_institution": null
     }
@@ -3557,7 +3635,7 @@
     "fields": {
       "created_at": "2008-10-22 00:24:20", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 17:31:50", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 30, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt709nf1ct", 
@@ -3579,6 +3657,7 @@
       "url": "http://www.lib.uci.edu/langson-library.html", 
       "region": "5", 
       "longitude": -117.841007709503, 
+      "parent_ark": "ark:/13030/tf3f59p4sv", 
       "mainagency": "", 
       "parent_institution": 101
     }
@@ -3589,7 +3668,7 @@
     "fields": {
       "created_at": "2010-09-07 23:03:56", 
       "show_subjects": false, 
-      "updated_at": "2010-09-07 23:15:49", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 34, 
       "primary_contact": 367, 
       "ark": "ark:/13030/kt8199s366", 
@@ -3611,6 +3690,7 @@
       "url": "http://www.lavenderlibrary.org/", 
       "region": "7", 
       "longitude": -121.48080640000001, 
+      "parent_ark": null, 
       "mainagency": "CaSaLLA", 
       "parent_institution": null
     }
@@ -3621,7 +3701,7 @@
     "fields": {
       "created_at": "2008-10-15 20:06:11", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 16:45:33", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt3z09r5p9", 
@@ -3643,6 +3723,7 @@
       "url": "http://www.law.berkeley.edu/library.htm", 
       "region": "1", 
       "longitude": -122.25342124700499, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -3653,7 +3734,7 @@
     "fields": {
       "created_at": "2008-10-14 22:10:56", 
       "show_subjects": null, 
-      "updated_at": "2008-11-05 18:38:42", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt5w1032rz", 
@@ -3675,6 +3756,7 @@
       "url": "http://www.lbl.gov/", 
       "region": "1", 
       "longitude": -122.25023, 
+      "parent_ark": null, 
       "mainagency": "CU-Lbl", 
       "parent_institution": null
     }
@@ -3685,7 +3767,7 @@
     "fields": {
       "created_at": "2010-05-12 01:21:53", 
       "show_subjects": null, 
-      "updated_at": "2010-05-12 01:28:00", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 7, 
       "primary_contact": 347, 
       "ark": "ark:/13030/kt096nd8zb", 
@@ -3707,6 +3789,7 @@
       "url": "http://libertyunion.schoolwires.net/197120420171122163/site/default.asp", 
       "region": "1", 
       "longitude": -121.69426900000001, 
+      "parent_ark": null, 
       "mainagency": "CaLHSmc", 
       "parent_institution": null
     }
@@ -3717,7 +3800,7 @@
     "fields": {
       "created_at": "2008-11-01 00:27:32", 
       "show_subjects": null, 
-      "updated_at": "2009-09-02 01:28:55", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 38, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt1t1nd720", 
@@ -3739,6 +3822,7 @@
       "url": "http://www.library.ucsf.edu/about/ckm", 
       "region": "1", 
       "longitude": -122.459009886, 
+      "parent_ark": "ark:/13030/tf3x0nb742", 
       "mainagency": "", 
       "parent_institution": 182
     }
@@ -3749,7 +3833,7 @@
     "fields": {
       "created_at": "2010-05-14 17:31:54", 
       "show_subjects": null, 
-      "updated_at": "2010-05-14 18:40:59", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 34, 
       "primary_contact": 349, 
       "ark": "ark:/13030/kt1290334n", 
@@ -3771,6 +3855,7 @@
       "url": "http://www.lpaonline.org/", 
       "region": "7", 
       "longitude": -121.353025, 
+      "parent_ark": null, 
       "mainagency": "CaMccLPA ", 
       "parent_institution": null
     }
@@ -3781,7 +3866,7 @@
     "fields": {
       "created_at": "2010-09-21 00:50:32", 
       "show_subjects": false, 
-      "updated_at": "2010-09-21 00:54:07", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 370, 
       "ark": "ark:/13030/kt5q2nf3wh", 
@@ -3803,6 +3888,7 @@
       "url": "http://www.lacma.org", 
       "region": "5", 
       "longitude": -118.35781609999999, 
+      "parent_ark": null, 
       "mainagency": "CAM", 
       "parent_institution": null
     }
@@ -3813,7 +3899,7 @@
     "fields": {
       "created_at": "2010-02-27 00:52:11", 
       "show_subjects": null, 
-      "updated_at": "2010-02-27 00:56:40", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 43, 
       "primary_contact": 339, 
       "ark": "ark:/13030/kt8g5039rn", 
@@ -3835,6 +3921,7 @@
       "url": "http://library.losgatosca.gov/", 
       "region": "1", 
       "longitude": -121.97938259999999, 
+      "parent_ark": null, 
       "mainagency": "CLg", 
       "parent_institution": null
     }
@@ -3845,7 +3932,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-06 18:21:11", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": 50, 
       "ark": "ark:/13030/kt9k402381", 
@@ -3867,6 +3954,7 @@
       "url": "http://library.lmu.edu/", 
       "region": "5", 
       "longitude": -118.419903516769, 
+      "parent_ark": null, 
       "mainagency": "CLLoy", 
       "parent_institution": null
     }
@@ -3877,7 +3965,7 @@
     "fields": {
       "created_at": "2008-10-15 20:45:42", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 17:49:21", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 57, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt2h4nd8p4", 
@@ -3899,6 +3987,7 @@
       "url": "http://www.law.ucdavis.edu/library/", 
       "region": "6", 
       "longitude": -121.749876737595, 
+      "parent_ark": "ark:/13030/tf6p3013t7", 
       "mainagency": "", 
       "parent_institution": 1
     }
@@ -3909,7 +3998,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 23:01:59", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf5r29p653", 
@@ -3931,6 +4020,7 @@
       "url": "http://libraries.ucsd.edu/locations/mscl", 
       "region": "8", 
       "longitude": -117.237317562103, 
+      "parent_ark": "ark:/13030/tf5j49p47v", 
       "mainagency": "CU-S", 
       "parent_institution": 10
     }
@@ -3941,7 +4031,7 @@
     "fields": {
       "created_at": "2009-03-18 20:06:14", 
       "show_subjects": null, 
-      "updated_at": "2009-11-06 18:25:36", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 38, 
       "primary_contact": 305, 
       "ark": "ark:/13030/kt4m3nf0vk", 
@@ -3963,6 +4053,7 @@
       "url": "http://www.manilatown.org/", 
       "region": "1", 
       "longitude": -122.40487352013599, 
+      "parent_ark": null, 
       "mainagency": "CaSfMHF", 
       "parent_institution": null
     }
@@ -3973,7 +4064,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 20:27:10", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf209nb609", 
@@ -3995,6 +4086,7 @@
       "url": "http://www.huntington.org/huntingtonlibrary.aspx?id=554", 
       "region": "5", 
       "longitude": -118.109979629517, 
+      "parent_ark": "ark:/13030/tf3j49p346", 
       "mainagency": "CSmH", 
       "parent_institution": 76
     }
@@ -4005,7 +4097,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-12 22:36:33", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 43, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf5r29p4tz", 
@@ -4027,6 +4119,7 @@
       "url": "http://www-sul.stanford.edu/depts/spc/mss/", 
       "region": "1", 
       "longitude": -122.16702461200001, 
+      "parent_ark": "ark:/13030/tf2r29p4gv", 
       "mainagency": "CSt", 
       "parent_institution": 125
     }
@@ -4037,7 +4130,7 @@
     "fields": {
       "created_at": "2008-10-15 20:12:34", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 18:04:50", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt2s2032g7", 
@@ -4059,6 +4152,7 @@
       "url": "http://www.lib.berkeley.edu/PUBL/", 
       "region": "1", 
       "longitude": -122.26654529571501, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -4069,7 +4163,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-06 18:38:18", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 21, 
       "primary_contact": 222, 
       "ark": "ark:/13030/kt4199q430", 
@@ -4091,6 +4185,7 @@
       "url": "http://www.co.marin.ca.us/depts/lb/main/crm/index.html", 
       "region": "1", 
       "longitude": -122.532856464386, 
+      "parent_ark": null, 
       "mainagency": "CSrCL", 
       "parent_institution": null
     }
@@ -4101,7 +4196,7 @@
     "fields": {
       "created_at": "2008-10-15 20:20:31", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 17:33:41", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt8199s0jx", 
@@ -4123,6 +4218,7 @@
       "url": "http://www.lib.berkeley.edu/math/", 
       "region": "1", 
       "longitude": -122.25783884499999, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -4133,7 +4229,7 @@
     "fields": {
       "created_at": "2008-11-01 01:14:30", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 16:48:50", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 44, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt309nd9wr", 
@@ -4155,6 +4251,7 @@
       "url": "http://library.ucsc.edu/mchenry/", 
       "region": "6", 
       "longitude": -122.05905765295, 
+      "parent_ark": "ark:/13030/kt3r29q08x", 
       "mainagency": "", 
       "parent_institution": 48
     }
@@ -4165,7 +4262,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 17:38:38", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 21, 
       "primary_contact": 210, 
       "ark": "ark:/13030/kt3199q45q", 
@@ -4187,6 +4284,7 @@
       "url": "http://www.millvalleylibrary.org/", 
       "region": "1", 
       "longitude": -122.554405332, 
+      "parent_ark": null, 
       "mainagency": "CMlPL", 
       "parent_institution": null
     }
@@ -4197,7 +4295,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-30 17:39:42", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": 78, 
       "ark": "ark:/13030/tf1w10112n", 
@@ -4219,6 +4317,7 @@
       "url": "http://www.mills.edu/academics/library/special_collections", 
       "region": "1", 
       "longitude": -122.18198061, 
+      "parent_ark": null, 
       "mainagency": "COMC", 
       "parent_institution": null
     }
@@ -4229,7 +4328,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-08-05 21:41:52", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 30, 
       "primary_contact": 224, 
       "ark": "ark:/13030/kt2j49q288", 
@@ -4251,6 +4350,7 @@
       "url": "http://www.cmvl.org/", 
       "region": "5", 
       "longitude": -117.659368515, 
+      "parent_ark": null, 
       "mainagency": "CaMjL", 
       "parent_institution": null
     }
@@ -4261,7 +4361,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 16:49:13", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf900014gf", 
@@ -4283,6 +4383,7 @@
       "url": "http://www.ucmp.berkeley.edu/", 
       "region": "1", 
       "longitude": -122.262505888939, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -4293,7 +4394,7 @@
     "fields": {
       "created_at": "2010-09-10 23:10:51", 
       "show_subjects": false, 
-      "updated_at": "2010-09-10 23:10:51", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 56, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt6n39s11z", 
@@ -4315,6 +4416,7 @@
       "url": "http://www.venturamuseum.org", 
       "region": "5", 
       "longitude": -119.2994443, 
+      "parent_ark": null, 
       "mainagency": "CVtMHA", 
       "parent_institution": null
     }
@@ -4325,7 +4427,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 16:51:56", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf4000119v", 
@@ -4347,6 +4449,7 @@
       "url": "http://www.lib.berkeley.edu/MUSI/", 
       "region": "1", 
       "longitude": -122.25613296032, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-MUSI", 
       "parent_institution": 25
     }
@@ -4357,7 +4460,7 @@
     "fields": {
       "created_at": "2008-10-28 00:51:29", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 18:14:19", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 33, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt6g5033sn", 
@@ -4379,6 +4482,7 @@
       "url": "http://library.ucr.edu/?view=libraries/music", 
       "region": "5", 
       "longitude": -117.331591844559, 
+      "parent_ark": "ark:/13030/tf1n39p20p", 
       "mainagency": "", 
       "parent_institution": 140
     }
@@ -4389,7 +4493,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 16:36:08", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf4g5010bm", 
@@ -4411,6 +4515,7 @@
       "url": "http://www2.library.ucla.edu/libraries/music/index.cfm", 
       "region": "5", 
       "longitude": -118.44033122099999, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU", 
       "parent_institution": 148
     }
@@ -4421,7 +4526,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-05-19 23:29:36", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 43, 
       "primary_contact": 76, 
       "ark": "ark:/13030/tf6q2nc0cc", 
@@ -4443,6 +4548,7 @@
       "url": "http://history.arc.nasa.gov/", 
       "region": "5", 
       "longitude": -122.059392929, 
+      "parent_ark": null, 
       "mainagency": "CMfNASA", 
       "parent_institution": null
     }
@@ -4453,7 +4559,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 16:36:39", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 38, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt267nd1n8", 
@@ -4475,6 +4581,7 @@
       "url": "http://www.nps.gov/goga/", 
       "region": "1", 
       "longitude": -122.436531, 
+      "parent_ark": null, 
       "mainagency": "CaSfGGN", 
       "parent_institution": null
     }
@@ -4485,7 +4592,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-08-10 23:12:50", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": 217, 
       "ark": "ark:/13030/kt4z09r14d", 
@@ -4507,6 +4614,7 @@
       "url": "http://www.oaklandlibrary.org/Seasonal/Sections/oakhr.html", 
       "region": "1", 
       "longitude": -122.263884544373, 
+      "parent_ark": "ark:/13030/kt1w1019nn", 
       "mainagency": "COPL", 
       "parent_institution": 118
     }
@@ -4517,7 +4625,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 16:38:37", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": 79, 
       "ark": "ark:/13030/tf9779p783", 
@@ -4539,6 +4647,7 @@
       "url": "http://www.museumca.org/", 
       "region": "1", 
       "longitude": -122.26427099999999, 
+      "parent_ark": null, 
       "mainagency": "COMus", 
       "parent_institution": null
     }
@@ -4549,7 +4658,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 16:39:18", 
+      "updated_at": "2011-02-12 00:49:00", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt1w1019nn", 
@@ -4571,6 +4680,7 @@
       "url": "http://www.oaklandlibrary.org/", 
       "region": "1", 
       "longitude": -122.263696, 
+      "parent_ark": null, 
       "mainagency": "COPL", 
       "parent_institution": null
     }
@@ -4581,7 +4691,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-09-21 18:05:44", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 202, 
       "ark": "ark:/13030/kt4p3021tf", 
@@ -4603,6 +4713,7 @@
       "url": "http://departments.oxy.edu/library/", 
       "region": "5", 
       "longitude": -118.211688995, 
+      "parent_ark": null, 
       "mainagency": "CLO", 
       "parent_institution": null
     }
@@ -4613,7 +4724,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-09-20 20:50:39", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 243, 
       "ark": "ark:/13030/kt2n39q9dc", 
@@ -4635,6 +4746,7 @@
       "url": "http://www.onearchives.org/", 
       "region": "5", 
       "longitude": -118.28154499999999, 
+      "parent_ark": null, 
       "mainagency": "CaLaONG", 
       "parent_institution": null
     }
@@ -4645,7 +4757,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-06 19:25:32", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf5580116c", 
@@ -4667,6 +4779,7 @@
       "url": "http://www.oac.cdlib.org/", 
       "region": "5", 
       "longitude": -122.26744115352599, 
+      "parent_ark": null, 
       "mainagency": "", 
       "parent_institution": null
     }
@@ -4677,7 +4790,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2008-12-04 22:39:52", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 30, 
       "primary_contact": 251, 
       "ark": "ark:/13030/kt5489q9p5", 
@@ -4699,6 +4812,7 @@
       "url": "http://www.ocpl.org/", 
       "region": "5", 
       "longitude": -117.849476, 
+      "parent_ark": null, 
       "mainagency": "COrCL", 
       "parent_institution": null
     }
@@ -4709,7 +4823,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-06 19:38:56", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 30, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt5r29q3m5", 
@@ -4731,6 +4845,7 @@
       "url": "http://www.cityoforange.org/localhistory", 
       "region": "5", 
       "longitude": -117.849698066711, 
+      "parent_ark": null, 
       "mainagency": "COr", 
       "parent_institution": null
     }
@@ -4741,7 +4856,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 16:45:53", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 56, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt3b69p5gc", 
@@ -4763,6 +4878,7 @@
       "url": "http://www.oxnard.org/", 
       "region": "", 
       "longitude": -119.17856499600001, 
+      "parent_ark": null, 
       "mainagency": "", 
       "parent_institution": null
     }
@@ -4773,7 +4889,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 16:47:30", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 225, 
       "ark": "ark:/13030/kt2h4nc6mp", 
@@ -4795,6 +4911,7 @@
       "url": "http://www.pvld.org/", 
       "region": "5", 
       "longitude": -118.37101221099999, 
+      "parent_ark": null, 
       "mainagency": "CPv", 
       "parent_institution": null
     }
@@ -4805,7 +4922,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 16:46:59", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf787013z0", 
@@ -4827,6 +4944,7 @@
       "url": "http://www.pasadenahistory.org/research/collectionsdata.html", 
       "region": "7", 
       "longitude": -118.161290288, 
+      "parent_ark": null, 
       "mainagency": "CPHi", 
       "parent_institution": null
     }
@@ -4837,7 +4955,7 @@
     "fields": {
       "created_at": "2008-11-05 20:42:32", 
       "show_subjects": null, 
-      "updated_at": "2010-09-27 16:22:38", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 60, 
       "ark": "ark:/13030/kt4199r6d2", 
@@ -4859,6 +4977,7 @@
       "url": "http://www2.library.ucla.edu/specialcollections/performingarts/index.cfm", 
       "region": "5", 
       "longitude": -118.44158649400001, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU-ART", 
       "parent_institution": 148
     }
@@ -4869,7 +4988,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 20:29:24", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf6t1nb9mj", 
@@ -4891,6 +5010,7 @@
       "url": "http://www.huntington.org/huntingtonlibrary.aspx?id=558", 
       "region": "5", 
       "longitude": -118.109979629517, 
+      "parent_ark": "ark:/13030/tf3j49p346", 
       "mainagency": "CSmH", 
       "parent_institution": 76
     }
@@ -4901,7 +5021,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-08-24 16:26:55", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 30, 
       "primary_contact": 252, 
       "ark": "ark:/13030/kt2r29q88g", 
@@ -4923,6 +5043,7 @@
       "url": "http://www.placentialibrary.org/", 
       "region": "5", 
       "longitude": -117.86077299999999, 
+      "parent_ark": null, 
       "mainagency": "CPl", 
       "parent_institution": null
     }
@@ -4933,7 +5054,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 17:03:06", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 247, 
       "ark": "ark:/13030/kt1f59p93n", 
@@ -4955,6 +5076,7 @@
       "url": "http://www.youseemore.com/pomona/", 
       "region": "5", 
       "longitude": -117.75049388399999, 
+      "parent_ark": null, 
       "mainagency": "CPom", 
       "parent_institution": null
     }
@@ -4965,7 +5087,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 20:31:40", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf9v19q041", 
@@ -4987,6 +5109,7 @@
       "url": "http://www.huntington.org/huntingtonlibrary.aspx?id=548", 
       "region": "5", 
       "longitude": -118.109979629517, 
+      "parent_ark": "ark:/13030/tf3j49p346", 
       "mainagency": "CSmH", 
       "parent_institution": 76
     }
@@ -4997,7 +5120,7 @@
     "fields": {
       "created_at": "2009-08-06 18:26:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-06 19:58:09", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 322, 
       "ark": "ark:/13030/kt3w1035xc", 
@@ -5019,6 +5142,7 @@
       "url": "http://www.rsabg.org/", 
       "region": "5", 
       "longitude": -117.71732568740801, 
+      "parent_ark": null, 
       "mainagency": "CCR", 
       "parent_institution": null
     }
@@ -5029,7 +5153,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-06 20:00:04", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": null, 
       "ark": "ark:/13030/ft6p3006x5", 
@@ -5051,6 +5175,7 @@
       "url": "http://www-sul.stanford.edu/depts/spc/rbc/index_etc/rbc_index.html", 
       "region": "1", 
       "longitude": -122.167067527771, 
+      "parent_ark": "ark:/13030/tf2r29p4gv", 
       "mainagency": "CSt", 
       "parent_institution": 125
     }
@@ -5061,7 +5186,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 17:05:45", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 41, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt9q2nc8w8", 
@@ -5083,6 +5208,7 @@
       "url": "http://www.redwoodcity.org/library/services/local_history.html", 
       "region": "1", 
       "longitude": -122.227385044, 
+      "parent_ark": null, 
       "mainagency": "CRc", 
       "parent_institution": null
     }
@@ -5093,7 +5219,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 17:06:17", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 8, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt596nc8tc", 
@@ -5115,6 +5241,7 @@
       "url": "http://nps.gov/redw/", 
       "region": "6", 
       "longitude": -124.194007516, 
+      "parent_ark": null, 
       "mainagency": "CaCcNPS", 
       "parent_institution": null
     }
@@ -5125,7 +5252,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-02-02 01:54:48", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf1p3009z6", 
@@ -5147,6 +5274,7 @@
       "url": "http://www.usc.edu/libraries/archives/arc/libraries/regional/index.html", 
       "region": "5", 
       "longitude": -118.283797503, 
+      "parent_ark": "ark:/13030/tf2870098j", 
       "mainagency": "CLSU", 
       "parent_institution": 80
     }
@@ -5157,7 +5285,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2010-01-12 00:57:44", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 7, 
       "primary_contact": 226, 
       "ark": "ark:/13030/kt5199q5x6", 
@@ -5179,6 +5307,7 @@
       "url": "http://www.ci.richmond.ca.us/index.asp?NID=105", 
       "region": "1", 
       "longitude": -122.34367, 
+      "parent_ark": null, 
       "mainagency": "CaBRi", 
       "parent_institution": null
     }
@@ -5189,7 +5318,7 @@
     "fields": {
       "created_at": "2008-10-28 01:04:52", 
       "show_subjects": null, 
-      "updated_at": "2008-10-28 01:06:46", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 33, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt8t1nf2q1", 
@@ -5211,6 +5340,7 @@
       "url": "http://library.ucr.edu/?view=libraries/rivera/", 
       "region": "5", 
       "longitude": -117.32745051384001, 
+      "parent_ark": "ark:/13030/tf1n39p20p", 
       "mainagency": "", 
       "parent_institution": 140
     }
@@ -5221,7 +5351,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-11-06 20:05:54", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 33, 
       "primary_contact": 261, 
       "ark": "ark:/13030/kt0199q6gd", 
@@ -5243,6 +5373,7 @@
       "url": "http://www.riversideca.gov/library/", 
       "region": "5", 
       "longitude": -117.37234532833099, 
+      "parent_ark": null, 
       "mainagency": "CRiv", 
       "parent_institution": null
     }
@@ -5253,7 +5384,7 @@
     "fields": {
       "created_at": "2010-04-27 18:27:06", 
       "show_subjects": null, 
-      "updated_at": "2010-04-27 18:43:49", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 31, 
       "primary_contact": 345, 
       "ark": "ark:/13030/kt300033cs", 
@@ -5275,6 +5406,7 @@
       "url": "http://www.roseville.ca.us/library/history_collection.asp", 
       "region": "7", 
       "longitude": -121.284384727, 
+      "parent_ark": null, 
       "mainagency": "CRo", 
       "parent_institution": null
     }
@@ -5285,7 +5417,7 @@
     "fields": {
       "created_at": "2008-10-22 01:44:05", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 20:54:00", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt8p3035bt", 
@@ -5307,6 +5439,7 @@
       "url": "http://www2.library.ucla.edu/libraries/EastAsian/6469.cfm", 
       "region": "5", 
       "longitude": -118.441457748413, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "", 
       "parent_institution": 148
     }
@@ -5317,7 +5450,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 17:12:02", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 34, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf7779p65f", 
@@ -5339,6 +5472,7 @@
       "url": "http://www.sacramenities.com/history/", 
       "region": "1", 
       "longitude": -121.495876908, 
+      "parent_ark": null, 
       "mainagency": "CSAMCC", 
       "parent_institution": null
     }
@@ -5349,7 +5483,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-11-06 20:10:41", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 34, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt0779q6sc", 
@@ -5371,6 +5505,7 @@
       "url": "http://www.otan.us/", 
       "region": "7", 
       "longitude": -121.29849851131399, 
+      "parent_ark": null, 
       "mainagency": "CaSaCOE", 
       "parent_institution": null
     }
@@ -5381,7 +5516,7 @@
     "fields": {
       "created_at": "2009-08-13 21:47:39", 
       "show_subjects": null, 
-      "updated_at": "2009-08-13 22:09:48", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 36, 
       "primary_contact": 324, 
       "ark": "ark:/13030/kt0h4nd9jx", 
@@ -5403,6 +5538,7 @@
       "url": "http://www.co.san-bernardino.ca.us/ACR/archives.htm", 
       "region": "5", 
       "longitude": -117.28619813900001, 
+      "parent_ark": null, 
       "mainagency": "CaSbCA", 
       "parent_institution": null
     }
@@ -5413,7 +5549,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-01-12 19:29:52", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 36, 
       "primary_contact": 84, 
       "ark": "ark:/13030/kt067nc4fj", 
@@ -5435,6 +5571,7 @@
       "url": "http://www.sbpl.org/", 
       "region": "5", 
       "longitude": -117.295253277, 
+      "parent_ark": null, 
       "mainagency": "CSb", 
       "parent_institution": null
     }
@@ -5445,7 +5582,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 17:19:52", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 41, 
       "primary_contact": 212, 
       "ark": "ark:/13030/kt338nc6v0", 
@@ -5467,6 +5604,7 @@
       "url": "http://sanbruno.ca.gov/library_main.html", 
       "region": "1", 
       "longitude": -122.41481781, 
+      "parent_ark": null, 
       "mainagency": "CSbrP", 
       "parent_institution": null
     }
@@ -5477,7 +5615,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 18:06:14", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt0g50151g", 
@@ -5499,6 +5637,7 @@
       "url": "http://www.sandiegohistory.org/", 
       "region": "5", 
       "longitude": -117.149022, 
+      "parent_ark": null, 
       "mainagency": "CSdHi", 
       "parent_institution": null
     }
@@ -5509,7 +5648,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 21:13:19", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 37, 
       "primary_contact": 319, 
       "ark": "ark:/13030/tf0p3009k6", 
@@ -5531,6 +5670,7 @@
       "url": "http://www.sdsu.edu/", 
       "region": "8", 
       "longitude": -117.072415351868, 
+      "parent_ark": null, 
       "mainagency": "CSdS", 
       "parent_institution": null
     }
@@ -5541,7 +5681,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-09-25 00:01:02", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 38, 
       "primary_contact": 340, 
       "ark": "ark:/13030/tf809nb9vj", 
@@ -5563,6 +5703,7 @@
       "url": "http://sfpl.org/sfhistory", 
       "region": "8", 
       "longitude": -122.41586923600001, 
+      "parent_ark": "ark:/13030/kt9n39s18h", 
       "mainagency": "CSf", 
       "parent_institution": 264
     }
@@ -5573,7 +5714,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-06-29 00:20:24", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 38, 
       "primary_contact": 94, 
       "ark": "ark:/13030/tf9d5nc0sj", 
@@ -5595,6 +5736,7 @@
       "url": "http://www.nps.gov/safr/historyculture/researchcontact.htm", 
       "region": "1", 
       "longitude": -122.43039071600001, 
+      "parent_ark": null, 
       "mainagency": "CSfMM", 
       "parent_institution": null
     }
@@ -5605,7 +5747,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 18:09:50", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 38, 
       "primary_contact": 95, 
       "ark": "ark:/13030/kt0x0nc5fm", 
@@ -5627,6 +5769,7 @@
       "url": "http://www.sfmoma.org/", 
       "region": "1", 
       "longitude": -122.400751, 
+      "parent_ark": null, 
       "mainagency": "CSfMMA", 
       "parent_institution": null
     }
@@ -5637,7 +5780,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2008-12-04 22:39:52", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 38, 
       "primary_contact": 97, 
       "ark": "ark:/13030/kt7h4nc71x", 
@@ -5659,6 +5802,7 @@
       "url": "http://www.sfpalm.org", 
       "region": "1", 
       "longitude": -122.42012, 
+      "parent_ark": null, 
       "mainagency": "CSfPAL", 
       "parent_institution": null
     }
@@ -5669,7 +5813,7 @@
     "fields": {
       "created_at": "2010-09-03 17:36:04", 
       "show_subjects": false, 
-      "updated_at": "2010-09-03 17:43:00", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 38, 
       "primary_contact": 340, 
       "ark": "ark:/13030/kt9n39s18h", 
@@ -5691,6 +5835,7 @@
       "url": "http://sfpl.org/", 
       "region": "1", 
       "longitude": -122.415808, 
+      "parent_ark": null, 
       "mainagency": "CSf", 
       "parent_institution": null
     }
@@ -5701,7 +5846,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-09 17:03:38", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 39, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf1f59p2n6", 
@@ -5723,6 +5868,7 @@
       "url": "http://www.sanjoaquinhistory.org/", 
       "region": "1", 
       "longitude": -121.272497177124, 
+      "parent_ark": null, 
       "mainagency": "CStoHi", 
       "parent_institution": null
     }
@@ -5733,7 +5879,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 20:41:48", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 10, 
       "primary_contact": 34, 
       "ark": "ark:/13030/kt129015ng", 
@@ -5755,6 +5901,7 @@
       "url": "http://www.sjvls.org/", 
       "region": "3", 
       "longitude": -119.78638172149699, 
+      "parent_ark": null, 
       "mainagency": "CFSJV", 
       "parent_institution": null
     }
@@ -5765,7 +5912,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 18:15:24", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": 206, 
       "ark": "ark:/13030/kt6k4021nt", 
@@ -5787,6 +5934,7 @@
       "url": "http://www.sjlibrary.org/research/special/ca/", 
       "region": "1", 
       "longitude": -121.88610199999999, 
+      "parent_ark": null, 
       "mainagency": "CSj", 
       "parent_institution": null
     }
@@ -5797,7 +5945,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-07-02 21:01:09", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": 99, 
       "ark": "ark:/13030/kt8j49q3pt", 
@@ -5819,6 +5967,7 @@
       "url": "http://www.sjlibrary.org/research/special/special_coll/", 
       "region": "1", 
       "longitude": -121.88511371600001, 
+      "parent_ark": null, 
       "mainagency": "CSjU", 
       "parent_institution": null
     }
@@ -5829,7 +5978,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 18:16:38", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 41, 
       "primary_contact": 268, 
       "ark": "ark:/13030/kt1k40300d", 
@@ -5851,6 +6000,7 @@
       "url": "http://www.brisbanelibrary.org/", 
       "region": "1", 
       "longitude": -122.403809, 
+      "parent_ark": null, 
       "mainagency": "CMSBR", 
       "parent_institution": null
     }
@@ -5861,7 +6011,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 18:25:14", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 41, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt109nc4r6", 
@@ -5883,6 +6033,7 @@
       "url": "http://www.cityofsanmateo.org/index.asp?nid=507", 
       "region": "1", 
       "longitude": -122.327077, 
+      "parent_ark": null, 
       "mainagency": "CSmat", 
       "parent_institution": null
     }
@@ -5893,7 +6044,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 18:40:34", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 30, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt2q2nb77b", 
@@ -5915,6 +6066,7 @@
       "url": "http://www.ci.santa-ana.ca.us/library/", 
       "region": "", 
       "longitude": -117.873964, 
+      "parent_ark": null, 
       "mainagency": "CSta", 
       "parent_institution": null
     }
@@ -5925,7 +6077,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 18:41:05", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 42, 
       "primary_contact": 116, 
       "ark": "ark:/13030/kt996nc9vm", 
@@ -5947,6 +6099,7 @@
       "url": "http://www.sbbg.org/index.cfm?fuseaction=collections.library", 
       "region": "5", 
       "longitude": -119.70861375299999, 
+      "parent_ark": null, 
       "mainagency": "CStbBG", 
       "parent_institution": null
     }
@@ -5957,7 +6110,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2010-01-12 19:31:05", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 42, 
       "primary_contact": 262, 
       "ark": "ark:/13030/kt009nc8zx", 
@@ -5979,6 +6132,7 @@
       "url": "http://www.sbnature.org/", 
       "region": "5", 
       "longitude": -119.71485257099999, 
+      "parent_ark": null, 
       "mainagency": "CStbM", 
       "parent_institution": null
     }
@@ -5989,7 +6143,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 18:43:11", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": 117, 
       "ark": "ark:/13030/kt95802219", 
@@ -6011,6 +6165,7 @@
       "url": "http://www.library.ci.santa-clara.ca.us/", 
       "region": "6", 
       "longitude": -121.97348177400001, 
+      "parent_ark": null, 
       "mainagency": "CStcl", 
       "parent_institution": null
     }
@@ -6021,7 +6176,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-09-29 19:53:06", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": 201, 
       "ark": "ark:/13030/kt509nc89n", 
@@ -6043,6 +6198,7 @@
       "url": "http://archives.sccgov.org/", 
       "region": "6", 
       "longitude": -121.85799121856699, 
+      "parent_ark": null, 
       "mainagency": "CaSjSCA", 
       "parent_institution": null
     }
@@ -6053,7 +6209,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2010-01-12 00:58:23", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": 119, 
       "ark": "ark:/13030/tf9v19p891", 
@@ -6075,6 +6231,7 @@
       "url": "http://www.scu.edu/archives/", 
       "region": "1", 
       "longitude": -121.937470436, 
+      "parent_ark": null, 
       "mainagency": "CStclU", 
       "parent_institution": null
     }
@@ -6085,7 +6242,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 18:46:10", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 253, 
       "ark": "ark:/13030/kt367nd2zq", 
@@ -6107,6 +6264,7 @@
       "url": "http://www.santafesprings.org/library/default.asp", 
       "region": "5", 
       "longitude": -118.083715439, 
+      "parent_ark": null, 
       "mainagency": "CSfs", 
       "parent_institution": null
     }
@@ -6117,7 +6275,7 @@
     "fields": {
       "created_at": "2010-07-17 01:40:28", 
       "show_subjects": null, 
-      "updated_at": "2010-07-17 01:52:28", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 359, 
       "ark": "ark:/13030/kt4g50360k", 
@@ -6139,6 +6297,7 @@
       "url": "http://www.smpl.org/", 
       "region": "5", 
       "longitude": -118.4933626, 
+      "parent_ark": null, 
       "mainagency": "CStmo", 
       "parent_institution": null
     }
@@ -6149,7 +6308,7 @@
     "fields": {
       "created_at": "2008-10-28 00:29:50", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 20:58:47", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt5j49r8h5", 
@@ -6171,6 +6330,7 @@
       "url": "http://www2.library.ucla.edu/libraries/sel/index.cfm", 
       "region": "5", 
       "longitude": -118.44282031059301, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "", 
       "parent_institution": 148
     }
@@ -6181,7 +6341,7 @@
     "fields": {
       "created_at": "2008-10-28 01:46:36", 
       "show_subjects": null, 
-      "updated_at": "2008-11-13 01:51:28", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt3q2nd740", 
@@ -6203,6 +6363,7 @@
       "url": "http://scilib.ucsd.edu/", 
       "region": "5", 
       "longitude": -117.23746776599999, 
+      "parent_ark": "ark:/13030/tf5j49p47v", 
       "mainagency": "", 
       "parent_institution": 10
     }
@@ -6213,7 +6374,7 @@
     "fields": {
       "created_at": "2008-11-01 01:23:35", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 18:46:42", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 45, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt800034q0", 
@@ -6235,6 +6396,7 @@
       "url": "http://library.ucsc.edu/science/", 
       "region": "6", 
       "longitude": -122.060776949, 
+      "parent_ark": "ark:/13030/kt3r29q08x", 
       "mainagency": "", 
       "parent_institution": 48
     }
@@ -6245,7 +6407,7 @@
     "fields": {
       "created_at": "2008-10-22 00:34:14", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 17:41:37", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 30, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt387030cr", 
@@ -6267,6 +6429,7 @@
       "url": "http://www.lib.uci.edu/science-library.html", 
       "region": "5", 
       "longitude": -117.846484780312, 
+      "parent_ark": "ark:/13030/tf3f59p4sv", 
       "mainagency": "", 
       "parent_institution": 101
     }
@@ -6277,7 +6440,7 @@
     "fields": {
       "created_at": "2008-10-28 01:11:45", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 18:22:23", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 33, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt4h4nf0hr", 
@@ -6299,6 +6462,7 @@
       "url": "http://library.ucr.edu/?view=libraries/science", 
       "region": "5", 
       "longitude": -117.324500083923, 
+      "parent_ark": "ark:/13030/tf1n39p20p", 
       "mainagency": "", 
       "parent_institution": 140
     }
@@ -6309,7 +6473,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2008-12-04 22:39:52", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 27, 
       "ark": "ark:/13030/kt829028w5", 
@@ -6331,6 +6495,7 @@
       "url": "http://www.scrippscollege.edu/williamson-gallery", 
       "region": "5", 
       "longitude": -117.711522, 
+      "parent_ark": null, 
       "mainagency": "CaClaSCW", 
       "parent_institution": null
     }
@@ -6341,7 +6506,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2010-06-05 02:04:30", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 37, 
       "primary_contact": 7, 
       "ark": "ark:/13030/tf22901027", 
@@ -6363,6 +6528,7 @@
       "url": "http://libraries.ucsd.edu/locations/sio/scripps-archives", 
       "region": "1", 
       "longitude": -117.25296020499999, 
+      "parent_ark": "ark:/13030/tf5j49p47v", 
       "mainagency": "CaLjSIOA", 
       "parent_institution": 10
     }
@@ -6373,7 +6539,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2010-06-05 02:04:13", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt4m3nd3t2", 
@@ -6395,6 +6561,7 @@
       "url": "http://libraries.ucsd.edu/locations/sio/", 
       "region": "1", 
       "longitude": -117.25254178, 
+      "parent_ark": "ark:/13030/tf5j49p47v", 
       "mainagency": "CaLjSIOL", 
       "parent_institution": 10
     }
@@ -6405,7 +6572,7 @@
     "fields": {
       "created_at": "2010-09-10 23:01:43", 
       "show_subjects": false, 
-      "updated_at": "2010-09-28 00:19:13", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 54, 
       "primary_contact": 373, 
       "ark": "ark:/13030/kt3v19s03w", 
@@ -6427,6 +6594,7 @@
       "url": "http://www.nps.gov/seki", 
       "region": "3", 
       "longitude": -118.81330847700001, 
+      "parent_ark": null, 
       "mainagency": "CaTrSKC", 
       "parent_institution": null
     }
@@ -6437,7 +6605,7 @@
     "fields": {
       "created_at": "2008-10-16 21:51:09", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 17:13:37", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 57, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt5r29r6fg", 
@@ -6459,6 +6627,7 @@
       "url": "http://www.lib.ucdavis.edu/ul/libcoll/shields.php", 
       "region": "6", 
       "longitude": -121.748980879784, 
+      "parent_ark": "ark:/13030/tf6p3013t7", 
       "mainagency": "", 
       "parent_institution": 1
     }
@@ -6469,7 +6638,7 @@
     "fields": {
       "created_at": "2008-10-28 01:51:30", 
       "show_subjects": null, 
-      "updated_at": "2008-11-13 01:52:10", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt5p3032zr", 
@@ -6491,6 +6660,7 @@
       "url": "http://sshl.ucsd.edu/", 
       "region": "5", 
       "longitude": -117.237596512, 
+      "parent_ark": "ark:/13030/tf5j49p47v", 
       "mainagency": "", 
       "parent_institution": 10
     }
@@ -6501,7 +6671,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-07-01 23:39:52", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 38, 
       "primary_contact": 90, 
       "ark": "ark:/13030/kt8s2020gp", 
@@ -6523,6 +6693,7 @@
       "url": "http://www.californiapioneers.org/", 
       "region": "1", 
       "longitude": -122.401196, 
+      "parent_ark": null, 
       "mainagency": "CSfCP", 
       "parent_institution": null
     }
@@ -6533,7 +6704,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2010-09-09 20:13:37", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 49, 
       "primary_contact": 195, 
       "ark": "ark:/13030/tf5h4nb7sw", 
@@ -6555,6 +6726,7 @@
       "url": "http://library.sonoma.edu/regional/", 
       "region": "5", 
       "longitude": -122.67692327499999, 
+      "parent_ark": null, 
       "mainagency": "CRpS", 
       "parent_institution": null
     }
@@ -6565,7 +6737,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 19:21:08", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt709nd069", 
@@ -6587,6 +6759,7 @@
       "url": "http://www2.sjsu.edu/depts/history/Resources/", 
       "region": "1", 
       "longitude": -121.884545088, 
+      "parent_ark": null, 
       "mainagency": "CaSjSAS", 
       "parent_institution": null
     }
@@ -6597,7 +6770,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2008-12-04 22:39:52", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 241, 
       "ark": "ark:/13030/kt0q2nc5xj", 
@@ -6619,6 +6792,7 @@
       "url": "http://www.ci.south-pasadena.ca.us/library/index.html", 
       "region": "5", 
       "longitude": -118.15622399999999, 
+      "parent_ark": null, 
       "mainagency": "CSp", 
       "parent_institution": null
     }
@@ -6629,7 +6803,7 @@
     "fields": {
       "created_at": "2009-07-24 16:31:05", 
       "show_subjects": null, 
-      "updated_at": "2009-11-09 18:42:17", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 41, 
       "primary_contact": 320, 
       "ark": "ark:/13030/kt909nf5cc", 
@@ -6651,6 +6825,7 @@
       "url": "http://www.ssflibrary.net/", 
       "region": "1", 
       "longitude": -122.436355948448, 
+      "parent_ark": null, 
       "mainagency": "CSSf", 
       "parent_institution": null
     }
@@ -6661,7 +6836,7 @@
     "fields": {
       "created_at": "2008-10-15 20:29:08", 
       "show_subjects": null, 
-      "updated_at": "2008-10-15 20:47:10", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt3580335f", 
@@ -6683,6 +6858,7 @@
       "url": "http://www.lib.berkeley.edu/SSEAL/", 
       "region": "1", 
       "longitude": -122.25955009499999, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "", 
       "parent_institution": 25
     }
@@ -6693,7 +6869,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-07-29 21:18:58", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 30, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf529010fv", 
@@ -6715,6 +6891,7 @@
       "url": "http://www.lib.uci.edu/libraries/collections/special/coll/seaa/", 
       "region": "5", 
       "longitude": -117.841029167, 
+      "parent_ark": "ark:/13030/tf3f59p4sv", 
       "mainagency": "CU-I", 
       "parent_institution": 101
     }
@@ -6725,7 +6902,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-09 22:23:48", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 327, 
       "ark": "ark:/13030/tf7q2nb9fm", 
@@ -6747,6 +6924,7 @@
       "url": "http://www.socallib.org/", 
       "region": "1", 
       "longitude": -118.29148000000001, 
+      "parent_ark": null, 
       "mainagency": "CLSCLS", 
       "parent_institution": null
     }
@@ -6757,7 +6935,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2010-06-05 02:03:31", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf4779p5jq", 
@@ -6779,6 +6957,7 @@
       "url": "http://scua.sdsu.edu/", 
       "region": "8", 
       "longitude": -117.07122445100001, 
+      "parent_ark": "ark:/13030/tf0p3009k6", 
       "mainagency": "CSds", 
       "parent_institution": 44
     }
@@ -6789,7 +6968,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-07-29 21:19:12", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 30, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf1p3008cx", 
@@ -6811,6 +6990,7 @@
       "url": "http://www.lib.uci.edu/libraries/collections/special/special.html", 
       "region": "5", 
       "longitude": -117.841109633, 
+      "parent_ark": "ark:/13030/tf3f59p4sv", 
       "mainagency": "CU-I", 
       "parent_institution": 101
     }
@@ -6821,7 +7001,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 19:28:00", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 42, 
       "primary_contact": 287, 
       "ark": "ark:/13030/kt2j49q7f8", 
@@ -6843,6 +7023,7 @@
       "url": "http://www.library.ucsb.edu/speccoll/", 
       "region": "2", 
       "longitude": -119.845497608, 
+      "parent_ark": "ark:/13030/tf7779p82v", 
       "mainagency": "CU-SB", 
       "parent_institution": 109
     }
@@ -6853,7 +7034,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 16:10:47", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 38, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf0h4nb4sw", 
@@ -6875,6 +7056,7 @@
       "url": "http://www.library.ucsf.edu/collections/archives", 
       "region": "1", 
       "longitude": -122.459224462509, 
+      "parent_ark": "ark:/13030/tf3x0nb742", 
       "mainagency": "CU-M", 
       "parent_institution": 182
     }
@@ -6885,7 +7067,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 17:15:54", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 57, 
       "primary_contact": 129, 
       "ark": "ark:/13030/tf1489p250", 
@@ -6907,6 +7089,7 @@
       "url": "http://www.lib.ucdavis.edu/specol/", 
       "region": "5", 
       "longitude": -121.749549508095, 
+      "parent_ark": "ark:/13030/tf6p3013t7", 
       "mainagency": "CU-A", 
       "parent_institution": 1
     }
@@ -6917,7 +7100,7 @@
     "fields": {
       "created_at": "2009-02-02 20:49:54", 
       "show_subjects": null, 
-      "updated_at": "2009-08-08 01:16:14", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt98703819", 
@@ -6939,6 +7122,7 @@
       "url": "http://www.getty.edu/research/conducting_research/special_collections/", 
       "region": "5", 
       "longitude": -118.475017547607, 
+      "parent_ark": "ark:/13030/tf8b69p8g1", 
       "mainagency": "CMalG-SC", 
       "parent_institution": 186
     }
@@ -6949,7 +7133,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-08-10 23:47:52", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 44, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf5h4nb7td", 
@@ -6971,6 +7155,7 @@
       "url": "http://library.ucsc.edu/speccoll/", 
       "region": "7", 
       "longitude": -122.051753997803, 
+      "parent_ark": "ark:/13030/kt3r29q08x", 
       "mainagency": "CU-SC", 
       "parent_institution": 48
     }
@@ -6981,7 +7166,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-19 17:03:29", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 33, 
       "primary_contact": 176, 
       "ark": "ark:/13030/tf6t1nc14w", 
@@ -7003,6 +7188,7 @@
       "url": "http://library.ucr.edu/?view=collections/spcol", 
       "region": "5", 
       "longitude": -117.327412962914, 
+      "parent_ark": "ark:/13030/tf1n39p20p", 
       "mainagency": "CU-Riv", 
       "parent_institution": 140
     }
@@ -7013,7 +7199,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 16:33:04", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 10, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt058018bm", 
@@ -7035,6 +7221,7 @@
       "url": "http://www.csufresno.edu/library/", 
       "region": "3", 
       "longitude": -119.749388694763, 
+      "parent_ark": "ark:/13030/tf329009q8", 
       "mainagency": "CFS", 
       "parent_institution": 65
     }
@@ -7045,7 +7232,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 15:50:13", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf6t1nc15d", 
@@ -7067,6 +7254,7 @@
       "url": "http://www.usc.edu/libraries/locations/special_collections/index.php", 
       "region": "3", 
       "longitude": -118.277982473373, 
+      "parent_ark": "ark:/13030/tf2870098j", 
       "mainagency": "CLSU", 
       "parent_institution": 80
     }
@@ -7077,7 +7265,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2010-09-30 19:39:12", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": 163, 
       "ark": "ark:/13030/tf129008pn", 
@@ -7099,6 +7287,7 @@
       "url": "http://www2.library.ucla.edu/specialcollections/researchlibrary/index.cfm", 
       "region": "5", 
       "longitude": -118.44158649400001, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU-SC", 
       "parent_institution": 148
     }
@@ -7109,7 +7298,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-09 18:55:01", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": 120, 
       "ark": "ark:/13030/kt1v19q1s6", 
@@ -7131,6 +7320,7 @@
       "url": "http://www-sul.stanford.edu/depts/ars/", 
       "region": "1", 
       "longitude": -122.16938495636001, 
+      "parent_ark": "ark:/13030/tf2r29p4gv", 
       "mainagency": "CSt", 
       "parent_institution": 125
     }
@@ -7141,7 +7331,7 @@
     "fields": {
       "created_at": "2010-04-27 18:41:47", 
       "show_subjects": null, 
-      "updated_at": "2010-04-27 18:46:41", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt0t1nd8rh", 
@@ -7163,6 +7353,7 @@
       "url": "http://lane.stanford.edu/portals/history/index.html", 
       "region": "1", 
       "longitude": -122.1761355, 
+      "parent_ark": "ark:/13030/tf2r29p4gv", 
       "mainagency": "CSt-L", 
       "parent_institution": 125
     }
@@ -7173,7 +7364,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-11-09 18:53:11", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": 120, 
       "ark": "ark:/13030/kt5870276q", 
@@ -7195,6 +7386,7 @@
       "url": "http://lib.stanford.edu/music", 
       "region": "1", 
       "longitude": -122.169283032417, 
+      "parent_ark": "ark:/13030/tf2r29p4gv", 
       "mainagency": "CSt-Mus", 
       "parent_institution": 125
     }
@@ -7205,7 +7397,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-09-29 21:23:43", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 43, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf2r29p4gv", 
@@ -7227,6 +7419,7 @@
       "url": "http://www-sul.stanford.edu/depts/spc/", 
       "region": "1", 
       "longitude": -122.16996, 
+      "parent_ark": null, 
       "mainagency": "", 
       "parent_institution": null
     }
@@ -7237,7 +7430,7 @@
     "fields": {
       "created_at": "2010-01-30 00:16:12", 
       "show_subjects": null, 
-      "updated_at": "2010-01-30 00:41:11", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 1, 
       "primary_contact": 337, 
       "ark": "ark:/13030/kt5779r8ww", 
@@ -7259,6 +7452,7 @@
       "url": "http://linguistics.berkeley.edu/~survey/", 
       "region": "", 
       "longitude": -122.262682915, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CaBeUSCO", 
       "parent_institution": 25
     }
@@ -7269,7 +7463,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 19:38:24", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 51, 
       "primary_contact": 227, 
       "ark": "ark:/13030/kt9z09q96d", 
@@ -7291,6 +7485,7 @@
       "url": "http://www.co.sutter.ca.us/doc/government/depts/library/library", 
       "region": "9", 
       "longitude": -121.624639034, 
+      "parent_ark": null, 
       "mainagency": "CYcCL", 
       "parent_institution": null
     }
@@ -7301,7 +7496,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 16:11:37", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 38, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf4f59p5sn", 
@@ -7323,6 +7518,7 @@
       "url": "http://www.library.ucsf.edu/tobacco/", 
       "region": "1", 
       "longitude": -122.459272742271, 
+      "parent_ark": "ark:/13030/tf3x0nb742", 
       "mainagency": "CU-M", 
       "parent_institution": 182
     }
@@ -7333,7 +7529,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 17:05:32", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf0p3009mq", 
@@ -7355,6 +7551,7 @@
       "url": "http://www.lib.berkeley.edu/", 
       "region": "1", 
       "longitude": -122.25360631942701, 
+      "parent_ark": null, 
       "mainagency": "", 
       "parent_institution": null
     }
@@ -7365,7 +7562,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 19:40:25", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 57, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf6p3013t7", 
@@ -7387,6 +7584,7 @@
       "url": "http://www.lib.ucdavis.edu/specol/", 
       "region": "5", 
       "longitude": -121.74896478700001, 
+      "parent_ark": null, 
       "mainagency": "", 
       "parent_institution": null
     }
@@ -7397,7 +7595,7 @@
     "fields": {
       "created_at": "2008-10-14 22:01:37", 
       "show_subjects": null, 
-      "updated_at": "2010-02-10 01:46:10", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 38, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt6c6034t0", 
@@ -7419,6 +7617,7 @@
       "url": "http://library.uchastings.edu/library/", 
       "region": "1", 
       "longitude": -122.415005565, 
+      "parent_ark": null, 
       "mainagency": "CSfH", 
       "parent_institution": null
     }
@@ -7429,7 +7628,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-07-29 21:19:22", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 30, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf3f59p4sv", 
@@ -7451,6 +7650,7 @@
       "url": "http://www.lib.uci.edu/", 
       "region": "5", 
       "longitude": -117.842067, 
+      "parent_ark": null, 
       "mainagency": "", 
       "parent_institution": null
     }
@@ -7461,7 +7661,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2008-12-05 18:09:51", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 24, 
       "primary_contact": 3, 
       "ark": "ark:/13030/kt6n39q2pc", 
@@ -7483,6 +7683,7 @@
       "url": "http://ucmercedlibrary.info/", 
       "region": "3", 
       "longitude": -120.424441695, 
+      "parent_ark": null, 
       "mainagency": "CaAwUCM", 
       "parent_institution": null
     }
@@ -7493,7 +7694,7 @@
     "fields": {
       "created_at": "2008-10-14 22:18:07", 
       "show_subjects": null, 
-      "updated_at": "2008-11-05 16:19:53", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 7, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt467nd91f", 
@@ -7515,6 +7716,7 @@
       "url": "http://www.lib.berkeley.edu/NRLF/", 
       "region": "1", 
       "longitude": -122.328981, 
+      "parent_ark": null, 
       "mainagency": "CU-NL", 
       "parent_institution": null
     }
@@ -7525,7 +7727,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-08-08 01:01:53", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 33, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf1n39p20p", 
@@ -7547,6 +7749,7 @@
       "url": "http://library.ucr.edu/", 
       "region": "4", 
       "longitude": -117.33117342, 
+      "parent_ark": null, 
       "mainagency": "CU-Riv", 
       "parent_institution": null
     }
@@ -7557,7 +7760,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 22:58:53", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf5j49p47v", 
@@ -7579,6 +7782,7 @@
       "url": "http://libraries.ucsd.edu/", 
       "region": "5", 
       "longitude": -117.239634991, 
+      "parent_ark": null, 
       "mainagency": "CU-S", 
       "parent_institution": null
     }
@@ -7589,7 +7793,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2010-10-08 17:40:13", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 38, 
       "primary_contact": 171, 
       "ark": "ark:/13030/tf3x0nb742", 
@@ -7611,6 +7815,7 @@
       "url": "http://www.library.ucsf.edu/", 
       "region": "", 
       "longitude": -122.4186, 
+      "parent_ark": null, 
       "mainagency": "CSfU", 
       "parent_institution": null
     }
@@ -7621,7 +7826,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 16:13:46", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 42, 
       "primary_contact": 181, 
       "ark": "ark:/13030/tf7779p82v", 
@@ -7643,6 +7848,7 @@
       "url": "http://www.library.ucsb.edu/speccoll/speccoll.html", 
       "region": "2", 
       "longitude": -119.84706401824999, 
+      "parent_ark": null, 
       "mainagency": "CU-SB", 
       "parent_institution": null
     }
@@ -7653,7 +7859,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 16:34:46", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 44, 
       "primary_contact": 185, 
       "ark": "ark:/13030/kt3r29q08x", 
@@ -7675,6 +7881,7 @@
       "url": "http://library.ucsc.edu/speccoll/", 
       "region": "7", 
       "longitude": -122.057933807373, 
+      "parent_ark": null, 
       "mainagency": "CU-SC", 
       "parent_institution": null
     }
@@ -7685,7 +7892,7 @@
     "fields": {
       "created_at": "2008-10-14 22:36:03", 
       "show_subjects": null, 
-      "updated_at": "2008-11-05 16:20:07", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt996nf43q", 
@@ -7707,6 +7914,7 @@
       "url": "http://www.srlf.ucla.edu/", 
       "region": "5", 
       "longitude": -118.45360279099999, 
+      "parent_ark": null, 
       "mainagency": "", 
       "parent_institution": null
     }
@@ -7717,7 +7925,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-08-14 06:16:17", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf8z09p95s", 
@@ -7739,6 +7947,7 @@
       "url": "http://www.library.ucla.edu/", 
       "region": "5", 
       "longitude": -118.44461800000001, 
+      "parent_ark": null, 
       "mainagency": "", 
       "parent_institution": null
     }
@@ -7749,7 +7958,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2008-09-16 21:51:57", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 34, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf5z09p7h2", 
@@ -7771,6 +7980,7 @@
       "url": "http://www.edd.ca.gov/", 
       "region": "5", 
       "longitude": -121.497587, 
+      "parent_ark": null, 
       "mainagency": "UID-EDD", 
       "parent_institution": null
     }
@@ -7781,7 +7991,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2010-06-05 02:03:51", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt6q2nc792", 
@@ -7803,6 +8013,7 @@
       "url": "http://libraries.ucsd.edu/locations/mscl", 
       "region": "8", 
       "longitude": -117.23762869799999, 
+      "parent_ark": "ark:/13030/tf5j49p47v", 
       "mainagency": "CU-S", 
       "parent_institution": 10
     }
@@ -7813,13 +8024,13 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 16:56:34", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 1, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf6x0nb9j5", 
       "zip4": "94720-6000", 
       "city": 72, 
-      "archivegrid_harvest": null, 
+      "archivegrid_harvest": true, 
       "cdlpath": "berkeley/uarc", 
       "worldcat_harvest": null, 
       "latitude": 37.872355041741002, 
@@ -7835,6 +8046,7 @@
       "url": "http://bancroft.berkeley.edu/collections/uarc.html", 
       "region": "1", 
       "longitude": -122.258906364441, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-UARC", 
       "parent_institution": 25
     }
@@ -7845,7 +8057,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 17:04:29", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 37, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf1t1nb6v5", 
@@ -7867,6 +8079,7 @@
       "url": "http://scua.sdsu.edu/", 
       "region": "8", 
       "longitude": -117.071117162704, 
+      "parent_ark": "ark:/13030/tf0p3009k6", 
       "mainagency": "CSds", 
       "parent_institution": 44
     }
@@ -7877,7 +8090,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-26 17:40:37", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 44, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt9t1nc831", 
@@ -7899,6 +8112,7 @@
       "url": "http://library.ucsc.edu/speccoll/", 
       "region": "7", 
       "longitude": -122.05385684967, 
+      "parent_ark": "ark:/13030/kt3r29q08x", 
       "mainagency": "CU-SC", 
       "parent_institution": 48
     }
@@ -7909,7 +8123,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-23 15:51:09", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt800021wp", 
@@ -7931,6 +8145,7 @@
       "url": "http://www.usc.edu/libraries/archives/arc/libraries/uscarchives/", 
       "region": "5", 
       "longitude": -118.283877968788, 
+      "parent_ark": "ark:/13030/tf2870098j", 
       "mainagency": "CLSU", 
       "parent_institution": 80
     }
@@ -7941,7 +8156,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-07-29 21:19:34", 
+      "updated_at": "2011-02-12 00:49:01", 
       "county": 30, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt3v19n8bk", 
@@ -7963,6 +8178,7 @@
       "url": "http://www.lib.uci.edu/libraries/collections/special/coll/university_archives/", 
       "region": "5", 
       "longitude": -117.84111499799999, 
+      "parent_ark": "ark:/13030/tf3f59p4sv", 
       "mainagency": "CU-I", 
       "parent_institution": 101
     }
@@ -7973,7 +8189,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-08-11 22:01:06", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 43, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf458010c5", 
@@ -7995,6 +8211,7 @@
       "url": "http://www-sul.stanford.edu/depts/spc/uarch/index.html", 
       "region": "1", 
       "longitude": -122.170522213, 
+      "parent_ark": "ark:/13030/tf2r29p4gv", 
       "mainagency": "CSt", 
       "parent_institution": 125
     }
@@ -8005,7 +8222,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-19 17:01:42", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 33, 
       "primary_contact": 176, 
       "ark": "ark:/13030/kt2f59r49j", 
@@ -8027,6 +8244,7 @@
       "url": "http://library.ucr.edu/?view=collections/spcol", 
       "region": "5", 
       "longitude": -117.327471971512, 
+      "parent_ark": "ark:/13030/tf1n39p20p", 
       "mainagency": "CU-Riv", 
       "parent_institution": 140
     }
@@ -8037,7 +8255,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 18:53:46", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 19, 
       "primary_contact": 169, 
       "ark": "ark:/13030/tf1d5nb4kf", 
@@ -8059,6 +8277,7 @@
       "url": "http://www2.library.ucla.edu/libraries/UniversityArchives/7238.cfm", 
       "region": "5", 
       "longitude": -118.44142556190501, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "CLU", 
       "parent_institution": 148
     }
@@ -8069,7 +8288,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:57", 
       "show_subjects": null, 
-      "updated_at": "2009-10-16 16:12:41", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 38, 
       "primary_contact": null, 
       "ark": "ark:/13030/tf6j49p6xg", 
@@ -8091,6 +8310,7 @@
       "url": "http://www.library.ucsf.edu/collections/archives", 
       "region": "1", 
       "longitude": -122.45926469564399, 
+      "parent_ark": "ark:/13030/tf3x0nb742", 
       "mainagency": "CU-M", 
       "parent_institution": 182
     }
@@ -8101,20 +8321,20 @@
     "fields": {
       "created_at": "2009-12-07 19:26:04", 
       "show_subjects": null, 
-      "updated_at": "2010-10-26 15:19:44", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 42, 
       "primary_contact": 179, 
       "ark": "ark:/13030/kt8779s1dn", 
-      "zip4": "93106-7130", 
+      "zip4": "93101", 
       "city": 861, 
       "archivegrid_harvest": null, 
       "cdlpath": "ucsb/uam", 
       "worldcat_harvest": null, 
-      "latitude": 34.4121054879, 
+      "latitude": 34.412105487901201, 
       "email": "uam@uam.ucsb.edu", 
       "fax": "(805) 893-3013", 
       "description": "", 
-      "address1": "University of California, Santa Barbara", 
+      "address1": "15 West Anapamu Street", 
       "address2": "", 
       "phone": "(805) 893-2951", 
       "custom_zoom_level": null, 
@@ -8122,7 +8342,8 @@
       "name": "University Art Museum", 
       "url": "http://www.uam.ucsb.edu/", 
       "region": "", 
-      "longitude": -119.849209785, 
+      "longitude": -119.849209785461, 
+      "parent_ark": "ark:/13030/tf7779p82v", 
       "mainagency": "CaStbUAM", 
       "parent_institution": 109
     }
@@ -8133,7 +8354,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2010-01-22 20:16:53", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 19, 
       "primary_contact": 57, 
       "ark": "ark:/13030/tf2870098j", 
@@ -8155,6 +8376,7 @@
       "url": "http://www.usc.edu/libraries/locations/special_collections", 
       "region": "5", 
       "longitude": -118.28833299999999, 
+      "parent_ark": null, 
       "mainagency": "CLSU", 
       "parent_institution": null
     }
@@ -8165,7 +8387,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 19:41:05", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 39, 
       "primary_contact": 125, 
       "ark": "ark:/13030/tf609nb7wg", 
@@ -8187,6 +8409,7 @@
       "url": "http://library.pacific.edu/ha/", 
       "region": "1", 
       "longitude": -121.31266599999999, 
+      "parent_ark": null, 
       "mainagency": "CStoC", 
       "parent_institution": null
     }
@@ -8197,7 +8420,7 @@
     "fields": {
       "created_at": "2009-07-24 16:33:51", 
       "show_subjects": null, 
-      "updated_at": "2009-08-07 18:57:30", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 36, 
       "primary_contact": 321, 
       "ark": "ark:/13030/kt5j49s0m9", 
@@ -8219,6 +8442,7 @@
       "url": "http://www.uplandpl.lib.ca.us/", 
       "region": "5", 
       "longitude": -117.6509921, 
+      "parent_ark": null, 
       "mainagency": "CUpl", 
       "parent_institution": null
     }
@@ -8229,7 +8453,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-10-14 17:01:00", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 1, 
       "primary_contact": 194, 
       "ark": "ark:/13030/tf009nb42r", 
@@ -8251,6 +8475,7 @@
       "url": "http://www.lib.berkeley.edu/WRCA/", 
       "region": "1", 
       "longitude": -122.25905656814599, 
+      "parent_ark": "ark:/13030/tf0p3009mq", 
       "mainagency": "CU-WR", 
       "parent_institution": 25
     }
@@ -8261,7 +8486,7 @@
     "fields": {
       "created_at": "2008-12-12 02:02:10", 
       "show_subjects": null, 
-      "updated_at": "2009-11-09 19:23:44", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 43, 
       "primary_contact": 292, 
       "ark": "ark:/13030/kt8j49r9m4", 
@@ -8283,6 +8508,7 @@
       "url": "http://www.westvalley.edu/library/", 
       "region": "6", 
       "longitude": -122.00991153717, 
+      "parent_ark": null, 
       "mainagency": "CSarW", 
       "parent_institution": null
     }
@@ -8293,7 +8519,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 19:42:01", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 19, 
       "primary_contact": 295, 
       "ark": "ark:/13030/kt7g5027z1", 
@@ -8315,6 +8541,7 @@
       "url": "http://www.whittierlibrary.org/", 
       "region": "5", 
       "longitude": -118.034749031, 
+      "parent_ark": null, 
       "mainagency": "CWh", 
       "parent_institution": null
     }
@@ -8325,7 +8552,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:56", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 19:42:51", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 30, 
       "primary_contact": 269, 
       "ark": "ark:/13030/kt2z09r3kg", 
@@ -8347,6 +8574,7 @@
       "url": "http://www.ylpl.lib.ca.us/", 
       "region": "5", 
       "longitude": -117.816298, 
+      "parent_ark": null, 
       "mainagency": "CYl", 
       "parent_institution": null
     }
@@ -8357,7 +8585,7 @@
     "fields": {
       "created_at": "2008-10-28 00:38:36", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 19:43:11", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 19, 
       "primary_contact": null, 
       "ark": "ark:/13030/kt5v19r760", 
@@ -8379,6 +8607,7 @@
       "url": "http://www2.library.ucla.edu/specialcollections/researchlibrary/index.cfm", 
       "region": "5", 
       "longitude": -118.44142556200001, 
+      "parent_ark": "ark:/13030/tf8z09p95s", 
       "mainagency": "", 
       "parent_institution": 148
     }
@@ -8389,7 +8618,7 @@
     "fields": {
       "created_at": "2008-09-16 21:51:55", 
       "show_subjects": null, 
-      "updated_at": "2009-12-02 19:44:23", 
+      "updated_at": "2011-02-12 00:49:02", 
       "county": 58, 
       "primary_contact": 218, 
       "ark": "ark:/13030/kt9489q7ft", 
@@ -8411,6 +8640,7 @@
       "url": "http://library.yuba.org/", 
       "region": "9", 
       "longitude": -121.58707800000001, 
+      "parent_ark": null, 
       "mainagency": "YCL", 
       "parent_institution": null
     }

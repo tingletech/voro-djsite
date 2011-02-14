@@ -3,6 +3,7 @@ from django.test import TestCase
 from django.test.client import Client
 #from django.auth import User
 from django.db import IntegrityError
+from django.core.exceptions import MultipleObjectsReturned
 
 from oac.models import *
 
@@ -31,7 +32,7 @@ class ReadOnlyAdminTestCase(TestCase):
 class InstitutionViewsTestCase(TestCase):
     """Test the AJAX views of institution data.
     """
-    fixtures = ['oac.institution.json', ]
+    fixtures = ['oac.institution.json', 'oac.institutionoldname.json', 'oac.city.json', 'oac.county.json' ]
     def setUp(self):
         """Might want to use a fixture??
         """
@@ -48,41 +49,33 @@ class InstitutionViewsTestCase(TestCase):
                         longitude='-122.267359')
         i.save()
         self.insts.append(i)
-        self.failUnlessEqual(265, len(Institution.objects.all()))
+        self.failUnlessEqual(264, len(Institution.objects.all()))
 
     def testInsitutionAddressInfoView(self):
         inst = self.insts[0]
         response = self.client.get('/djsite/institution/address_info/div/%s' % inst.name)
         self.assertContains(response, inst.address1)
 
+    def testInstitutionAddressInfoOldNameView(self):
+        duplicate_name = 'San Francisco History Center'
+        try:
+            response = self.client.get('/djsite/institution/address_info/div/%s' % duplicate_name)
+        except MultipleObjectsReturned, e:
+            print dir(e)
+            self.fail('OldName lookup failed: %s' % (e.message,))
+
+class InstitutionDataTestCase(TestCase):
+    fixtures = ['oac.institution.json', 'auth.json' ]
+
+    def testMissingParentArk(self):
+        insts = Institution.objects.all()
+        for inst in insts:
+            if inst.parent_institution and not inst.parent_ark:
+                self.fail('Missing parent ARK:%s Parent:%s' % (inst.name, inst.parent_institution.name,))
+
 class InstitutionModelTestCase(TestCase):
     fixtures = ['oac.institution.json', 'auth.json' ]
 
-    def setUp(self):
-        pass
-    '''
-        self.inst0 = Institution.objects.get(id=2)
-        insts = []
-        for x in range(10):
-            ark = "ark:/13030/test%d" % x  
-            name = "Test %d" % x
-            insts.append(Institution(ark=ark, name=name))
-        self.insts = insts
-    '''
-
-#    def testSetUpData(self):
-#        '''Test the data setup above. If this fails...
-#        '''
-#        x=0
-#        for inst in self.insts:
-#            self.assertEqual(inst.ark,"ark:/13030/test%d" % x, "Failed for setUp data item: %s %s %s" % (inst.pk, inst.ark, inst.name))
-#            self.assertEqual(inst.name, "Test %d" % x)
-#            x=x+1
-
-    '''
-    def testTestArks(self):
-        self.assertEquals(self.insts[0].ark, 'ark:/13030/test0')
-    '''
 #    def testLatin1Name(self):
 #        '''want to get the inclusion of latin-1 chars (xe9,  e acute) 
 #        to output in file like obj.

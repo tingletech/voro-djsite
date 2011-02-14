@@ -18,6 +18,24 @@ from django.conf import settings
 from oac.models import Institution, InstitutionOldName
 import util.contributor_stats as stats
 
+def getInstitutionOldName(name):
+    '''See if the instituion name exists in the oldname table.
+    If so, return institution esle return None
+    '''
+    parent_inst = None
+    try:
+        oldname_list = InstitutionOldName.objects.filter(name__exact=name).order_by('expires_at', 'created_at')
+        if oldname_list:
+            oldname = oldname_list[0]
+            if oldname.expires_at:
+                oldname_list = InstitutionOldName.objects.filter(name=name).filter(expires_at__gte=datetime.now()).order_by('expires_at', 'created_at')
+                oldname = oldname_list[0] if oldname_list else None
+            if oldname:
+                parent_inst = oldname.institution
+    except InstitutionOldName.DoesNotExist:
+        pass
+    return parent_inst
+
 def institution_address_info_div(request, **kwargs):
     '''AJAX: Returns a div filled with address info for the named institution
     Also adds whether to show subjects or not
@@ -36,14 +54,7 @@ def institution_address_info_div(request, **kwargs):
             parent_inst = Institution.objects.get(name=parent)
         except Institution.DoesNotExist:
             # see if there is an old name that matches
-            try:
-                oldname = InstitutionOldName.objects.get(name=parent)
-                if oldname.expires_at:
-                     oldname = InstitutionOldName.objects.filter(name=inst_name).filter(expires_at__gte=datetime.now())
-                if oldname:
-                    parent_inst = oldname.institution
-            except InstitutionOldName.DoesNotExist:
-                parent_inst = None
+            parent_inst = getInstitutionOldName(parent)
     else:
         parent_inst = None
 
@@ -55,15 +66,8 @@ def institution_address_info_div(request, **kwargs):
         else:
             institute = Institution.objects.get(name=inst_name)
     except Institution.DoesNotExist:
-        try:
-            oldname = InstitutionOldName.objects.get(name=inst_name)
-            if oldname.expires_at:
-                oldname = InstitutionOldName.objects.filter(name=inst_name).filter(expires_at__gte=datetime.now())
-            if oldname:
-                institute = oldname.institution
-            else:
-                raise InstitutionOldName.DoesNotExist
-        except InstitutionOldName.DoesNotExist:
+        parent_inst = getInstitutionOldName(inst_name)
+        if not parent_inst:
             return HttpResponseServerError('<h1>No Institute for name='+
                                        html.escape(inst_name) +
                                        ' -parent=' + str(parent_inst) + '</h1>')

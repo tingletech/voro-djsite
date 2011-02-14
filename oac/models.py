@@ -53,7 +53,7 @@ class Institution(models.Model):
     '''
     ark = models.CharField(max_length=255, unique=True, blank=True)
     parent_institution = models.ForeignKey('self', null=True, blank=True, related_name='children')
-    #parent_ark = models.CharField(max_length=255, null=True, blank=True)
+    parent_ark = models.CharField(max_length=255, null=True, blank=True)
     name = models.CharField(max_length=255)#, blank=True)
     mainagency = models.CharField(max_length=255, null=True, blank=True)
     cdlpath = models.CharField(max_length=255, blank=True)
@@ -123,6 +123,10 @@ class Institution(models.Model):
         self.ark = self.ark.strip()
         if not valid_ark(self.ark):
             raise ValueError('Invalid ark')
+        if self.parent_institution:
+            self.parent_ark = self.parent_institution.ark
+        else:
+            self.parent_ark = None
         #lookup self in db and compare url fields
         if not Institution.valid_name(self.name)[0]:
             raise ValueError(Institution.valid_name(self.name)[1])

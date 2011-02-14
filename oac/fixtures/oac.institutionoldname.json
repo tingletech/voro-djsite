@@ -98,5 +98,15 @@
       "expires_at": null, 
       "name": "San Francisco History Center"
     }
+  }, 
+  {
+    "pk": 12, 
+    "model": "oac.institutionoldname", 
+    "fields": {
+      "created_at": "2011-02-14 18:50:20", 
+      "institution": 115, 
+      "expires_at": null, 
+      "name": "San Francisco History Center"
+    }
   }
 ]
