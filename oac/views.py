@@ -66,9 +66,7 @@ def institution_address_info_div(request, **kwargs):
         else:
             institute = Institution.objects.get(name=inst_name)
     except Institution.DoesNotExist:
-        parent_inst = getInstitutionOldName(inst_name)
-        if not parent_inst:
-            return HttpResponseServerError('<h1>No Institute for name='+
+        return HttpResponseServerError('<h1>No Institute for name='+
                                        html.escape(inst_name) +
                                        ' -parent=' + str(parent_inst) + '</h1>')
 

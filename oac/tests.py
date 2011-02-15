@@ -55,6 +55,8 @@ class InstitutionViewsTestCase(TestCase):
         inst = self.insts[0]
         response = self.client.get('/djsite/institution/address_info/div/%s' % inst.name)
         self.assertContains(response, inst.address1)
+        response = self.client.get('/djsite/institution/address_info/div/%s' % 'Sacramento Archives and Museum Collection Center')
+        response = self.client.get('/djsite/institution/address_info/div/%s' % 'XXXXXXXX Archives and Museum Collection Center')
 
     def testInstitutionAddressInfoOldNameView(self):
         duplicate_name = 'San Francisco History Center'
