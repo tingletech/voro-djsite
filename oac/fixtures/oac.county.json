@@ -1,0 +1,408 @@
+[
+  {
+    "pk": 1, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Alameda"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Alpine"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Amador"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Butte"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Calaveras"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Colusa"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Contra Costa"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Del Norte"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "El Dorado"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Fresno"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Glenn"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Humboldt"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Imperial"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Inyo"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Kern"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Kings"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Lake"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Lassen"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Los Angeles"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Madera"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Marin"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Mariposa"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Mendocino"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Merced"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Modoc"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Mono"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Monterey"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Napa"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Nevada"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Orange"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Placer"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Plumas"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Riverside"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Sacramento"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "San Benito"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "San Bernardino"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "San Diego"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "San Francisco"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "San Joaquin"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "San Luis Obispo"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "San Mateo"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Santa Barbara"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Santa Clara"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Santa Cruz"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Shasta"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Sierra"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Siskiyou"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Solano"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Sonoma"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Stanislaus"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Sutter"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Tehama"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Trinity"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Tulare"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Tuolumne"
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Ventura"
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Yolo"
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "oac.county", 
+    "fields": {
+      "name": "Yuba"
+    }
+  }
+]
