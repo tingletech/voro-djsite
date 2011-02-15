@@ -22,7 +22,7 @@ def getInstitutionOldName(name):
     '''See if the instituion name exists in the oldname table.
     If so, return institution esle return None
     '''
-    parent_inst = None
+    inst = None
     try:
         oldname_list = InstitutionOldName.objects.filter(name__exact=name).order_by('expires_at', 'created_at')
         if oldname_list:
@@ -31,10 +31,10 @@ def getInstitutionOldName(name):
                 oldname_list = InstitutionOldName.objects.filter(name=name).filter(expires_at__gte=datetime.now()).order_by('expires_at', 'created_at')
                 oldname = oldname_list[0] if oldname_list else None
             if oldname:
-                parent_inst = oldname.institution
+                inst = oldname.institution
     except InstitutionOldName.DoesNotExist:
         pass
-    return parent_inst
+    return inst
 
 def institution_address_info_div(request, **kwargs):
     '''AJAX: Returns a div filled with address info for the named institution
@@ -66,7 +66,9 @@ def institution_address_info_div(request, **kwargs):
         else:
             institute = Institution.objects.get(name=inst_name)
     except Institution.DoesNotExist:
-        return HttpResponseServerError('<h1>No Institute for name='+
+        institute = getInsitutionOldName(inst_name)
+        if not institute:
+            return HttpResponseServerError('<h1>No Institute for name='+
                                        html.escape(inst_name) +
                                        ' -parent=' + str(parent_inst) + '</h1>')
 
