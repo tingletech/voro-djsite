@@ -101,7 +101,7 @@ def view_ARKSets(request):
     '''View the ARK sets for a user. Include links for editing and metadata
     '''
     sets = request.user.arkset_set.all()
-    return render_to_response('xtf/view_ARKsets.html',
+    return render_to_response('xtf/view_ARKSets.html',
                               locals(),
                              )
 
