@@ -79,3 +79,21 @@ class ARKObjectViewTestCase(TestCase):
         c = Client()
         response = c.get(a.get_absolute_url())
         self.failUnlessEqual(200, response.status_code)
+
+
+class ARKSetViewTestCase(TestCase):
+    '''Test the various views of the ARKSets.
+    '''
+    fixtures = ['xtf.json', 'auth.json', 'sites.json']
+
+    def testViewARKSets(self):
+        ret = self.client.login(username='oactestuser',password='oactestuser')
+        self.failUnless(ret)
+        response = self.client.get('/djsite/xtf/ARKSet/')
+        self.failUnlessEqual(200, response.status_code)
+
+    def testViewARKSetMap(self):
+        ret = self.client.login(username='oactestuser',password='oactestuser')
+        self.failUnless(ret)
+        response = self.client.get('/djsite/xtf/ARKSet/3/map')
+        self.failUnlessEqual(200, response.status_code)

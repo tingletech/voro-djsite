@@ -1,5 +1,5 @@
 {% extends "xtf/base.html" %}
-{%block bodyattrs%} onload="load({{arkset.lat}},{{arkset.long}})" onunload="GUnload()" {%endblock bodyattrs%}
+{%block bodyattrs%} onload="load()" onunload="GUnload()" {%endblock bodyattrs%}
 
 {% block bodycontent %}
 <div id="ARKSet">
@@ -14,7 +14,8 @@
                     <img src="{{ member.object.thumbnail.src }}" alt="Thumbnail for {{member.object}}" title="Thumbnail for {{member.object}}" />
                 </div>
                 <div class="span-17 last">
-                    <h3>ARKObject : {{ member.object }}</h3>
+                    <h3><a href="{{member.object.get_absolute_url}}">ARKObject : {{ member.object }}</a></h3>
+                    <h4><a href="{{member.get_absolute_url}}">ARKSetMember : {{ member }}</a></h4>
                     Annotation : {{ member.annotation }}<br />
                     {% for term in member.DCTerms.all %}
                     Term: {{ term.get_term_display }}- qual:{{ term.qualifier }}- val: {{ term.content }} <br />
@@ -22,13 +23,20 @@
                 </div>
             </div>
         {% endfor %}
+
+        <div class="span-24">
+        <h3>JSON</h3>
+        {{json}}
+        </div>
         {%endcomment%}
-        <div id="map" style="width: 700px; height: 700px"></div>
+
+        <div id="map_canvas" style="width: 700px; height: 700px"></div>
         <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key="ABQIAAAAPZhPbFDgyqqKaAJtfPgdhRQxAnOebRR8qqjlEjE1Y4ZOeQ67yxSVDP1Eq9oU2BZjw2PaheQ5prTXaw" type="text/javascript"></script>
 <script type="text/javascript">
     var arkobjects = {{ json|safe }}
 </script>
-<script type="text/javascript" src="/js/map.js"></script>
+
+<script type="text/javascript" src="/site_media/js/mapSet.js"></script>
 {%comment%}
 {%if arkset.lat %}
 <script type="text/javascript">

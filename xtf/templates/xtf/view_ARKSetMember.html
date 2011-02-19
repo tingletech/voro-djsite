@@ -3,8 +3,8 @@
 {% block bodycontent %}
 <div id="arksetmember">
         <h1> Set Member ID: {{ arksetmember.pk }}</h1>
-        <h1> ARKObject referred:  {{ arksetmember.object }}
-        <h1>Set Object belongs to --> {{ arksetmember.set }}</h1>
+        <h1> ARKObject referred:  <a href="{{arksetmember.object.get_absolute_url}}">{{ arksetmember.object }}</a></h1>
+        <h1>Set Object belongs to --> <a href="{{arksetmember.set.get_absolute_url}}">{{ arksetmember.set }}</a></h1>
         <h3>Set Member Annotation --> {{ arksetmember.annotation }}</h3>
 
         {% for term in arksetmember.DCTerms.all %}

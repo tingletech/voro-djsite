@@ -5,7 +5,7 @@ from django.template import RequestContext
 from django.http import HttpResponse
 from django.http import Http404, HttpResponseForbidden, HttpResponseBadRequest
 from django import forms
-from xtf.models import ARKObject, ARKSet, ARKSetMember
+from xtf.models import ARKObject, ARKSet, ARKSetMember, GeoPoint
 from xtf.ARK_validator import ARKInvalid
 
 def view_XTF_item(request, id, *args):
@@ -51,7 +51,9 @@ def map_ARKSet(request, pk):
         g = arkset.geo.all()[0]
         arkset.lat = g.lat
         arkset.lon = g.lon
-    except GeoPointDoesNotExist:
+    except GeoPoint.DoesNotExist:
+        pass
+    except IndexError:
         pass
     #build json, will just include directly in template for now
     #should use simple json, create dict with arks as keys
