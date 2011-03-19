@@ -2,8 +2,9 @@ from django.db import models
 from xtf.models import ARKSet, ARKSetMember
 from richtext.fields import AdminRichTextField
 from django.template.defaultfilters import slugify
+import south.modelsinspector
 
-#    DCTERM_MAP = dict([(x[1].lower(), x[0]) for x in DCTERMS])
+south.modelsinspector.add_introspection_rules([], [r'^richtext\.fields\.AdminRichTextField'])
 
 class ThemedCollection(models.Model):
     '''Basic themed collection. Has a set but no geo info?
