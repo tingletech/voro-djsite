@@ -16,7 +16,8 @@ class ThemedCollection(models.Model):
     questions = models.TextField() #Use the rich text edit stuff
     markup = AdminRichTextField(default='', blank=True,) #freeform markup
     arksets = models.ManyToManyField(ARKSet, null=True, blank=True)
-    mosaic_members = models.ManyToManyField(ARKSetMember, null=True, blank=True)#, limit_choices_to={'id__in': [m.id for m in self.get_members()]})#TODO: how to constrain to ones in get_members?
+    #mosaic_members = models.ManyToManyField(ARKSetMember, related_name='+', null=True, blank=True)#, limit_choices_to={'id__in': [m.id for m in self.get_members()]})#TODO: how to constrain to ones in get_members?
+    mosaicmembers = models.ManyToManyField(ARKSetMember, null=True, blank=True, through='MosaicMember', related_name="themedcollection_set")
     updated_at = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
@@ -54,6 +55,16 @@ class ThemedCollectionSidebar(models.Model):
 
     def __unicode__(self):
         return self.title
+
+class MosaicMember(models.Model):
+    '''Many to Many 'through' class, to associate an ordering term with
+    the themed collection mosaic members.
+    '''
+    collection = models.ForeignKey(ThemedCollection)
+    member = models.ForeignKey(ARKSetMember)
+    order = models.IntegerField()
+    updated_at = models.DateTimeField(auto_now=True)
+    created_at = models.DateTimeField(auto_now_add=True)
 
 #TODO: should create new GeoThemedCollection ? with region, theme_type included
 # region is the constrained choice field, theme_type a many-to-many?

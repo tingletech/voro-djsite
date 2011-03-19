@@ -32,20 +32,20 @@ class ThemedCollectionAdmin(admin.ModelAdmin):
     save_on_top = True
     inlines = ( ThemedCollectionSidebarInline, )
 
-    def get_form(self, request, obj=None, **kwargs):
-        f = super(ThemedCollectionAdmin, self).get_form(request, obj)
-        qsu = f.base_fields['mosaic_members'].queryset
-        #want to filter so only usernames with groups associated to
-        # institution appear and order by.
-        if obj:
-            members = obj.get_members()
-            pk_members = [mem.pk for mem in members]
-            # replace the admin wrapper widget with the contained widget
-            # this removes the 'add' button for users
-            f.base_fields['mosaic_members'].widget = f.base_fields['mosaic_members'].widget.widget
-            f.base_fields['mosaic_members'].queryset = qsu.filter(pk__in = pk_members)
-        else:
-            f.base_fields['mosaic_members'].queryset = qsu.none()
-        return f
+##    def get_form(self, request, obj=None, **kwargs):
+##        f = super(ThemedCollectionAdmin, self).get_form(request, obj)
+##        qsu = f.base_fields['mosaic_members'].queryset
+##        #want to filter so only usernames with groups associated to
+##        # institution appear and order by.
+##        if obj:
+##            members = obj.get_members()
+##            pk_members = [mem.pk for mem in members]
+##            # replace the admin wrapper widget with the contained widget
+##            # this removes the 'add' button for users
+##            f.base_fields['mosaic_members'].widget = f.base_fields['mosaic_members'].widget.widget
+##            f.base_fields['mosaic_members'].queryset = qsu.filter(pk__in = pk_members)
+##        else:
+##            f.base_fields['mosaic_members'].queryset = qsu.none()
+##        return f
 
 admin.site.register(ThemedCollection, ThemedCollectionAdmin)
