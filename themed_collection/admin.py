@@ -1,7 +1,9 @@
 from django.contrib import admin
 import django.forms as forms
 from django.contrib.contenttypes import generic
+from xtf.models import ARKSetMember
 from themed_collection.models import ThemedCollection, ThemedCollectionSidebar
+from themed_collection.models import MosaicMember
 
 class ThemedCollectionPermissionMixin(object):
     def has_change_permission(self, request, obj=None):
@@ -18,6 +20,16 @@ class ThemedCollectionSidebarInline(admin.TabularInline):
     extra = 1
     
 
+class ARKSetMemberInline(admin.StackedInline):
+    model = ARKSetMember
+    extra = 1
+
+
+class MosaicMemberInline(admin.StackedInline):
+    model = ThemedCollection.mosaicmembers.through
+    extra = 1
+
+
 class ThemedCollectionSidebarAdmin(admin.ModelAdmin):
     list_display = ('__unicode__', 'id', 'themed_collection',)
     list_filter = ('themed_collection', )
@@ -26,11 +38,30 @@ class ThemedCollectionSidebarAdmin(admin.ModelAdmin):
 admin.site.register(ThemedCollectionSidebar, ThemedCollectionSidebarAdmin)
 
 
+class ThemedCollectionForm(forms.ModelForm):
+    model = ThemedCollection
+    class Media:
+        css = {
+                'ex': ('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css',)
+              }
+
+        js = (
+            #'/media/js/jquery-latest.js',
+            #'/media/js/ui.base.js',
+            #'/media/js/ui.sortable.js',
+            '/media/js/inlines.min.js',
+            'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js',
+            '/site_media/js/mosaic-admin-sort.js',
+            )
+
+
 class ThemedCollectionAdmin(admin.ModelAdmin):
     list_display = ('__unicode__', 'id', 'slug', 'title')
     search_fields = ('title', 'overview', 'questions', 'content_stds' )
     save_on_top = True
-    inlines = ( ThemedCollectionSidebarInline, )
+    inlines = ( ThemedCollectionSidebarInline, MosaicMemberInline)
+    form = ThemedCollectionForm
+    exclude = ('mosaicmembers',)
 
 ##    def get_form(self, request, obj=None, **kwargs):
 ##        f = super(ThemedCollectionAdmin, self).get_form(request, obj)

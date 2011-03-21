@@ -176,10 +176,10 @@
 {%spaceless%}
 {%comment%} here's the image table. for each set loop and create a row....
 {%endcomment%}
-{% for member in themed_collection.mosaicmembers.all %}
-{% with member.object.thumbnail as thumbnail %}
+{% for mosaicmem in themed_collection.mosaicmember_set.all %}
+{% with mosaicmem.member.object.thumbnail as thumbnail %}
 {% cycle '<tr>' '' '' %}
-        <td ><div style="width:100px; height:100px; overflow:hidden;"><a href="{{ member.object.url_content}}" > <img class='mosaicimage' src="{{thumbnail.src}}" {% mosaicImageStyle thumbnail.width thumbnail.height 100 %} border="0" alt="{{ member.title }}" title="{{member.title}}" /></a></div></td>
+        <td ><div style="width:100px; height:100px; overflow:hidden;"><a href="{{ mosaicmem.member.object.url_content}}" > <img class='mosaicimage' src="{{thumbnail.src}}" {% mosaicImageStyle thumbnail.width thumbnail.height 100 %} border="0" alt="{{ mosaicmem.member.title }}" title="{{mosaicme.member.title}}" /></a></div></td>
 {% cycle '' '' '</tr>' %}
 {%endwith%}
 {%endfor%}
