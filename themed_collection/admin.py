@@ -20,14 +20,10 @@ class ThemedCollectionSidebarInline(admin.TabularInline):
     extra = 1
     
 
-class ARKSetMemberInline(admin.StackedInline):
-    model = ARKSetMember
-    extra = 1
-
-
-class MosaicMemberInline(admin.StackedInline):
+class MosaicMemberInline(admin.TabularInline):
     model = ThemedCollection.mosaicmembers.through
     extra = 1
+    template = 'themed_collection/admin/themed_collection/mosaicmember/edit_inline/tabular.html'
 
 
 class ThemedCollectionSidebarAdmin(admin.ModelAdmin):

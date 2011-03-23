@@ -66,12 +66,17 @@ class MosaicMember(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    @property
+    def thumbnail(self):
+        return self.member.object.thumbnail
+
     class Meta:
         ordering = ( 'order',)
         #order_with_respect_to = 'collection'
 
     def __unicode__(self):
         return unicode(self.member)
+
 
 #TODO: should create new GeoThemedCollection ? with region, theme_type included
 # region is the constrained choice field, theme_type a many-to-many?
