@@ -81,6 +81,7 @@ class MosaicMember(models.Model):
         #check that ARKSetMember is in collection set(s)
         if self.member.set.id not in [x.id for x in self.collection.arksets.all()]:
             raise ValueError('Mosaic members must be members of arksets linked to themed collection')
+        super(MosaicMember, self).save()
 
     @property
     def thumbnail(self):

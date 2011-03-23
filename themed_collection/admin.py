@@ -24,6 +24,8 @@ class MosaicMemberInline(admin.TabularInline):
     model = ThemedCollection.mosaicmembers.through
     extra = 1
     template = 'themed_collection/admin/themed_collection/mosaicmember/edit_inline/tabular.html'
+    #readonly_fields = ('member',)
+    raw_id_fields = ('member',)
 
 
 class ThemedCollectionSidebarAdmin(admin.ModelAdmin):
@@ -38,7 +40,7 @@ class ThemedCollectionForm(forms.ModelForm):
     model = ThemedCollection
     class Media:
         css = {
-                'ex': ('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css',)
+                'extra': ('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css',)
               }
 
         js = (
