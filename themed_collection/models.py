@@ -66,6 +66,22 @@ class MosaicMember(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    def save(self):
+        ''' Don't allow member or collection to change for existing
+        '''
+        if self.pk:# existing object
+            try:
+                db_self = MosaicMember.objects.get(pk=self.pk)
+                if self.collection != db_self.collection:
+                    raise ValueError('Can not change the collection for existing relation')
+                if self.member != db_self.member:
+                    raise ValueError('Can not change the member for existing relation')
+            except MosaicMember.DoesNotExist:
+                pass
+        #check that ARKSetMember is in collection set(s)
+        if self.member.set.id not in [x.id for x in self.collection.arksets.all()]:
+            raise ValueError('Mosaic members must be members of arksets linked to themed collection')
+
     @property
     def thumbnail(self):
         return self.member.object.thumbnail
