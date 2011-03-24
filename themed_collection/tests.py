@@ -96,27 +96,29 @@ def test_map_marker_infowin_WithTestCaseInstance(testcase, selenium_obj):
 #    def test_map_marker_infowin(self):
 #        test_map_marker_infowin_WithTestCaseInstance(self, self.selenium)
 
-class FirefoxLiveTest(TestCaseLiveServer):
-    fixtures = ['auth.json',]
-
-    def setUp(self):
-        # Start a test server and tell selenium where to find it.
-        self.start_test_server('dsc-voro-dev.cdlib.org', 8080)
-        self.selenium = selenium('cdl-mredar-1.ad.ucop.edu', 4444, \
-            '*firefox', 'http://dsc-voro-dev.cdlib.org:8080')
-        #self.selenium.set_speed(1000)
-        #time.sleep(10000) # for debug
-        self.selenium.start()
-
-    def tearDown(self):
-        # Stop server and Selenium
-        self.selenium.stop()
-        self.stop_test_server()
-
-    def test_map_marker_infowin(self):
-        self.selenium.set_speed(1000)
-        test_map_marker_infowin_WithTestCaseInstance(self, self.selenium)
-
+#### the test below works when running selenium server on mark's mac
+#### TODO: Selenium testing platform, Yahoo A-grade browsers +
+####class FirefoxLiveTest(TestCaseLiveServer):
+####    fixtures = ['auth.json',]
+####
+####    def setUp(self):
+####        # Start a test server and tell selenium where to find it.
+####        self.start_test_server('dsc-voro-dev.cdlib.org', 8080)
+####        self.selenium = selenium('cdl-mredar-1.ad.ucop.edu', 4444, \
+####            '*firefox', 'http://dsc-voro-dev.cdlib.org:8080')
+####        #self.selenium.set_speed(1000)
+####        #time.sleep(10000) # for debug
+####        self.selenium.start()
+####
+####    def tearDown(self):
+####        # Stop server and Selenium
+####        self.selenium.stop()
+####        self.stop_test_server()
+####
+####    def test_map_marker_infowin(self):
+####        self.selenium.set_speed(1000)
+####        test_map_marker_infowin_WithTestCaseInstance(self, self.selenium)
+####
 #class GoogleChromeLiveTest(TestCaseLiveServer):
 #    fixtures = ['auth.json',]
 #

@@ -20,13 +20,33 @@ class ThemedCollectionSidebarInline(admin.TabularInline):
     extra = 1
     
 
+class MosaicMemberInlineForm(forms.models.ModelForm):
+    class Meta:
+        model = MosaicMember
+
+    def clean_collection(self):
+        if self.instance:
+             if self.instance.collection != self.cleaned_data['collection']:
+                  raise forms.ValidationError('Can not change the collection for existing relation. Linked to Collection id:%d title:%s' %( self.instance.collection.id, self.instance.collection.title))
+        return self.cleaned_data['collection']
+
+    def clean_member(self):
+        '''If have original data, verify no change.
+        '''
+        try:
+            if self.instance.member != self.cleaned_data['member']:
+                raise forms.ValidationError('Can not change the member for existing relation. Linked to ARKSetMember id:%s ark:%s' % (self.instance.member.id, self.instance.member.object.ark))
+        except ARKSetMember.DoesNotExist:
+            pass
+        return self.cleaned_data['member']
+
 class MosaicMemberInline(admin.TabularInline):
     model = ThemedCollection.mosaicmembers.through
     extra = 1
+    form = MosaicMemberInlineForm
     template = 'themed_collection/admin/themed_collection/mosaicmember/edit_inline/tabular.html'
     #readonly_fields = ('member',)
     raw_id_fields = ('member',)
-
 
 class ThemedCollectionSidebarAdmin(admin.ModelAdmin):
     list_display = ('__unicode__', 'id', 'themed_collection',)
