@@ -1,0 +1,26 @@
+Bit of work to use south with many-to-many fields
+
+I was trying to change a many-to-many to use a through field for ordering and had to do the following:
+
+edit the models.py and add a manytomany field with the new through class, you will have to add 'related_name' args to the field. Make it <parentobject>_set for the new field and '+' for the old (to ignore the reverse).
+
+Then run an auto schema migration
+Migrate
+
+Then run an datamigration. In the migration copy data from the old plain vanilla manytomany field into the new through objects one. (see themed_collection/migraions/0003_mosaic_member_data.py for example)
+Migrate
+
+Then remove the old manytomany field from the parent model and run another auto schema migration
+Migrate
+
+change any references to the old field name to the new field name.
+
+Then you will have to make the new field work through inlines?
+Need to add an explicit AdminModel, with Inline & xxx.xxx.through as the model
+
+
+Installing in main dev branch
+-----------------------------
+
+- update code with migrations
+
