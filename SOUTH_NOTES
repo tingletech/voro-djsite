@@ -22,5 +22,9 @@ Need to add an explicit AdminModel, with Inline & xxx.xxx.through as the model
 Installing in main dev branch
 -----------------------------
 
-- update code with migrations
+- hg update code with migrations
+- then run ./manage.py syncdb to init south db
+- run ./manage.py migrate xtf 0001 --fake
+- run ./manage.py migrate  themed_collection 0001 --fake
+- run ./manage.py migrate themed_collection
 
